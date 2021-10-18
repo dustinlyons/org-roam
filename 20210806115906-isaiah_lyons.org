@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       69C564A2-3AB7-485A-B395-AC6E51F02972
+:TYPE:   PERSON
+:END:
+
+#+title: Isaiah Lyons
+#+relationship: Family
+

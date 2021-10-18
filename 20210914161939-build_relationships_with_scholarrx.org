@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       c607207a-65c7-439f-9efb-1cb96f2ccf54
+:END:
+#+title: Build Relationships with ScholarRx
+#+filetags: Project ScholarRx
+
+* Goals
+
+Start and attend multiple 1x1s with team members to build relationships.
+
+* Tasks
+
+** DONE Identify first set of 1x1s with Justin              :@Justin:@Office:
+** NEXT Schedule 1x1s on calendar                              :@Office:

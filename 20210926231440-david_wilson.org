@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       e9a764bf-85d1-4759-b757-d2bac252dc38
+:END:
+#+title: David Wilson
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Created System Crafters Youtube community
+Phone:
+Address:
+Birthday:
+
+* Notes
+
+ 

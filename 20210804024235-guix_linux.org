@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       0031c1e6-3b3d-4916-a3fd-80c0706a5bbd
+:TYPE:   RESOURCE
+:END:
+
+#+title: Guix Linux
+
+* Notes
+
+** Maintaining channel lists
+- Make sure to lock dependencies to guix to avoid package conflicts.
+- guix describe --format channels
+
+** Need to write out helper scripts
+- update-channels.sh
+- By running update channels from the machine we use the most, it will lock commits to each channel list and we can share those across machines
+- In practice, we should have a small machine specific file and then the main OS/user files
+
+** Guix Home
+Guix supports declarative configuration of home environment by utilizing the configuration mechanism described in the previous chapter (see Defining Services), but for user’s home. It works both on Guix System and foreign distros and allows users to declare all the packages that should be installed and configured for the user. After that, such a home configuration can be instantiated by an unprivileged user with the guix home command (see Invoking guix home).
+
+https://guix-home.trop.in/Home-Configuration.html
+
+*** Questions
+- How do I handle data backup / syncing?
+- Does update-channels freeze commits of all dependencies?
+- Do I always have to compile? Can I grab binaries somewhere?
+
+** Channels we need to know about
+
+*** nonguix
+- Full linux kernel, nvidia, steam, firefox, wine
+
+*** flat
+- Emacs 28 (native-comp)
+- emacs-native-comp packages, work to ensure they don't conflict with non-native-comp emacs
+- Pair this with performance optimizations to emacs config file
+- Pin this! Takes forever to recompile it.
+
+*** guix-gaming-channels
+- Creates symlinks from guix sym farm to what a compiler normally expects
+  

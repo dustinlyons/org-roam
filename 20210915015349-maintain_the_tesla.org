@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       163f7aff-307e-40dc-bbc1-1cf56bacbac8
+:END:
+#+title: Maintain the Tesla
+#+filetags: Area Active
+
+* Goals
+
+Keep the Tesla(s) in tip top shape! This node currently holds everything related to Tesla Model Y and Model 3.
+
+* Tasks
+
+** TODO Buy the matte black vinyl console cover for Model Y
+** TODO Try to buff the front bumper to remove scratches
+** TODO Detail and clean interior of Model Y
+** NEXT Replace the air filter in the Tesla                           :@Home:

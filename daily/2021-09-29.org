@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       8a803c5b-59e2-4187-82af-eb34475bab36
+:END:
+#+TITLE: 2021-09-29
+#+filetags: Daily
+
+* 01:38:28
+
+Testing out my first Roam daily note on my new Guix machine. Holy hell how many times have I typed this. Well, guix should be the "final" go at it as it's functional and will enable me to simply define my computer. And in a way that won't break as easily. I'll leave understanding why as an exercise to the reader ;)
+
+* 15:36:35
+
+Idea for a new software. Port Wordpress plugins over to Netlify CMS / Jamstack land. For example, 'Let's Review'. Take content and use GPT-3 to generate comparison pages from review pages. Output HTML, Vue, or React.
+

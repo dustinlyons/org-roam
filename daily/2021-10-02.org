@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       7df2e559-7a30-476e-a3d8-b18df336a7f4
+:END:
+#+TITLE: 2021-10-02
+#+filetags: Daily
+
+* 05:32:56
+
+First day with my new theme. :) Check out ~'zeroed-theme.el'~.
+
+* 05:55:22
+
+How to list all [[id:a47431e8-c2da-41d8-9b71-1ac8c787bed5][emacs faces]]? M-x list-faces-display.
+
+* 06:03:54
+
+** DONE Follow up on quarterly tax payment decision with RD
+
+* 14:35:11
+
+** DONE Create emacs shortcut C-tab to cycle through buffers

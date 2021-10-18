@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       33e8ff49-444d-492d-8475-8a3bbb5fb2db
+:END:
+#+title: battery life
+
+[[id:aa3c3d89-a624-4b3b-b3f3-96a6b612c6bf][System76]] tips on battery life: https://support.system76.com/articles/battery

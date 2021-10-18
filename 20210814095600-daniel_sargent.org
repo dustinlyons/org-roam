@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       AAF72629-D8F3-4390-A474-F49EE80AFF6E
+:END:
+
+#+title: Daniel Sargent
+#+filetags: People CRM
+
+Relationship: Friend
+Phone: 502-863-3761
+Birthday: <1982-09-05 Sun>

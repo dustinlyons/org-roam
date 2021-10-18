@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       5d3fb8c1-86ed-458d-bfb2-3ed23981f576
+:END:
+#+title: Home Lab
+
+* Resources
+
+[[id:0527cd93-53c0-4da0-b967-1d30b54571be][Brad Fitz]]'s Home Lab: https://github.com/bradfitz/homelab

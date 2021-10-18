@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a53c9cc8-6f22-4973-ad16-d56dbf850907
+:END:
+#+title: build dependencies
+
+Managing dependencies across software can be hard.

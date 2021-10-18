@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       70DD4633-F18F-4980-A700-35FB65B6C724
+:END:
+#+title: Adam Wathen
+#+filetags: People CRM
+
+* Contacts
+
+He made [[id:276C5B52-8CDF-419A-958B-D85E5EC89003][Tailwind CSS]].
+
+* Notes
+
+I love how he makes videos and need to steal his style of tutorial / [[id:4E0E3522-305D-4C60-A1E6-0AC8BCCB6CE6][screencast]] [[id:C383C87A-553B-4C05-9AA7-37A42A34A1E3][video recording]].
+
+Example: https://www.youtube.com/watch?v=21HuwjmuS7A

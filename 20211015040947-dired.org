@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0a1d0da7-a77c-49b5-9eab-978bbbafbba1
+:END:
+#+title: dired
+
+Emacs package to view and manage files.

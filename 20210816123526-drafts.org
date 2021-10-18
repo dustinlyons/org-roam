@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3506C4F2-44AE-42D6-81A4-976FD5EA87B0
+:END:
+#+title: Drafts
+
+Software on my phone and watch to easily collect notes on the go.

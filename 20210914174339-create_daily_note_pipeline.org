@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       ad505c74-11bb-4a54-b953-610b60cbcdc8
+:END:
+#+title: Create Daily Note Pipeline
+#+filetags: Project
+
+* Goals
+
+Create a cronjob that downloads Readwise, Drafts and imports into Daily Note as TODO.
+
+* Tasks
+
+** TODO Write python script to download Readwise files            :#Computer:
+** TODO Write python to import into org-roam                      :#Computer:

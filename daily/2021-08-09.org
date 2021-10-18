@@ -1,0 +1,82 @@
+:PROPERTIES:
+:ID:       AEA6687B-5F8E-4561-8554-197AE7522A57
+:END:
+#+TITLE: 2021-08-09
+#+filetags: Daily
+
+* 07:32:56
+
+Got up early as I went to bed at 10:30 last night. Sitting with [[id:69C564A2-3AB7-485A-B395-AC6E51F02972][Isaiah Lyons]] as he eats breakfast, and I definitely enjoy starting my day this way. +1 to creating a routine and following through with it.
+
+* 07:38:01
+
+[[id:83A76B5F-96A3-4407-AC4C-BA8A99C7898B][Grocery list]] for Amanda:
+
+- Lettuce
+- Bacon
+- Ham
+- Turkey
+- Sour Cream and Cheddar Chips
+- Some kind of cookie
+- Frosted Flakes
+- Milk
+
+* 07:41:22
+
+Need to work. Finding my headphones. Working on color coding ~org-agenda~ views.
+
+* 12:37:12
+
+Finished a couple hours of Justin's work, made a few commits to my emacs config, now I'm a little hungry. I'll push through and then grab food at 2pm on the way home.
+
+* 12:38:12
+
+Now that I understand the hook for org-agenda coloring has changed in emacs 26, I'll look to add that back in, add some Projects and Tasks, and then see where I'm at.
+
+* 13:03:47
+
+** [[id:8EA04865-94A8-480A-8719-417C67F4355C][Emacs]] [[id:27E77900-FC1B-4732-B0BA-1EAA2D8053DE][org-agenda]] views:
+
+  - Storing searches: https://orgmode.org/manual/Storing-searches.html#Storing-searches
+  - Creating views: https://orgmode.org/manual/Block-agenda.html#Block-agenda
+  - Example of what I want to build: http://cachestocaches.com/2016/9/my-workflow-org-agenda/
+  - [[id:0EA6533A-15EA-4652-A808-DF5352B21698][David Wilson]]'s example:
+     - (setq org-agenda-custom-commands
+         `(("d" "Dashboard"
+            ((agenda "" ((org-deadline-warning-days 7)))
+             (tags-todo "+PRIORITY=\"A\""
+                        ((org-agenda-overriding-header "High Priority")))
+             (tags-todo "+followup" ((org-agenda-overriding-header "Needs Follow Up")))
+             (todo "NEXT"
+                   ((org-agenda-overriding-header "Next Actions")
+                    (org-agenda-max-todos nil)))
+             (todo "TODO"
+                   ((org-agenda-overriding-header "Unprocessed Inbox Tasks")
+                    (org-agenda-files '(,(dl/org-path "Inbox.org")))
+                    (org-agenda-text-search-extra-files nil)))))
+
+           ("n" "Next Tasks"
+            ((agenda "" ((org-deadline-warning-days 7)))
+             (todo "NEXT"
+                   ((org-agenda-overriding-header "Next Tasks")))))
+
+** DONE Take a look at org-super-agenda                            
+
+* 16:16:02
+
+** 1x1 meeting with [[id:D40AF73B-46F4-42EE-893C-B6B23B22CED0][Justin Klutka]]
+
+- Institutions are asking for stuff, and we're building it
+- Setup 30 minute meeting with Alex on what work is around, where can I add analytics?
+- Fraizer, folks on staff, and medical consultants write our content in our tests
+  - Specific learner interactions with content, maybe Bricks, probably more. QMax.
+  - Setup 30 minutes with Ashley
+- I want to build analytics for new projects to change the culture:
+
+* 17:29:04
+
+- Learned an [[id:8EA04865-94A8-480A-8719-417C67F4355C][Emacs]] thing: Drop into ~lisp-mode~ and hit C-M-q at the root of the sexp to format it.
+
+* 22:09:31
+
+org-agenda colors: https://llazarek.github.io/2018/07/improving-the-agenda.html

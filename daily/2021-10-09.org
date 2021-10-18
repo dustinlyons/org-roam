@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b0eaee34-9899-4ec0-901e-b52074b16b61
+:END:
+#+TITLE: 2021-10-09
+#+filetags: Daily
+
+* 09:30:34
+
+Yesterday I finally nailed my scheme function that builds out dotfiles in guix-home. Pretty cool! I was going to give up at one point. I'm glad I didn't.
+
+Need to hike.... met the nice lady across the street out our on walk this morning. I forget her name. Need to write it down next time.

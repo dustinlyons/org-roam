@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       5c6a1ff5-274f-454c-b188-95ec9a85757b
+:END:
+#+title: elgato
+
+They make Cam link hardware for DLSRs to work with PCs.

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       96DB66FF-57A5-42AC-86AE-5726F196510C
+:TYPE:   INSTITUTION
+:END:
+
+#+title: Louisville Academy of Music
+#+address: 2740 Frankfort Ave
+#+city: Louisville
+#+state: KY
+#+zip: 40206
+

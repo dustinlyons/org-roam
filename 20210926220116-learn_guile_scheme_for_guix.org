@@ -1,0 +1,464 @@
+:PROPERTIES:
+:ID:       2a0d1692-9505-42bb-9914-75971cb5fd37
+:END:
+#+title: Learn Guile Scheme for Guix
+#+filetags: Project
+
+* Goals
+
+Learn enough Guile scheme to create and manage your own channel list
+
+* Tasks
+
+** TODO Put documentation on Kindle and charge it           :@Home:#Computer:
+
+* Resources
+
+** Scheme Error Messages
+
+			  SCM ERROR MESSAGES
+				 AND
+			 WHAT THEY MIGHT MEAN
+
+				  by
+
+			   Gary T. Leavens
+	Department of Computer Science, Iowa State University
+		     $Date: 1999/02/04 17:43:08 $
+
+The following is an attempt to explain what the error messages
+that the SCM interepreter produces might mean.  Of course, to really understand
+what the error messages mean, you would have to know what the error is
+that you made, but then, that is what you are trying to find out!
+To help, this note gives an example that causes each error; you will
+have to look for an analogous error in your code.
+
+1. HOW TO READ AN ERROR MESSAGE.
+
+There are at least two kinds of error messages.  One is a message
+from a (primitive) procedure, usually about a type error, such as
+the following.
+
+	ERROR: +: Wrong type in arg1 ()
+	ERROR: car: Wrong type in arg1 ()
+
+The second kind is from the Scheme system, usually about something that
+could be seen as a violation of a language rule, often a syntax error,
+such as the following.
+
+	ERROR: Wrong type to apply:  (see errobj)
+	ERROR: unbound variable:  foo
+	ERROR: if: missing or extra expression (see errobj)
+
+The subsections below describe how to read each type of error message.
+
+1.1 MESSAGES FROM PROCEDURES
+
+Let's consider the typical SCM interpreter error message from a procedure.
+
+	ERROR: +: Wrong type in arg1 ()
+
+This has several parts.  Following "ERROR: " you see the name of
+the procedure that is complaining, "+", and its complaint,
+that it was passed the wrong type of agrument as its first argument.
+Often, like this, it is a type error; + expects arguments of a certain type
+(numbers) but got something else (the empty list).
+
+1.2 MESSAGES FROM THE SCHEME SYSTEM
+
+An example of an error from the Scheme system is the following.
+
+	ERROR: Wrong type to apply:  (see errobj)
+	; in expression: (... 3 7)
+	; in top level environment.
+
+In such an error message, the note "(see errobj)" means that there
+is a variable, errobj, which holds the offending expression.
+The following shows how to see it in the interpreter.
+
+	> errobj
+	(3 7)
+
+This tells you that the interpreter was trying to evaluate the "expression"
+(3 7), which produced the error.
+
+In such an error message the two (and sometimes more) comment lines
+following it tell you more about the error and where it occurred.
+Usually the first line tells you about the expression that caused the
+error.  In the above, the line
+
+	; in expression: (... 3 7)
+
+Says that the error occurred in a expression that looked like (... 3 7).
+But here the errobj is clearer.
+
+The following comment lines try to tell you what scope the error occurred in.
+I caused the error message above by typing (add (3 7)) at the top level.
+
+	> (add (3 7))
+	
+	ERROR: Wrong type to apply:  (see errobj)
+	; in expression: (... 3 7)
+	; in top level environment.
+
+If the error happens inside a procedure, as will normally be the case,
+you will see more information.  For example.
+
+	> (define faulty
+	    (lambda (x y)
+	       (add (x y))))
+	#<unspecified>
+	> (faulty 3 7)
+	
+	ERROR: Wrong type to apply:  3
+	; in expression: (... #@0+0 y)
+	; in scope:
+	;   (x y)
+
+Here the location of the error is within a scope with a formal parameter list
+of the form
+	(x y)
+namely the procedure faulty.  If worst comes to worst, you can look through
+your code for a procedure with those formal parameter names
+(one good reason for giving sensible names to your formals).
+The error message itself says that the number 3 is being given
+as a procedure to apply.  Note that the "scope" printed in this form
+is the smallest enclosing scope that contains the error.
+For example, consider the following.
+
+	> (define buggy
+	    (lambda (a b)
+	      (faulty a b)))
+	#<unspecified>
+	> (buggy 10 4)
+	
+	ERROR: Wrong type to apply:  10
+	; in expression: (... #@0+0 y)
+	; in scope:
+	;   (x y)
+
+The error is still happening in the procedure "faulty".
+
+Another example of an error from the Scheme system is the following.
+
+	ERROR: unbound variable:  foo
+	; in expression: (... foo (cdr ls))
+	; in scope:
+	;   (ls)
+
+This means that in some procedure with a single parameter called ls,
+an expression something like (... foo (cdr ls)) is being executed,
+but it foo isn't defined.  This can happen as follows.
+
+	> (define bad-foo
+	    (lambda (ls)
+	      (if (null? ls)
+	          '()
+	          (cons (+ 1 (car ls)) (foo (cdr ls))))))
+	#<unspecified>
+	> (bad-foo '(1 2))
+	
+	ERROR: unbound variable:  foo
+	; in expression: (... foo (cdr ls))
+	; in scope:
+	;   (ls)
+
+See it?  The problem is that foo should have been called bad-foo.
+
+1.3 SUMMARY OF READING ERROR MESSAGES
+
+For both kinds of error messages, look at the part following "ERROR: ".
+This tells you what happened.  If you can focus on that,
+and use the information about what procedure is complaining
+(in the first kind of error message), or about what piece of syntax is
+wrong (in the second kind) you can often find out the problem.
+
+When the message says (see errobj), type
+	errobj
+at the interpreter to get better information.
+
+
+2. EXAMPLE ERROR MESSAGES AND WHAT THEY (MIGHT) MEAN
+
+ERROR: Wrong type to apply:  x
+ERROR: Wrong type to apply:  (see errobj)
+ERROR: Wrong type to apply:  #f
+   1. You tried to call a symbol or number as a procedure.
+      All of the following cause this error.
+	> ('x)
+	> (3)
+	> (3 4)
+        > ((null? '(a b)) 3)
+
+   2. You have an extra parenthesis in your code, which causes scheme
+      to try to call some value as a procedure.
+		 (define snoc
+		  (lambda (ls item)
+		    (if (null? ls)
+		        (cons (item '()))    ;;;;; oops!
+		        (cons (car ls)
+		              (snoc (cdr ls) item)))))
+		The line marked oops! should be (cons item '()),
+		The parenthesis in Scheme means that the value of the next
+		thing should be called as a procedre.  Thus the parenthesis
+		before the name "item" on the oops! line tries to call
+		the value of item, in this case the symbol x, or the number 3.
+		These result from calls of the form
+			(snoc '(a b c) 'x)
+			(snoc '(a b c) 3)
+   3. you left out "(cond".
+      For example when you call the following
+		(define remove-1st-oops
+		  (lambda (item ls)
+		      ((null? ls) '())		;;; whoa!
+		      ((equal? (car ls) item) (cdr ls))
+		      (else (cons (car ls) (remove-1st-oops item (cdr ls))))))
+		This is hard to see, but similar to the above.
+		The line marked whoa! is producing the problem,
+		because ((null? ls) '()) is calling (null? ls), which returns
+		#f, and that is trying to be called as a procedure.
+		What makes it hard to see and understand is thath this is
+		a syntax error.  On the line before whoa! should be
+		    (cond
+		-here's another way to do this...
+			(define remove-1st
+			  (lambda (item ls)
+			    (if                ;;;; should be cond
+			     ((null? ls) '())
+			     ((equal? (car ls) item) (cdr ls))
+			     (else (cons (car ls)
+				         (remove-1st item (cdr ls)))))))
+
+
+ERROR: Wrong number of args to #<primitive-procedure cons>
+ERROR: Wrong number of args to #<CLOSURE (x) x>
+
+   1. You didn't give it enough arguments, or you gave it too many
+      All the following cause the error that mentions
+      #<primitive-procedure cons>.
+	> (cons)
+	> (cons 3)
+	> (cons ls)
+	> (cons 3 4 2)
+
+      And if one does the following...
+	> (define id (lambda (x) x))
+      ... then the error mentioning #<CLOSURE (x) x> can happen as follows.
+        > (id)
+	> (id 3 4 2)
+      Notice in this case that the name of the procedure being called isn't
+      shown, but its parameter list and boyd is enclosed within the
+      #<CLOSURE (x) x>.  Use that information to find the procedure's name,
+      which will help you find where the call happens.  Also, in such cases,
+      the other lines of the error message may tell you the procedure's name,
+      as in the following.
+
+	ERROR: Wrong number of args to #<CLOSURE (x) x>
+	; in expression: (... id 3 4 2)
+	; in top level environment.
+
+   2. Your code has a recursive call without enough arguments.  For example:
+		(define snoc
+		  (lambda (ls item)
+		    (if (null? ls)
+		        (cons item '())
+		        (cons (car ls)
+		              (snoc (cdr ls))))))
+		                            ^
+		needs another argument here-|
+		Even though item does not change in the recursion,
+		snoc takes 2 arguments (because of the (lambda (ls item) ...)),
+		so each time you call it, you need to pass it 2 arguments,
+		including the recursive calls.
+
+ERROR: unbound variable:  x
+ERROR: unbound variable:  setremove
+ERROR: unbound variable:  scm
+ERROR: unbound variable:  loading
+ERROR: unbound variable:  lamdba
+ERROR: unbound variable:  pi
+
+  1. You forgot to define the variable or procedure named.
+     Consider the following, which all make the error that mentions x:
+	> x
+	> (+ 3 x)
+	> (define foo
+	    (lambda (y)
+	      (+ 3 x)))
+	> (foo 4)
+
+	Somewhere in the expression you typed, is the variable name x.
+	It needs a definition.
+
+  2. You misspelled a procedure or variable name.  Consider the following.
+
+	(define set-remove
+	  (lambda (e S)
+	    (cond
+	     ((set-empty? S) S)
+	     ((equal? e (car S)) (cdr S))
+	     (else (cons (car S) (setremove e (cdr S)))))))
+
+	See the spelling error?  Scheme is very picky about
+	misspellings.
+
+  3. You are trying to use a variable that is a parameter to another procedure.
+     If you need that variable, it has to be passed to the procedure
+     where you need it.  Scheme has lexical scoping.
+
+  4. You misspelled lambda!  For example,
+		(define remove-1st
+		  (lamdba (item ls)
+		    (if
+		     ((null? ls) '())
+		     ((equal? (car ls) item) (cdr ls))
+		     (else (cons (car ls) (remove-1st item (cdr ls)))))))
+
+  5. You are using let or letrec and trying to make sequential bindings.
+     For example the following cause an error that mentions pi
+	> (let ((pi   3.14159)
+                (pi/2 (/ pi 2)))
+            (+ pi pi/2))
+        > (letrec ((pi   3.14159)
+                  (pi/2 (/ pi 2)))
+            (+ pi pi/2))
+     One solution is to use let* in such cases (See the Scheme report).
+
+ERROR: car: Wrong type in arg1 ()
+ERROR: cdr: Wrong type in arg1 ()
+   1. The following expressions cause this to occur.
+	> (car '())
+	> (cdr '())
+   2. Yes, you *are* trying to take the car or cdr of the empty list.
+      Most likely you left off the base case of a recursion,
+      for example:
+		(define remove-1st
+		  (lambda (item ls)
+		    (cond
+		     ((equal? (car ls) item) (cdr ls))
+		     (else (cons (car ls)
+			         (remove-1st item (cdr ls)))))))
+
+ERROR: car: Wrong type in arg1 x
+ERROR: car: Wrong type in arg1 -5
+   1. The following expressions cause this to occur.
+	> (car 'x)
+	> (car -5)
+   2. Yes, you *are* trying to take the car or cdr of a symbol, number, etc.
+      This often happens in tree recursion.  For example:
+		(define sum-all-pos
+		  ; TYPE: (-> ((tree number)) number)
+		  (lambda (ton)
+		    ; ENSURES: result is the sum of
+		    ;    all the postive numbers in ton
+		    (cond
+		     ((null? ton) 0)
+		     ((and (number? (car ton)) (positive? (car ton)))
+		      (+ (car ton) (sum-all-pos (cdr ton))))
+		     (else (+ (sum-all-pos (car ton))
+			      (sum-all-pos (cdr ton)))))))
+      A call such as (sum-all-pos '((3 4 (-5 6)) 2)) gives the error
+	ERROR: car: Wrong type in arg1 -5
+      The problem is an incomplete case analysis.  When the else is reached
+      one knows that ton is not null and that (car ton) is either not a number
+      or that it is negative.  But this leads to calling
+      (sum-all-pos (car ton)) when (car ton) is negative (as in -5).
+
+ERROR: +: Wrong type in arg1 ()
+ERROR: +: Wrong type in arg2 ()
+   1. The following expressions cause these.
+	> (+ '() 3)
+	> (+ 3 '())
+   2. Yes, you are trying to add the empty list to a number.
+      Most likely you have a procedure that is supposed to return a number,
+      but in the base case returns a list.  Like this:
+	 (define add-list
+	    (lambda (ls)
+	      (if (null? ls)
+	          '()             ;;; should be 0
+	          (+ (car ls) (add-list (cdr ls))))))
+
+ERROR: No such file or directory
+ERROR: LOAD couldn't find file  "hw1.ss"
+   1. You typed the name of the file wrong, try (load "hw1.scm")
+      or whatever the file name really is.
+   2. you are in the wrong directory.  Try typing
+		(load "~/hw1.scm")
+      if it's in your home directory, or
+	  	(load-from-lib "set-equal.scm")
+      if it's in the class library.
+
+"junk.scm", line 1: ERROR: Too many open files
+ERROR: LOAD couldn't find file  "junk.scm"
+   1. The file named "junk.scm" loads itself.  That is, it has
+      a line in it of the form:
+		(load "junk.scm")
+      This might happen because of a circle of files, each of which loads
+      one of the others...
+
+"prob2.scm", line 3: ERROR: list: end of file in 
+   1. the file prob2.scm has a missing right parenthesis `)', on line 3
+
+"prob3.scm", line 2: ERROR: string: end of file in 
+   1. the file prob2.ss has a missing double quote ", on line 2
+
+ERROR: quote: missing or extra expression (see errobj)
+   1. This is caused by the following expressions
+	> (quote)
+	> (quote a b)
+   2. If the errobj is
+	(quote quasiquote unquote unquote-splicing)
+      then you have redefined the Scheme keyword "case",
+      and are using pretty-printing.  This causes the error
+	> (define case "cond->if")
+	> (pretty-print '(quote a))
+
+ERROR: if: missing or extra expression (if < 3 4 #t #f)
+   1. This is caused by extra arguments to the if special form, such as
+        > (if < 3 4 #t #f)
+      To fix these kind of problems in your files, use emacs to
+      indent your code, and see if the indentation matches what you think
+      it should be.  (To get emacs to do that, press TAB on each line.)
+
+ERROR: let: bad body (see errobj)
+   1. This is caused by the following expression
+	> (let ((x 1)
+                x))
+      in this case errobj is (let ((x 1) x)).
+      You can get a clue from the formatting, if you're using emacs,
+      that there is no body, or (looked at another way) there is a missing
+      right parenthesis ")" on the first line.  This will be harder to
+      see in real code.
+
+ERROR: letrec: bad body (see errobj)
+    1. This is caused by the following expression
+	> (letrec ((x 1)
+                   x))
+       See above.
+
+ERROR: variant-case: invalid syntax (exp (lit (datum) datum) (lit (datum) datum) (varref (var) (cell-ref (apply-env env var))) (app (rator rands) (let ((proc (eval-exp rator env)) (args (eval-rands rands env))) (apply-proc proc args))) (if (test-exp then-exp else-exp) (if (true-value? (eval-exp test-exp env)) (eval-exp then-exp env) (eval-exp else-exp env))) (proc (formals body) (make-closure formals body env)) (varassign (var exp) (cell-set! (apply-env env var) (eval-exp exp env))) (else (error "Invalid abstract syntax: " exp)))
+     1. This is caused by having two duplicate cases in a variant-case,
+        you can actually see the two "lit" cases in the error message above.
+
+
+This list is undoubtedly incomplete.  If you have an error message that
+you don't understand, send me mail with it and your code.  If it's not
+in here already, I'll add it to the list.
+
+
+3. WHAT IF THAT DOESN'T HELP
+
+Use emacs to indent your code.  (See $PUB/docs/running-scheme.txt
+for details.)  Look to see if any of the indentation doesn't look right.
+That may give you a clue.
+
+Another thing you can do is to use the trace facility or the
+PSD debugger to get more information.
+See the file $PUB/docs/debugging-scm.txt for how to use that.
+
+If none of the above works, ask a member of the course staff,
+but be sure to send:
+	* your error message,
+	* the scheme code, and
+	* your test case.
+These will help us find out what the problem is.

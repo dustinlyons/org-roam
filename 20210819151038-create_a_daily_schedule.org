@@ -1,0 +1,62 @@
+:PROPERTIES:
+:ID:       2E154EDA-B357-461B-981E-7D6C2A959382
+:END:
+#+title: Create a Daily Schedule
+#+filetags: Project Productivity
+
+* Goals
+
+Implement a simple schedule that gives you balance throughout the day instead of being on autopilot.
+
+* Tasks
+
+** DONE Create an initial schedule to try                         :#Computer:
+** TODO Schedule and try out a day for schedule
+
+* Daily Schedule
+** Morning
+
+*** 7:30 Early Morning - Get moving, eat, digest news
+
+**** [Physical] Exercise, Breakfast
+**** [Intellect] Read WSJ, Digital News Sources
+**** Shower
+
+*** 10:00 Morning - Get to work
+
+**** Head to Story
+
+** Afternoon
+
+**** Work x 6 hours (Use Pomodo Timers)
+
+** Evening
+
+*** 5:15 Early Evening - Go home and turn off work entirely
+
+**** Eat, focus on Isaiah 100%
+
+*** 9:00 Late Evening - Work x2, Fun x3
+
+**** Find a house project to work on, or work on Zeroed Labs
+**** Read a novel, play a video game, watch TV
+
+*** 12:30-1:00 Bed Time - Don't stay up past this time
+
+* Weekly Schedule
+** Sunday
+*** Review goals, projects associated with those goals
+**** Do we need new goals or projects? Did we complete anything?
+
+*** Close cards, open new cards related to projects
+
+*** Review budget and update categories
+
+*** Review calendar for the week
+**** Do we have a date night scheduled?
+**** Can we schedule new activities for Isaiah?
+
+*** Set intentions for the week, and goals you want to accomplish
+
+* Monthly Schedule
+** Dustin and Amanda Date Night

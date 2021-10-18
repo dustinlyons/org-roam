@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       2593B695-336F-4485-87CE-8480C320D066
+:END:
+#+title: Create an Emacs Workflow
+#+filetags: Project Productivity
+
+* Goals
+
+Create a full fledged environment for writing and coding in Emacs. I need:
+
+1. Environment similar to Roam with easy daily note links, 2nd window to have two pages open, backlinks, etc.
+2. Vim splits, easy windows, jumping around
+3. Amazing coding environment with syntax highlighting and so forth
+
+* Tasks
+
+** TODO Review emacs bookmarks and integrate into workflow  [[https://www.emacswiki.org/emacs/BookMarks#h5o-2][Link]]  :#Computer:
+** TODO Review org-agenda capture templates                      :#Computer:
+** TODO Add [[https://github.com/nobiot/org-transclusion][org-transclusion]] mode and hotkeys to Emacs           :#Computer:
+** TODO Study org-roam windows to make them work like Roam       :#Computer:
+** TODO Be able to use date functions the same as Roam           :#Computer:
+** TODO Create Roam "2nd window" and adding ref doc hotkeys easily :#Computer:
+** TODO Create hotkey for Inbox tag and refile                    :#Computer:
+** TODO Figure out Emacs windows and how to create Roam 2nd window experience :#Computer:
+** TODO Create Project for dl-resource-importer                  :#Computer:
+** TODO Setup free dropbox client + git cron job                 :#Computer:
+** TODO use org-ql to create Project and Context views           :#Computer:
+** TODO Review this [[https://www.reddit.com/r/emacs/comments/445w6s/whats_some_small_thing_in_your_dotemacs_that_you/][thread]] and pull out some goodies              :#Computer:
+** TODO Create easy popup for camera / photo on computer insert :#Computer:
+** SOMEDAY Follow up on org-roam community to identify features you want
+- When I insert a new node, I'd like to cursor to stop at the end of the input so I can keep typing.
+- Or, I'd like to type [[New thing I want to create]] and then hit a key chord and it turns it into a Roam link.
+- A much more, full featured buffer. Showing me all text. Currently, the workflow that enables an "empty" doc but a rich buffer isn't really possible.
+- I'd love to visit links in the buffer easily. So I see the context and go there immediately (or open a window to see it, immediately).
+
+** SOMEDAY Write a runbook to create and seed CRM file database
+** TODO Sync Google Calendar and Outlook with org-agenda
+https://orgmode.org/worg/org-tutorials/org-google-sync.html
+** SOMEDAY Create a workflow for innovating new ideas (seedling, evergeen, etc.) :#Computer:
+
+* NEXT [#A] Create agenda commands for the views you want, and change org-super-agenda to be simpler
+- org-super-agenda priority: Priority, Inbox, Next Action, Waiting, Todo
+- agenda commands: Inbox, Office (+ @Justin) Next, Office Backlog, Home (+ @Amanda) Next, Home Backlog, Errands Next, Errands Backlog, Waiting, Someday
+
+* TODO Fix up spell checking in Emacs                             :#Computer:
+
+I've hacked LSP-mode to give me Grammarly in org-mode. I need to figure out how to hit a key to auto fix / auto correct, as well as turn off company mode in this mode.
+
+I've also hacked some things in the org-roam buffer in my Arch setup, to view more context and in a different order. Need to grab these as well.
+
+Turn off a header in org-mode, no need to see file hierarchy.
+JLJSzEA5OtMq_NmsRVmy98AS5VgkVj2RqArf_5D_XM4
+

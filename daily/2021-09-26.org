@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       d77e53e7-4442-4bb0-be28-693f3c856eba
+:END:
+#+TITLE: 2021-09-26
+#+filetags: Daily
+
+* 07:53:19
+
+Sunday. Ready to jump into guix linux. Need to define an MVP of where I want to get to, and stop, so that I can move over to work for a few months.
+
+* 20:05:56
+
+Ordered my standing desk, finally. Very happy about getting the office moving. But every time I start to think about excitement for myself, I feel a little guilty that I'm not giving Isaiah that same excitement. So it got me thinking about trains. I want to research that for his playroom.
+
+Let me capture some todos from my head...
+
+** DONE Add Cav Empt sweater and Brain Dead shoes to Grailed      :#Computer:
+
+* 22:24:10
+
+** DONE [#A] Create color codes for org-agenda tags based on work/fun so we can balance priority setting :#Computer:
+
+* 23:08:58
+
+** [[id:D896258A-A383-40F1-B995-165942F43169][System Crafters]] [[id:0031c1e6-3b3d-4916-a3fd-80c0706a5bbd][Guix Linux]] round 2 video notes
+
+- A nix service exists that enables you to install nix packages alongside guix in userland
+- Use the emacs package to manage guix packages easily
+- Use the native emacs, and emacs-next if needed when it breaks
+- Some manifests [[id:e9a764bf-85d1-4759-b757-d2bac252dc38][David Wilson]] has...
+  - browsers, code, desktop, emacs, games, mail, music (creation), video (creation)
+- Lots of shell scripts needed
+- Look up screen brightness configuration
+- XDG_DATA_DIRS needs paths of other profiles
+  - (1:20 of https://www.youtube.com/watch?v=9G0JNliwg-w)
+  - Also known as XDG specifications
+- Use [[id:1045d532-543f-4312-9e6d-7854675d4942][Git Lab]] over Github, it seems after browsing many guix, emacs packages
+- Better driver for touchpads: libinput. Need to upgrade it. (1:23 in the video)
+- No bash scripts. Use /usr/bin/env, extra-special-file service. Now you can reference the interpreter you're using (top line in your script)
+- Can't manually get things done anymore. Create a package or service configuration that does the thing for us. For scripts, make sure to use the extra-special-file service.

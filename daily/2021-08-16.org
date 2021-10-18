@@ -1,0 +1,73 @@
+:PROPERTIES:
+:ID:       599C0968-D641-4DC3-AEC8-885435C77B3B
+:END:
+#+TITLE: 2021-08-16
+#+filetags: Daily
+
+* 10:50:05
+
+Working at Story Coworking Space. Got here around 10:00am.
+
+* 11:30:31
+
+Working on creating org agenda views.
+
+* 11:59:21
+
+Wow, I'm really starting to move fast in Emacs! This is great. org-agenda is looking better, almost there.
+
+* 12:24:07
+
+Okay, taking a small break before jumping into priority items.
+
+* 12:35:20
+
+Taking some notes from [[id:3506C4F2-44AE-42D6-81A4-976FD5EA87B0][Drafts]]:
+
+1. Buy [[id:ABB1E9A5-22E6-4D4B-8A5E-10269A51ED66][Amanda Lyons]] her glasses again on her birthday
+2. I was interested in ways my Smart Home and Emacs could be integrated. Future thought...
+
+* 12:41:58
+
+** DONE Purchase new Ecobee thermostat                            :#Computer:
+
+* 12:44:23
+
+** List of issues for [[id:301DD383-8440-4B7E-AE7D-777111C8FFE2][Corrigan Electric]].
+
+1. Foyer is a three way switch control and needs to be Wifi
+2. Upstairs stairwell switch needs to be swapped with bathroom
+3. Swap upstairs hallway for master closet (find where this is)
+
+* 13:07:03
+
+** CANCELED [#A] Move bitcoin over to Nexo                        :#Computer:
+
+* 13:48:09
+
+[[id:70DD4633-F18F-4980-A700-35FB65B6C724][Adam Wathen]]
+
+* 14:25:38
+
+Meeting with [[id:B0547623-034B-4C5F-9386-831CE6FFDB65][Alex Hawker]].
+
+1. Need to add /Groomed/ tag to stories added to DevOps.
+
+*** CANCELED Create spike stories for Ashley, Daniel for Heap research :@Office:#Computer:
+
+* 15:23:17
+
+** Reading up on Tailwind and [[id:DF7B0D6F-6912-46FA-91AF-50224E1A9FD8][React.js]]
+
+*** How can we prevent this Prop Drilling?
+- We can prevent it by using "Context API" in React. It has two components named:
+  - Context.Provider
+  - Context.Consumer
+
+** Meeting with [[id:D40AF73B-46F4-42EE-893C-B6B23B22CED0][Justin Klutka]] for weekly 1x1.
+- Widdle away the people we don't care about, Fraizer and Jeff
+- Daniel -- not used to working with customers. Support him, I do it, then he does it.
+- Talk about nefarious actors and how to setup monitoring/logging/etc
+
+** DONE Talk to Emily about cypress.io POC                            :Inbox:
+** DONE Do some research on competitors to cypress.io POC             :Inbox:

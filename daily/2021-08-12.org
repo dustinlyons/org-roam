@@ -1,0 +1,65 @@
+:PROPERTIES:
+:ID:       3A1C2E49-F17A-4795-AAA7-2926EE89EDCD
+:END:
+#+TITLE: 2021-08-12
+#+filetags: Daily
+
+* 01:37:48
+
+Discovered a useful way to deal with large [[id:404986B5-3499-4173-8DD1-310E84513105][git]] repositories:
+
+/"Up first: changing how Codespaces cloned github/github. Instead of performing a full clone when provisioned, Codespaces would now execute a shallow clone and then, after a codespace was created with the most recent commits, unshallow repository history in the background. Doing so reduced clone time from 20 minutes to 90 seconds."/
+
+/"What if we could clone and bootstrap the repository ahead of time so that by the time an engineer asked for a codespace we’d already done most of the work?"/
+
+Note from me: they ended up pre-fetching. It's always pre-fetching for performance.
+
+* 02:25:34
+
+Found a very good resource on [[id:8508B49E-225B-428D-8C0D-1C2A0EF8A84E][Node.js]] security, should reference it if I decide to write some Node.js applications.
+
+* 10:03:33
+
+Taking notes during [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]] meeting for Planning and Grooming.
+
+Feedback on [[id:B0547623-034B-4C5F-9386-831CE6FFDB65][Alex Hawker]] / Agile DevOps.
+
+1. Don't be afraid to "control the room" and make it your meeting. If there is run on discussion, feel free to ask to take it offline for sake of time.
+
+   "Quality of life mobile problem" -- you did this. Do more of it, no matter of personality.
+
+2. Naming of stories. Not always clear. Have an opinion on the definition of a well named story.
+
+* 14:53:05
+
+Watching a video on the [[id:CC990612-7785-42D2-8A13-B753230D6A90][Stock to Flow Model]].
+
+* 15:18:05
+
+Meeting with [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]] on Heap and NPS.
+
+NPS in product will...
+
+1. Remove selection bias from monthly polls
+2. Much more data, and B2B as well
+3. We can connect the qualatative with quantative to understand the weight behind the feedback
+
+   2nd flash card
+   Have they clicked at least two flash cards in the brick?
+
+* 16:49:26
+
+** Meeting with [[id:D878B71C-586A-432C-82D5-EE4FBD1456A6][Fraizer Stevenson]] on Bricks / Heap Analytics
+
+- Serious user? We need those people.
+- My job is designing, from start to finish, do they learn something?
+- Depth of experience. Clicks make sense as something that a serious user would be doing.
+- If a given cohort of students is taking longer on a brick, is it become it isn't clear or it's an amazing brick?
+- Outlier bricks would be useful.
+- We need to create a Segment of serious users
+- If there are 7 quiz features, and they are only doing 2, do we need to update it?
+- Look at value of bricks
+    What bricks have the most views?
+    What bricks have the most clicks?
+- How do I judge the quality of the brick?
+- Are the B2B clients being forced to do it? Let's only look at B2C.

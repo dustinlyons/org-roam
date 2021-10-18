@@ -1,0 +1,101 @@
+:PROPERTIES:
+:ID: 81bde0de-7d55-4ca3-943f-2040fd6fadee
+:END:
+#+TITLE: 2021-08-11
+#+filetags: Daily
+
+* 00:45:43
+
+Created Roam templates and feeling like I'm getting to where I can use
+my new Workflow each day. This is exciting because it's many months of
+learning to get to this point. Being self employed, it's important to
+have a structured plan and this is going to be my path forward.
+
+I mean it has to be to justify the damn time I've spent on it :)
+
+* 00:48:02
+
+Adding to my +[[id:dd7e7c0a-c4f8-4d2d-b2b6-bf714124b859][Wishlist]]: purchase a Peleton.
+
+* 00:58:57
+
+** DONE Buy Blue Dog Bakery Bread                                    
+
+* 02:05:47
+
+** Top 10 Mistakes Every [[id:0bf17e3e-76c7-48b9-abef-3082266f9d1f][Investor]] Makes by [[id:802825d5-c2e6-4356-a27b-e688c50e5ae5][Peter Lynch]]:
+
+1. It can't go any lower
+2. How high can it go?
+   - He talked about a 100 bagger, when everyone missed the cash flow and other financials of a particular company, and they sold at 5x saying how high can it go? Toys R Us, was example he used.
+3. They always come back
+4. How much can I lose? "It's $3, how much can I lose?"
+5. It's always darkest before the dawn. Business can be bad and stay bad. "It's always darkest before pitch black."
+6. I will sell after rebound. I will get back what I paid for. "The stock doesn't know you own it."
+7. I own conservative stocks, I don't have to worry. Not true.
+8. Money lost not buying. People tend to focus on all the stocks they have missed. You can't earn money in a stock you don't own. The only way to lose money is to buy stock, have it go down, and sell it.
+   - Buy from dips, not buy on dips. Bonus rule.
+9. Stocks go up, I must be right. Stocks go down, I must be wrong. "The average stock market "dip" from high to low, is 50%, on the New York Stock Exchange [in 1997]."
+10. Avoid Long Shot. "Whisper stocks. When people have to whisper it because it's so important."
+
+*** Thoughts on Peter Lynch video
+
+I like the idea of checking in a stock, keeping a running list of "stories" that we are watching unfold. I also like the idea of building my own investment spreadsheet, with basic financials that I track myself, so that I understand the businesses more deeply.
+
+I could do this in addition to reading a few books, taking TheoTrade, etc. And get back into investing.
+
+* 11:05:06
+
+Woke up around 10, played with Isaiah, and then put him down for a nap. Amanda and I aren't talking because I argued with her about having professional baby locks installed. Okay, that statement was for dramatic effect but really. 
+
+* 13:37:24
+
+** Long meeting with [[id:B0547623-034B-4C5F-9386-831CE6FFDB65][Alex Hawker]] on DevOps, agile, and how to start agile from zero.
+
+*** Process
+
+ Describe is when we are writing stories.
+ Create is when we are writing code.
+ Epics, feature, stories
+
+*** Current Discover 
+
+****  RX Search 11679
+
+ Improving search functionality within regular web client search
+ 8-10 seconds wait, getting it down to under 2 seconds
+ Improving the types of results, showing top 3 related items
+
+ Web client is going to web FE and Daniel BE
+ Mobile search is Barry and Jose
+
+**** Delayed Email Confirmation 11433
+
+Change rules to allow folks to use the product more before verifying email. Lock out after 24 hours.
+Daniel is on BE, Brian is on Web, Barry on Mobile.
+
+**** Study Stream / Flash Fact Upgrade 11559
+
+Students can set customized goals for themselves over a 4 month, or 6 month period. Any student.
+Kyle, Brian, Daniel.
+
+**** Sharing Tests, Decks, and Playlists
+
+The ability for a student to share the tests, decks, playlists and other things they create. This enables you to create a link and send it.
+
+*** Current Create
+
+**** User Feedback Process 11422
+
+"Hey, thanks for your feedback? Would you like to leave any comments?" Follow up email with customer to let them know what next steps are to move on to their feedback. Feedback button -- why do I have to hit a up/down button to submit feedback?
+
+**** DAM Search
+
+** Research on NPS for meeting with [[id:800FF0B1-6D2B-493A-B141-C0700754B749][Jeff Downing]] and [[id:D923987F-7B68-4A6D-A1DB-63CCD47B20C0][Rebecca Talley]].
+
+*** Tools
+
+[[id:A834E6A5-120A-426F-8B90-72E37E2996F3][Heap Analytics]] has an integration with [[id:9DE39843-790F-4386-8D4C-9A23D604A266][Delighted]] to bring in the data and popup, without writing any code. Might be preferable to spending time on this problem.
+
+https://delighted.com/
+https://delighted.com/our-integrations/heap-analytics

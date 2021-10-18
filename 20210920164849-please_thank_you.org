@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       4e6843e9-eade-4922-a153-1ab927eb0d2c
+:END:
+#+title: Please & Thank You
+#+filetags: Institution CRM
+
+* Contacts
+
+Relationship: Coffee shop in Louisville
+Phone:
+Address:
+
+* Notes
+
+Great [[id:b972ca92-a251-49d0-b287-d1b0fc12ea3b][cookies]]!

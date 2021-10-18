@@ -1,0 +1,84 @@
+:PROPERTIES:
+:ID:       00c29f40-e552-4b90-aa9d-ebc148a68208
+:END:
+#+title: Bitcoin Noobs
+#+filetags: Project Zeroed
+
+* Goals
+
+Create a first version of Bitcoin Noobs.
+
+* Tasks
+
+** NEXT [#A] Create wire frame for article content        :@Office:#Computer:
+** NEXT Complete Tailwind class                           :@Office:#Computer:
+** NEXT [#A] Research and find business liability insurance :@Office:#Computer:
+** TODO Manage toxic backlink audit for Bitcoin Noobs    :@Office:#Computer:
+** TODO Create Binance affiliate account                  :@Office:#Computer:
+** TODO Create Robinhood affiliate account                :@Office:#Computer:
+** TODO Create Coingy affiliate account                   :@Office:#Computer:
+** TODO Create HitBtc affiliate account                   :@Office:#Computer:
+** TODO Create 1Broker affiliate account                  :@Office:#Computer:
+** TODO Create WhaleClub affiliate account                :@Office:#Computer:
+** TODO Create Bitconnect affiliate account               :@Office:#Computer:
+** TODO Add GDPR language to the website                  :@Office:#Computer:
+** TODO Add legal language to the website                 :@Office:#Computer:
+
+* Resources
+
+** List of competitors
+** Email from Coinbase
+
+Should you need anything please do reach out to affiliates@coinbase.com. 
+
+You'll find your affiliate handbook implemented within your contract at the bottom of the screen. Simply click on "View All" within the Contract Terms section (bottom right-hand side of dashboard), and scroll down. 
+
+If you do not see the affiliate handbook, please do reach out so that I can send you one directly. Our handbook aims to provide you with additional tips and information in order to set you up for a successful partnership with us. 
+
+All of our new affiliate partners are put on a 3 month trial with targets to drive a minimum of 30 signups over the trial period. This allows us to understand which partners may need a little more support from us, we want to make sure each partner has the best chance to do well.
+
+** USF Student Project
+
+*** Capstone Project Writeup
+
+Title: Building a Cryptocurrency Data Feed on a Highly Performant Blogging Platform
+
+This project will have two distinct phases, with different technologies and solutions for each. But first let me provide some context.
+
+Recently, I purchased the website BitcoinNoobs.com with the intent to grow traffic and create a revenue stream from affiliate marketing. It currently runs on Wordpress, which I find to be a dated technology. Thus, instead of moving forward fixing it up, I've decided to start over. This should be exciting for students as we will start fresh, with the latest and greatest.
+
+So this brings up to the project, which I define as the following:
+
+1. Building a Blog Platform using Nuxt.js, Tailwind, and Netlify CMS
+
+   We need to throw away Wordpress, and build something super fast and custom. I spent two years driving a company wide performance initative, across 10 engineering teams and over 100 individuals for Credit Karma. I have a lot of experience here and share that with the team.
+
+   I'm looking to use Vue.js on top of Nuxt, Tailwind UI on top of Tailwind css, and host it on Netlify with git-backed documents versioned by Netlify CMS.
+
+   I can help guide us through all of this: create a new Nuxt site, create or implement a "templating" feature with Tailwind UI, and then use those templates to port over articles from the Wordpress site. The goal here is to launch a simple blog on Nuxt.js (with the Content module), with some initial posts managed by Netlify CMS.
+
+   I will work with us on this, so I don't expect students to do everything here.
+
+   2. Live Cryptocurrency Price Feed
+
+      Now that we have a flashy new Nuxt.js site, let's build price feeds for some of the major coins. I will have opinions on the design here (as I will manage it long term), but we will work together to craft a data pipeline to feed prices into our site. As it's all pre-rendered, there will be no live database, etc. We will just have to update it with some frequency.
+
+      I'm very excited to work with a group of students on some cutting edge technology in a fun area (crypto). Join me!
+
+** User Interface Design
+
+Colors I like:
+- #3c78f0 (Blue)
+- #027f5e (Green)
+
+** Ideas for [[id:ABB1E9A5-22E6-4D4B-8A5E-10269A51ED66][Amanda Lyons]]
+- Translate the site into 10 languages, create and manage pipeline for translating new content
+- Engage in Social Media, finding "noobs" and helping people learn how to buy and get into Bitcoin
+- Reaching out to other places to offer to write or share content for them in exchange for linking back to our blog
+    http://www.ico-prmarketingservices.com/#bx-item-actions-8
+  
+** Ideas for Articles
+...Buying an NFT requires a person to open an account on a cryptocurrency exchange, at least one crypto wallet, sending money to a crypto exchange wallet, connecting the wallet to the appropriate platform, and paying a gas fee.
+
+* TODO Do a trial of GrowthBar to test SEO capabilities   :@Office:#Computer:
+* NEXT Create wireframes for Article page                 :@Office:#Computer:

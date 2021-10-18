@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       0c84d7d5-0587-4bdc-8181-78bed0918801
+:END:
+#+title: Make date night a habit
+#+filetags: Project
+
+* Goals
+
+Have a bi-weekly date night with Amanda for 3 months straight
+
+* Tasks
+
+** NEXT Decide on a resturaunt for date night and hire childcare    :@Amanda:

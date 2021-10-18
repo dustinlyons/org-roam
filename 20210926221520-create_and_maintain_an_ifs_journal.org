@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       5f31d0c5-f16c-43c8-a1fb-f9609c717e14
+:END:
+#+title: Create and maintain an IFS journal
+#+filetags: Project
+
+* Goals
+
+Identify and name your IFS parts, create a journal to talk to them.
+
+* Tasks
+
+** TODO Sit down and name the parts you have, and decide on how you will write :@Home:#Computer:

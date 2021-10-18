@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       469720FA-E933-4D4F-BD12-75EAFD4F86E3
+:END:
+#+title: Dave Miller
+#+relationship: Banker
+#+company: First Savings Bank
+#+phone: 502-965-9340

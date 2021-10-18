@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2d1d4aad-626f-4765-bde5-00850633f97d
+:END:
+#+TITLE: 2021-10-18
+#+filetags: Daily
+
+
+* 12:08:59
+
+Good conversation with [[id:0b26d9b4-1dd2-402b-854f-4cf158ccd2c5][Joe Weisenberger]] at [[id:4e6843e9-eade-4922-a153-1ab927eb0d2c][Please & Thank You]] coffee this morning. He has started a baking business, 6Grains, and I'm going to help him think through digital strategy.

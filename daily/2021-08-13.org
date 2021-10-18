@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       ABB1CF71-993A-4E89-B36F-83AE0D555BAA
+:END:
+#+TITLE: 2021-08-13
+#+filetags: Daily
+
+* 12:15:52
+
+Did just one hour of work, as I did so much yesterday. I want to spend time with my baby today. We are going to [[id:DB2BD174-E255-4E99-8CEE-981E6E353D3A][Huber's Orchard]].
+
+* 14:44:26
+
+** [[id:A346E0C8-EBF0-4A2D-800F-1A746B270853][Tech Weekly Meeting]] with [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]]
+*** DONE [#A] Create meeting for strategizing about keeping main bug-free :Inbox:
+/Include Daniel, Art, Barry, Emily, Jose, Johnie, Brian/

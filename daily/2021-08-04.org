@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       f1b77d54-7944-43b3-9934-a182ce686fa5
+:END:
+#+title: 2021-08-04
+#+filetags: Daily
+
+* 02:41:32
+
+An interesting way to debug [[id:42db1f59-eed8-40de-bb69-5444fbc23982][AppImages]] on [[id:0031c1e6-3b3d-4916-a3fd-80c0706a5bbd][Guix Linux]] seems to be using the ldd and objdump Linux commands to identify what binaries are needed, and then making sure they are present in their "traditional" spot or symlinked in.
+
+* 12:48:29
+
+Sent an email back to [[id:B6FBD411-DA29-4F4E-83E8-FBB7547CF848][Doug Halpin]] to let him know I'll be unable to work with students this quarter.
+
+* 16:45:04
+
+Meeting with [[id:D40AF73B-46F4-42EE-893C-B6B23B22CED0][Justin Klutka]] and [[id:800FF0B1-6D2B-493A-B141-C0700754B749][Jeff Downing]] on Kill Fred report. +[[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]]
+
+- Treat First Aid as a Origin, and which product lines are they engaging with from that origin?
+- First Aid brand attracts a lot, so it's telling. We use it as a launch point.
+- We want to monitor Tutor, Timed, and Untimed tests.

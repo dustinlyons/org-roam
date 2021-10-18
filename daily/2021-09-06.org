@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b85b4e8f-b228-444a-8916-8ad8b029df24
+:END:
+#+TITLE: 2021-09-06
+#+filetags: Daily
+
+* 04:41:32
+
+[[id:aa3c3d89-a624-4b3b-b3f3-96a6b612c6bf][System76]] support for docks is decent, and I puchased the Plugable one.

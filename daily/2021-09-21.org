@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       1605bce3-520c-4f1e-9d2f-e8c0ca8898fc
+:END:
+#+TITLE: 2021-09-21
+#+filetags: Daily
+
+* 00:07:23
+
+Starting to be much deadlier in Emacs and I'm loving it. I can easily jump in and out of buffers, create and move about windows, jump into Roam mode and record, move, and otherwise manage my 2nd brain, etc. etc. I can only imagine when I start to do more and more (email, potentially Emacs window manager..?)
+
+* 00:39:45
+
+** DONE [#A] Pick up iPhone / Apple Watcher charger from UPS station   :@Car:
+** DONE [#A] Move furniture in garage to prepare for oven hood duct installation :@Home:
+
+* 01:54:03
+
+Been messing around this evening. What was my schedule again?
+
+* 15:27:03
+
+Not super productive so far today. I likely need to get back into the schedule. Or really, I just need a way to do a thing and then focus it. I like the pomodo timer idea. Let's look into that for Emacs, and continue down my org-agenda path...

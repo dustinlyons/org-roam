@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3bc16d0e-6361-49e1-8ecf-ff59f45e5cb2
+:END:
+#+title: blog
+

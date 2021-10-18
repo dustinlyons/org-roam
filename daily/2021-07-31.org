@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       3130CD16-7350-4422-8623-8A84E2ACA6F8
+:END:
+#+title: 2021-07-31
+#+filetags: Daily
+
+* 23:12:33
+
+** Progress on Roam for Emacs
+
+Well, I setup some keybindings for "Roam" and moved in into Dropbox, for real time syncing.
+
+- Moving to today's daily (ctrl r t)
+  - And then hitting ,, to create a timestamp header
+- Creating a new file or moving to it (ctrl r f)
+- Inserting a header that exists (ctrl r i)
+- Toggling the backlinks buffer (ctrl r b)
+
+So overall, feeling great about it! The key missing features so far are
+
+- Be able to quickly select and create a link, maybe even with my mouse. But a few ways I see this could be done:
+
+  - Visual mode, look at selection and just make it a link
+  - Right click, emacs context menu for Roam -> Create link
+  - Wrapping something in double brackets and hitting Enter? But probably conflicts with emacs' own link style.
+
+* 00:38:24
+
+** [[id:8EA04865-94A8-480A-8719-417C67F4355C][Emacs]] point and mark feature
+
+Yes, until you close their associated buffers (I think). It works like this: emacs has two important locations it remembers about each buffer which are:
+
+The point - this is where text you type goes in, and where the cursor box is drawn
+
+The mark - this is another location in the buffer which does all sorts of stuff; when you have a selection visible, the mark is the other end of the selection from point.

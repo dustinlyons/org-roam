@@ -1,0 +1,69 @@
+:PROPERTIES:
+:ID:       224e71af-f7e9-413b-bcb4-a783ab3f8014
+:END:
+#+title: Organize 2021 Business Taxes
+#+filetags: Project Zeroed
+
+* Goals
+
+Organize expenses and ensure taxes are good for 2021.
+
+* Tasks
+
+** DONE Confirm amount of occupational tax owed currently         :#Computer:
+** TODO Start basic spreadsheet of income and expenses    :@Office:#Computer:
+** DONE [#A] Submit tax registration to KY Revenue dept   :@Office:#Computer:
+
+* Notes
+
+* Email from RD on spreadsheet, starting out
+
+Hi Dustin,
+
+The spreadsheet for each LLC should be set up:
+
+Expenditures:
+- Date
+- Payee/vendor/lender
+- $ amount
+- Purpose/desc
+- Bank account / payor  (Zeroed LLC account and/or personal bank)
+
+Revenue:
+- Date
+- Deposit amount
+- Payor
+- Service provided
+- Client name if different from payor
+
+Deposits:
+
+- Not all deposits are revenue, and is loans or capital contributions to the LLCs’; with sufficient cash flow, loans, can be paid back to the lender (start ups, typically loans from owner(s)).
+
+- Thus we can sort through what is capital vs. loans from funds paid by both of you to your respective LLC’s before year end.
+
+Louisville may have its own local city / unsecured property taxes -thus go online to Louisville city to determine this.
+
+Set up two more LLC’s; both single member, one each for Amanda and your respective consulting;
+
+- Zeroed labs is your crypto LLC
+
+- Three total single member LLCs with KY state id numbers;  and consider also fed Ein #s for each LLC (form SS-4), can apply online), so that your SSN are protected and avoid being the primary tax id number of each LLC.
+
+SS-4 form: https://www.irs.gov/pub/irs-pdf/fss4.pdf
+SS-4
+
+8a = yes
+8b=one
+8c=yes
+9a=check schedule C and enter respective SSN.
+10=started new business
+16=other; fill in description
+
+Online SS-4:
+
+https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online
+
+- Have legal disclaimers on your crypto site; update the language as needed.
+- Consider personal umbrella insurance and business insurance for the LLC
+* DONE Finish business registration with KY Revenue Dept  :@Office:#Computer:

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4C767002-FD20-4096-9F35-05269E6A6976
+:END:
+#+title: Build a Financial Data Spreadsheet
+#+filetags: Project Investing
+
+* Goals
+
+Create a spreadsheet that contains 20 data points you undertand and follow for 5 companies.
+
+* Tasks
+
+** TODO Create a study plan for learning how to invest stocks     :#Computer:

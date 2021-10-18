@@ -1,0 +1,128 @@
+:PROPERTIES:
+:ID:       af0cde3c-b64e-49f2-b1e1-3f4a03ed2f31
+:TYPE:   RESOURCE
+:END:
+#+title: DustinOS
+
+* Computer upgrades
+
+** Rack
+*** Server
+- Chassis:  [[https://www.newegg.com/black-istarusa-d-314-matx/p/N82E16811165573][iStarUSA D-314-MATX Black 3U Rackmount Chassis ATX Power Supply Compatible]] (Purchased)
+- PSU: Crucial 600w PSU (Purchased)
+- Hard drive: Crucial 1TB SSD (Purchased)
+- Motherboard + CPU: Current
+- RAM: Current
+- Screen: Old asus 24"
+- Peripherals: IBM M2 + old logitech
+
+*** Power
+- APC: [[https://www.amazon.com/APC-SmartConnect-Interactive-Uninterruptible-SMC1500-2UC/dp/B077Y7QGCK/ref=sr_1_3?dchild=1&keywords=rack%2Bapc&qid=1629786776&s=electronics&sr=1-3&th=1][APC Smart Connect 1500]]
+
+** Home Office
+*** Workstation
+- Monitor: [[https://www.amazon.com/gp/product/B08DWD38VX?tag=rtings-mn-r-20&ie=UTF8][LG 34GP83A-B 34 Inch 21: 9 UltraGear Curved QHD]]
+- Motherboard: Asus Mobo (Purchased)
+- Hard drive: Current m.2 nvme
+- RAM: [[https://www.amazon.com/HyperX-3200MHz-Desktop-HX432C16FB3K2-32/dp/B07WJJJ5M6/ref=pd_rhf_dp_s_pop_multi_srecs_sabr_3/141-4154181-5661805?pd_rd_w=KKT9E&pf_rd_p=ded31a0c-93e8-47e6-a1e4-bb0aed033701&pf_rd_r=7D5J1VN95WEMJ95W8HD5&pd_rd_r=54a6cc7f-ffe9-4247-bbfb-f54aa303e6c2&pd_rd_wg=ZdnPd&pd_rd_i=B07WJJJ5M6&psc=1][HyperX 3200 16GBx2]] (Purchased)
+- CPU: [[https://www.amazon.com/dp/B08DHRG2X9?tag=georiot-us-default-20&ascsubtag=anandtech-us-6834765739810921000-20&geniuslink=true][Core i9-10850K (10C)]] (Purchased)
+- Video card: Nvidia RTX 2070
+- Peripherals: Custom keyboard + new logitech + new mousepad
+- Case: [[https://www.amazon.com/Fractal-Design-Node-Case-Computer/dp/B00JBBH93K/ref=psdc_572238_t2_B00K6OVG0I][Node 804]] (Purchased)
+- PSU: same
+
+** Story
+*** Workstation
+- Monitor: Asus Rog swift 27"
+- Docking station: 
+- Peripherals: das keyboard + old logitech
+
+*** Office Decor
+- NIN poster
+- Whiteboard
+- Plants
+
+* Features
+
+** Beautiful login / greeting screen, biometric login
+- Uses Howdy to support Geometric login (FaceId on camera).
+
+** Secure by design - Encrypted everywhere
+- Uses logical disk formats, choose to encrypt some or others
+- btrfs
+- Cryptfs for live lvm encryption
+- vlans
+
+Keys come from our own Vault server (VM)
+ (Keys backed up on paper and stored on Yubikey)
+
+Virtual networks isolating access and data to where it matters
+
+** Immutable infrastructure -- Guix and Stow
+The system can be destroyed and brought back to it's initial state. It
+accomplishes this from a set of composable bootstrap and configuration
+files (_dotfiles_).
+
+** Configurable colors and wallpaper (theming) - My own repo / project
+
+*** Themes
+My own version of theming where I can change colors and fonts easily.
+Then create 10-20 different palletes that I can move through, with solid
+color backgrounds.
+
+Potentially some themes have a task bar, some are tiling window managers,
+and others are just rofi.
+
+- Some have a desktop turned on, and some don't.
+- A better, configurable status bar.
+- Long term move them with keyboards. NFC tags that trigger the theme?
+
+*** Curated fonts
+Keep a core set of 4-5 fonts you can choose from
+Make them look beautiful -- https://www.binarytides.com/gorgeous-looking-fonts-ubuntu-linux/
+
+** Secure and redudant TTOP -- Keepassx
+Keep all TTOP tokens here, encrypted with a private key from memory and paper.
+TTOP tokens are then transferred to phone.
+
+Store image of VM used as Keepassx host, encrypt it with private key password.
+
+** Brain + Smart Home + Car integration
+Integrates with my entire life (phone/watch).
+Use a Google Doc + AppSheets to get an App that can pull out or push in any data.
+Use Drafts to ingest notes with tags that can have action.
+
+Visualize what is happening in the home, on the OS and on the screen. Examples:
+- Movement outside triggers polybar/menubar animation, clicking opens up camera
+- Lock status of the house
+- Temperature of the house is shown
+
+** Easy and dumb scheduler
+Drop scripts in a folder and they run every hour, 4 hours, daily, weekly.
+
+** Easy backups and restores
+Use tarsnap to easily and cheaply backup files, instead of Backblaze.
+
+** Professional grade audio and video
+Use [[id:5c6a1ff5-274f-454c-b188-95ec9a85757b][elgato]] to integrate Canon camera, dampen sound behind you, use light on face.
+
+** Uses logical disk formats
+Configuration to point to a NAS or other storage and encrypted snapshots happen automatically (Ceph?)
+
+** Virtual machines
+Easy virtual machines using open source virutalization (Proxmox). Some VM ideas:
+
+ - Handles Homebridge, and porting Ubiquiti feeds to Homekit
+ - 2FA Tokens / Keys (protected by paper password)
+ - Crypto Staking
+ - iMessage Server (using Matrix and a Mac Mini)
+ - VPN Server
+ - Job scheduler / queuing system
+    entr -- generalize inotify tool
+        runs things when things change, like git commit
+    use drafts to send files to our server
+    make decisions based on what text is in there
+    drafts can tell my home what to do from afar!
+- Emacs server, handles sync org-agenda views, running Readwise imports, etc.
+- Handles calendar import into org-agenda
+- Handles rendering of org-roam and org-agenda static site into Tailwind UI thing

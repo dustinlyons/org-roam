@@ -1,0 +1,85 @@
+:PROPERTIES:
+:ID:       98dd6da2-985c-4116-bdbe-68c6146ea59b
+:TYPE:   RESOURCE
+:END:
+#+title: Sweeply
+
+* Old notes from 2020
+
+*** Note 1 
+**** Last Activity Rule
+
+    TimestampRule.actions method
+        * Calling messages.history API for each channel
+        * Can we batch/optimize to one call? Do we need to queue requests?
+
+    Make repeated calls here:
+        update_ui_with_selected_channels
+            get_channel_name()
+
+**** Allow List Rule
+
+    To populate the channels in user dropdown for allow list:
+        conversations.list API is called
+        When user types, this API will get called
+
+**** Flask App
+
+    Make sure we Multi thread flask app
+        WSGI / gunicorn
+
+**** Scheduler
+
+    In scheduler UI, we want to show successul channels where user was removed.
+        * Can't get from conversations.info to get this.
+        * This is only for *private* channels.
+        * How do we keep this info? Encrypt it?
+
+    In scheduler, call one by one for each channel they are removed from
+        * conversations.leave ASI
+        * give channel ID, and user is removed
+
+    Scheduler UI will show the last 5 runs
+        * On the first run, they were removed from 10 channels
+        * After that, the user didn't change any rules, and scheduler keeps running
+        * There should be someway they can see the history
+        * Maybe we can send them a message when they were *actually* removed from channels,
+            so they can search when they want
+
+**** New Features
+
+    When users join a channel, they should be added to a list that helps remind them to
+    add them to a rule if they would like.
+
+**** Table Design
+
+    Users table
+    Tokens table
+        Contains user token, can be added as a field in User table itself
+
+**** UI on mobile devices
+Always tested with Desktop. Need to test in mo
+
+
+*** Note 2
+**** Docker
+Docker containers, obviously, are lightweight application
+environments to run our shit. 
+
+How to do it best in production
+
+Link: https://cloud.google.com/solutions/best-practices-for-building-containers
+Link: https://docs.docker.com/develop/dev-best-practices/
+
+**** Docker and Ngrok love
+
+Ngrok is a nifty thing to allow you to open a port on your
+machine and have it be accessible over the Internet. Perfect
+for testing Slackbots where we need to work with real
+Slack servers in the beginning.
+
+How to automate it with Docker
+Link: https://hub.docker.com/r/wernight/ngrok/
+
+Web UI for ngrok
+Link: http://localhost:4040/inspect/http

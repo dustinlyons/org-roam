@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       13e26da4-3a5d-44f1-aaeb-fef5ccceb6ad
+:END:
+#+TITLE: 2021-10-06
+#+filetags: Daily
+
+* 09:55:21
+
+Woke up and guix isn't working that great. roll-back didn't exactly roll back, and guix pull seems to have borked me. We will see...
+
+* 09:55:52
+
+Realizing I need to have a white board with the 3 basic things I need to do next written down on it. Or I can do that here, with priorities. Maybe A is top 3, and B is everything "else"....
+
+* 10:31:07
+
+My research into [[id:d7eba114-050a-4e3e-b500-6c52f703ff5c][linux disk tools]] and how to [[id:a7918cca-4a38-44b7-90e6-747429c3608c][partition]] a disk or thumb drive.
+
+| what                                                   | command                |
+| ---                                                    | ---                    |
+| fdisk -l                                               | lists disks            |
+| dd if=/dev/zero of/dev/sdX bs=1k count=2048            | erases disk            |
+| sudo parted /dev/sda mklabel msdos                     | make a mbr             |
+| sudo parted -a non /dev/sda mkpart primary ext4 0 2048 | make first partition   |
+| mkfs.ext4 -L <your-new-name> /dev/sda1                 | format first partition |
+
+* 13:21:28
+
+Yay, my guix install finally works. I'm able to use inheritance and my Workstation/Desktop definitions to configure a system. How fucking cool. Next stop, building out the hypervisor, then I should be able to create a dev environment to do almost anything

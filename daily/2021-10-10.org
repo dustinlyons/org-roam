@@ -1,0 +1,121 @@
+:PROPERTIES:
+:ID:       1cdabc3f-80ed-4969-860d-50b31b08692e
+:END:
+#+TITLE: 2021-10-10
+#+filetags: Daily
+
+* 01:23:45
+
+Cool idea for [[id:af0cde3c-b64e-49f2-b1e1-3f4a03ed2f31][DustinOS]] is to have a directory, /state/, that holds:
+
+- Projects
+  - Code
+    - Bitcoin Noobs
+    - guix-config
+- Areas
+  - Photos
+  - Writing
+    - Roam
+- Resources
+  - Code
+  - Fonts
+  - Keys
+  - Wallpaper
+- Archive
+- Inbox
+ - Drafts Inflow
+ - Readwise Inflow
+
+ Easy snapshots of /state directory with btrfs. Lose all attachment to /home directory and implement services of configuration for anything that matters.
+
+* 13:36:09
+
+** Great solution on using the repl to find the "real bug".
+
+*** [[id:7abe9a5b-f79b-4fe9-95e0-4aa0a5ae4867][Scheme]] Question - Inheritance
+
+Solved - solution below! Thanks to roptat on the guix IRC chat.
+
+**** Problem
+
+Good morning! I have set up my system configuration in a way which keeps information for multiple installations in one place, and allows for individual tuning by system. This is based on the example kindly shared by David Wilson in his github repo: https://github.com/daviwil/dotfiles
+
+However, I am getting an error when issuing the reconfigure-system command.
+
+The configuration file structure is this:
+
+    In .config/guix/systems:
+
+~base-system.scm~
+
+#+BEGIN_SRC scheme
+(define-module (base-system)
+  #:use-module (gnu)
+  #:use-module (srfi srfi-1)
+  #:use-module (gnu system nss)
+  #:use-module (gnu services pm)
+;; ... several modules removed for brevity...
+)
+
+(define-public base-operating-system
+  (operating-system
+    (host-name "base")
+    (timezone "Europe/London")
+    (locale "en_GB.utf8")
+;; Several operating-system elements removed...
+    (name-service-switch %mdns-host-lookup-nss)))
+#+END_SRC
+
+~zeus.scm~
+
+#+BEGIN_SRC scheme
+(define-module (zeus)
+  #:use-module (base-system)
+  #:use-module (gnu))
+
+(operating-system
+ (inherit base-operating-system)
+ (host-name "zeus")
+;;; Specific customisations for this system
+)
+
+#+END_SRC
+The command I run for the reconfiguration is:
+
+#+BEGIN_SRC sh
+sudo -E guix system -L ~/.config/guix/systems/ reconfigure ~/.config/guix/systems/zeus.scm
+#+END_SRC
+
+and the error message:
+
+    ice-9/eval.scm:223:20: In procedure proc:
+    error: base-operating-system: unbound variable
+    hint: Did you forget `(use-modules (base-system))'?
+
+Based on my understanding, it isn't finding the public definition for base-operating-system, despite my "#:use-module (base-system)" instruction (equivalent to (use-modules (base-system))?).
+
+Why?
+
+**** Solution
+
+There was an error in base-system.scm - I had included a package in the package list which didn't exist. With this error, the definition for base-operating-system was not registered, hence the error message above.
+
+To find the problem, I ran the repl:
+
+    $ guix repl -L ~/.config/guix/systems
+
+Then in the repl:
+
+    scheme@(guix-user)> ,use (base-system)
+
+The repl then reported the actual error in the file. This seems to be a good solution for debugging!
+
+* 13:45:13
+
+** How do I write a new node in [[id:d8777f9f-b2f4-4aca-b3ac-5500a5a0932a][org-roam]] not using previously used names that are similiar? "Alt - Ctrl - J" instead of Enter.
+
+* 23:57:03
+
+** Learned how to get back into [[id:8354ccbd-d86a-4174-8461-515d8998f784][X Windows]] from a [[id:32627070-faab-4fbd-aaa4-dafc3528d003][tty]].
+
+    - It's Ctrl-Alt-F8! Run that from a tty to get back into your active X session!

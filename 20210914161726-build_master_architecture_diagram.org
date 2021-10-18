@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       c1453c23-fc74-4a6e-a62c-9c4aafbfbf1e
+:END:
+#+title: Build Master Architecture Diagram
+#+filetags: Project ScholarRx
+
+* Goals
+
+Create a diagram showing all services and their dependencies
+
+* Tasks
+
+** NEXT Build diagram of "environments" and "dependencies"         :@Office:

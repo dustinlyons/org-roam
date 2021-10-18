@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       f2acba33-4af5-4f05-8006-4626a2381ae1
+:END:
+#+TITLE: 2021-09-12
+#+filetags: Daily
+
+* 10:25:37
+
+Working on [[id:00c29f40-e552-4b90-aa9d-ebc148a68208][Bitcoin Noobs]] and moving everything over to our own site. We finished a lot of work around the house which is starting to feel pretty good!
+
+9/11 was yesterday, and it makes me sad for a world where hate exists enough to kill innocent civilians.
+
+Okay, back to work. Procrastinating!
+
+* 10:34:35
+
+BitcoinNoobs is setup with content and new affiliate link to cex.io. Waiting on domain transfer, but it's happening!
+
+Really need to work on org-agenda... yes, yes yes.
+
+Headed to [[id:7036058e-919b-4dfa-b460-0c1ecf053b07][Costco]]

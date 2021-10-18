@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       57ffe0cd-e169-446d-9b36-97c2c8f1b575
+:END:
+#+title: Start a meditation routine
+#+filetags: Project
+
+* Goals
+
+Start and meditate for 90 days.
+
+* Tasks
+
+** TODO Use Headspace to start a new meditation series                :@Home:

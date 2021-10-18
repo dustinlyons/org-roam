@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       B37B8028-9A79-470A-B41B-81EA0686B08A
+:END:
+#+TITLE: 2021-08-17
+#+filetags: Daily
+
+* 03:16:52
+
+Installed some new emacs plugins. I need to stop haha. Went to the house earlier this evening and worked on the security cameras and prepared for the electricians tomorrow.
+

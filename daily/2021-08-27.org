@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       523BD4F8-037C-40E5-98D4-00C98B8AF37B
+:END:
+#+TITLE: 2021-08-27
+#+filetags: Daily
+
+* 10:40:05
+
+Thinking of an Emacs thing. Can I type something here and then hit a function to quickly send it "out"?
+
+- Trello card
+- Email
+- Airdrop Contact?
+
+* 11:00:51
+
+Working on [[id:72A08182-0C7F-45C6-801F-B72D818E4B36][Braeview]] move in list.
+
+* 13:36:07
+
+** Meeting on [[id:A834E6A5-120A-426F-8B90-72E37E2996F3][Heap Analytics]] with Neha and Analytix Labs.

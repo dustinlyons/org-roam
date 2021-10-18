@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       8EA04865-94A8-480A-8719-417C67F4355C
+:TYPE:    RESOURCE
+:END:
+
+#+title: Emacs
+
+The best operating system in the world.
+
+* Keybindings
+
+** Files, creating new things
+
+| what it does              | command        | mode        |
+|                           |                |             |
+| open or create a new file | ctrl-x, ctrl-f |             |
+
+** Windows
+| what it does   | command  | mode |
+|                |          |      |
+| close a window | ctrl-x 0 |      |
+
+** Moving around, finding what you need
+
+| what it does          | command                       | mode |
+|                       |                               |      |
+| use ace window        | alt-o                         |      |
+| switch buffer         | ctrl-x, b                     |      |
+| move to other buffers | ctrl-x, RIGHT or ctrl-x, LEFT |      |
+| move backwards        | ctrl-x, ctrl-SPC              |      |
+| follow a link         | ctrl-c, ctrl-o                |      |
+
+** org-mode 
+
+| what it does           | command        | mode        |
+|                        |                |             |
+| visit last note stored | ctrl-u, ctrl-u | org-capture |
+
+** org-agenda
+
+| what it does      | command | mode      |
+|                   |         |           |
+| opens agenda view |         | ctrl-c, a |

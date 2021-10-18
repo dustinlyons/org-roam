@@ -1,0 +1,12 @@
+:PROPERTIES: :       55c8a0e5-945e-4995-b1c9-82b484365e84 :END:
+#+TITLE: 2021-09-18
+#+filetags: Daily
+
+* 18:06:22
+
+** TODO Finish Google Search Console Beginner course
+- https://developers.google.com/search/docs/beginner/get-started
+
+* 22:30:52
+
+Working on Bitcoin Noobs design.

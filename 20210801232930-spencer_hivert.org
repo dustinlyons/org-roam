@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       E0DFD941-228B-46C6-8255-D02D258B975B
+:TYPE:    PERSON
+:END:
+#+title: Spencer Hivert
+#+relationship: Credit Karma
+#+phone: 415-316-4345
+#+birthday: [1996-10-11]
+

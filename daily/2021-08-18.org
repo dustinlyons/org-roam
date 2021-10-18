@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       C35B1BB7-B9EB-493F-8069-E8DD9B5A6EAB
+:END:
+#+TITLE: 2021-08-18
+#+filetags: Daily
+
+* 07:51:04
+
+Headed over to Braeview soon to prepare for oven hood installation tomorrow. Looking at today, let's figure out the main tasks.
+
+** DONE [#A] Write-up capstone project description for USF        :#Computer:
+
+** Some thoughts on dates and Roam
+
+- How do I get random stuff I haven't thought about, to "pop up" in Roam Emacs?
+- How do I move windows about really easily? Open new buffers in new windows, close them, decide what window a link opens in, etc.
+
+* 15:07:54
+
+Sitting at the house while the workers here. Made some decisions are tile in the master bath, etc.
+
+Working on writeup for [[id:00c29f40-e552-4b90-aa9d-ebc148a68208][Bitcoin Noobs]] USF project. Check out the page, yo.

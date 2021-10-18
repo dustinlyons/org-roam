@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       93581720-1556-43F9-9034-96E488D886A1
+:TYPE:   PERSON
+:END:
+#+title: Jeson Patel
+
+Relationship: [[id:354E19F6-2415-421D-A154-53E54604CB6A][Credit Karma]] 
+Phone: 415-999-8159
+Birthday: [1980-10-28]

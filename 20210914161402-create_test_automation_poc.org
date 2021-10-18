@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       12729c25-ea83-4702-a23e-f6f75c345b50
+:END:
+#+title: Create Test Automation POC
+#+filetags: Project ScholarRx
+* Goals
+
+Launch cypress.io POC showing simple smoke test.
+
+* Tasks
+
+** TODO Get simple cypress.io test running in your enviroment       :@Office:
+** TODO Integrate cypress.io with a working ScholarRx user          :@Office:
+** TODO Create ScholarRx login test                                 :@Office:
+** TODO Create ScholarRx use a Brick test                           :@Office:

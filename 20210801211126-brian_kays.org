@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       5839FF65-4AD4-4948-A3F9-82147B602999
+:TYPE:    PERSON
+:END:
+#+title: Brian Kays
+#+relationship: Friend
+#+phone: 859-221-6721
+#+birthday: [1983-11-02]
+#+address: 116 Wooden Spoke Ln
+#+city: Georgetown
+#+state: KY
+#+zip: 40324

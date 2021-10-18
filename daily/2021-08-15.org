@@ -1,0 +1,85 @@
+:PROPERTIES:
+:ID:       87E3406C-9F8C-49FB-814E-49F85B3427E1
+:END:
+#+title: 2021-08-15
+#+filetags: Daily
+
+* 01:29:01
+
+Found out today that my dad has a serious [[id:EF9EE1DD-2CCC-441C-8EF9-7A44D88BC0E6][drinking]] problem. He was at home alone earlier today, got drunk, fell, and couldn't get back up. Mom and Adam were afraid he was having a stroke, so they took him to the hospital. He blew a 1.9 and denied the whole thing. My mom wants to leave him. My sister is asking me to get involved. I'm just sitting here thankful I have [[id:a8290213-3af8-4c76-b6a1-01a7a7af5fe3][Dario Martinez]].
+
+* 11:20:58
+
+** Brainstorming [[id:27E77900-FC1B-4732-B0BA-1EAA2D8053DE][org-agenda]] views.
+
+*** Dashboard
+
+- Calendar / Day View
+- Priority A
+- Tagged Inbox -> Move to a Project or Area/Maintenance
+- Tagged Active and has state Next
+- Has state Maintain
+
+*** Projects
+
+- Has state Active, by Project
+- Does not have state Active, by Project
+
+*** Contexts
+
+- At home
+- At office
+- Sitting at computer
+- Talking on phone
+- In car / running errands
+
+*** Waiting / Someday
+
+- Has state WAIT, by Project
+- Has state SOME, by Project
+
+*** Inbox
+
+- Has tag Inbox
+
+*** Stuck Projects
+
+- Has tag Active, no movement in 30 days -> should not be Active
+- No tag Active, no movement in 6 months, not SOMEDAY state -> should be SOMEDAY
+
+*** Questions
+
+- How do we add in the "area"? Is there a tag somewhere?
+- How do we guarantee balance across areas? 
+
+- How do we customize faces/colors?
+
+- Learn how to schedule tasks for the day, so they show up top at your agenda. Then under neath it has anything that's a priority we want around for the week, anything we need to process, and then the short list of active projects we pull from.
+
+* Ritual
+
+      - Once a week, we review the work that we finished on the active projects and mark new tasks as NEXT.
+        - When active projects are low, we pick from the backlog.
+        - We also review the waiting tasks and maintenance tasks, and move maintenance to TODO/NEXT.
+
+      - Once a month, we review the Someday tasks to decide if we want to bump them up.
+
+        - Running thoughts...
+
+          Projects belong to Areas. Areas have 6, 12, 24 month visions, with projects that get us there.
+          Projects have objectives which have goals. And to reach goals, we create the tasks. Once all goals are reached, project is completed with new maintenance tasks added.
+          Areas can just have tasks, by the way, that are part of maintenance or just an ad hoc thing to advance it.
+
+* 17:21:50
+
+** DONE [#A] Research for my dad's health problem                 :#Computer:
+
+* 20:42:50
+
+Meeting with [[id:ABB1E9A5-22E6-4D4B-8A5E-10269A51ED66][Amanda Lyons]].
+
+1. Contact mattress company to finish the payment (Amanda)
+2. We will sign the contract for [[id:5DDA519A-8188-43C7-9D8A-B7D770BBEB0B][Family Tree Service]] and send it back.
+3. Radon coming this week. New air handler installation date coming this week.
+4. Trellos up to date, categorized transactions, established a few budgets.
+   

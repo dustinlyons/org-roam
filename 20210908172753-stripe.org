@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       df4d88ec-d205-4b73-b143-ad4f20aa6319
+:END:
+#+title: Stripe
+#+filetags: Institution CRM
+
+* Contacts
+
+Relationship: Payments vendor
+Phone:
+Address:
+
+* Notes
+
+ 

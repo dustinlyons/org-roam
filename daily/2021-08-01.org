@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       C4BF8414-69B4-49DC-969B-26BF9E29BC26
+:END:
+#+title: 2021-08-01
+#+filetags: Daily
+
+* 00:24:36
+
+Thinking about [[id:8EA04865-94A8-480A-8719-417C67F4355C][Emacs]]. And backlinks. Oh the backlinks.
+
+* 00:59:32
+
+Watching more videos from [[id:D896258A-A383-40F1-B995-165942F43169][System Crafters]]. This dude is amazing. So far, I'm sold on Emacs. Wish I should shake his hand for helping me.
+
+* 21:08:12
+
+Waiting on food, and continuing to think about this workflow. Spent the day with [[id:5839FF65-4AD4-4948-A3F9-82147B602999][Brian Kays]] working on building out our [[id:9674C7C4-7873-455F-B958-3F154212536F][smart home]]. I was able to wire my first CAT6 cable today, and I can see the future of hacking on my house in lisp ;)
+
+* 23:25:51
+
+** Entering some more information on folks for my "CRM". Maybe I'll find this useful, maybe I won't. But I'll start it nonetheless.
+
+*** [[id:93581720-1556-43F9-9034-96E488D886A1][Jeson Patel]]
+*** [[id:E0DFD941-228B-46C6-8255-D02D258B975B][Spencer Hivert]]

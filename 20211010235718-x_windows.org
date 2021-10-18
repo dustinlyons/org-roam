@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8354ccbd-d86a-4174-8461-515d8998f784
+:END:
+#+title: X Windows
+
+Windows, but secure

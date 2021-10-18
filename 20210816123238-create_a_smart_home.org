@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       3ADE72AA-53E6-49FB-A71B-C1C4497D9076
+:END:
+#+title: Create a Smart Home
+#+filetags: Project Braeview
+
+* Goals
+
+Create a foundation of smart locks, lights, and cameras at Braeview.
+
+* Tasks
+
+** NEXT Install Ecobee thermostat in Kitchen
+** NEXT Install Ecobee thermostat in Dining Room
+** TODO Schedule time with handyman and install security cameras
+** TODO Identify and take inventory of additional light switches needed
+** TODO Test August Lock HomeKit compatability with HomeKit Hub in proximity
+** TODO Cleanup mechnical room and organize cable cabinet
+
+* Notes
+** Rack Mount Labels
+
+- Back R Cam
+- Back R Cam 2
+- Front R Cam
+- Front L Cam
+- Back L Cam
+- Master Tv
+- Sunroom
+- Basement hearth room
+- Mud room
+- 1st floor closet
+- Office left
+- Office right
+- Upstairs closet
+- Master closet
+- Porch camera
+- Downstairs tv 

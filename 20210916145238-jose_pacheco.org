@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       d9c531ed-27ab-47e6-b006-1fa50d3a6245
+:END:
+#+title: Jose Pacheco
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: ScholarRx
+Phone:
+Address:
+Birthday:
+
+* Notes
+
+ 

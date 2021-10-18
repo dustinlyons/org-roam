@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:       fedbe80b-c6b0-45bd-80a2-73e63b7cbe1d
+:END:
+#+title: 2021-08-03
+#+filetags: Daily
+
+* 01:03:33
+
+[[id:8EA04865-94A8-480A-8719-417C67F4355C][Emacs]] org-agenda optimizations. This [[https://d12frosted.io/posts/2021-01-16-task-management-with-roam-vol5.html][link]] has a strategy for org-agenda to only look at files with TODOs in them.
+
+* 02:14:03
+
+** Taking more notes around [[id:8EA04865-94A8-480A-8719-417C67F4355C][Emacs]] "Basic Task Management with Org" | Checklists, TODOs, and org-agenda video.
+
+To make a "subtask", we can use these [  ] brackets like that. But it has to be in front of a - . For actual "TODOs", we need to use headers.
+
+Ctrl-c, ctrl-c will mark a task as done.
+- [X]  Experiment here (type ctrl-c ctrl-c anywhere on this line)
+Ctrl-c, ctrl-t will mark a TODO as done
+
+* 02:31:57
+
+** DONE Setup appointment with Commonwealth                           :@Home:
+
+* 12:10:18
+
+** DONE Pay the final mattress cost
+
+* 12:33:26
+
+I calculated what is left for my [[id:936D6790-BBE6-45E4-A034-D179C15EE395][Chase Sapphire Business Card]] reward bonus: $1200!
+
+* 13:13:16
+
+Meeting with [[id:769ECCDF-730A-4F74-B71D-C0E2CADB22A9][Daniel Klingman]] on [[id:9C3F8E95-01B1-4C42-A520-E02BD3D8B809][Project: Heap Analytics]].
+
+* 14:35:48
+
+** DONE Switch Spotify account to use tesla@dustinlyons.co             :@car:
+** DONE [#A] Pay [[id:C26903F6-4D1E-45F9-82B2-F1F522370864][Tong and Fong CPAs]]                         :@Home:#Computer:
+
+* 15:28:54
+
+** Taking notes for [[id:846E4DB6-55E1-4B5E-BAA7-2287B7CA0AD6][Pantheon]] assessment for [[id:D40AF73B-46F4-42EE-893C-B6B23B22CED0][Justin Klutka]] on [[id:16d86c81-dbc1-4f87-ba19-85898f03a966][Drupal]]
+
+*** Recent changes show...
+
+  * Change 1: some debug flags, adding a conditional around subscriptions
+  * Change 2: removed hardcoding of some links, 2 lines of code
+  * Change 3: "Update to allow bundle extension page..." change looks somewhat involved. Not difficult PHP but requires context of what is going on and some light understanding of Drupal APIs.
+
+     1. Namely, Drupal FormBuilder and Query extensions are being used.
+     2. Primarily one method the encapsulates feature complexity: buildConfigurationForm()
+     3. Hardcoded strings in some places
+
+*** Assessment
+
+  Heap diff has other code for Paypal, Braintree. Heap code is inserted into front end via Drupal API. Looks like things are done "the Drupal way" and not as simple as throwing a JS snippet on a web page.

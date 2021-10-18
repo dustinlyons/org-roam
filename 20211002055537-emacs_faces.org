@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a47431e8-c2da-41d8-9b71-1ac8c787bed5
+:END:
+#+title: emacs faces
+
+Quick way to list all faces: M-x list-faces-display.

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       32627070-faab-4fbd-aaa4-dafc3528d003
+:END:
+#+title: tty
+
+Terminal access, no rich display.

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       83A76B5F-96A3-4407-AC4C-BA8A99C7898B
+:END:
+#+title: Grocery list
+

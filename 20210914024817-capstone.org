@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       5a008fdc-1c2c-4b83-989c-54cc75b47b93
+:END:
+#+title: Capstone
+
+Capturing information related to my Bitcoin Noobs <> USF Graduate Capstone relationship.

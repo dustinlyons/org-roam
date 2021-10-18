@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       44bb1ad9-c8b0-4a91-b574-c4d76b03f438
+:END:
+#+TITLE: 2021-10-17
+#+filetags: Daily
+
+
+* 00:52:05
+
+** Watching a talk from [[id:6d9ed1a6-1086-41bc-a60c-2e9515dc427b][William Byrd]] on Lisp and "The Most Beautiful Program Ever Written".
+
+*** A list of lists? A tree.
+*** Every value in Scheme is considered True (#t), except for #f.
+*** Quote operation. (quote 5)
+**** Quote of anything gives you back that thing
+**** Want a list? Quote it, and it returns it back. '(5 6) => (list 5 6)
+*** Symbols. 'milkshake. Fast to compare symbols. Represents a thing instead of definining weird CONSTs in C, etc.
+*** Unless special form in first position of list (define, quote, etc.), if we have parentheses around something it means it's a procedure and we want to call it.
+*** (load "pmatch.scm") was interesting. He mapped values in a list to a pattern and then did something with it.
+(pmatch (list 3 4)
+  [(,x ,y) (+ x y)])
+*** He uses pmatch to write eval-expr, to write an interpreter. Then in the pmatch "patterns"
+*** Quasiquotation or backquote `(). That's what you've seen everywhere.
+**** Commas are unquote
+*** How to apply a function? Wrap an operator and an argument in parentheses.
+*** The five lines were an interpreter that was Turing complete, environment pass lambda calculus interpreter.
+
+* 02:10:02
+
+Bed time.
+
+* 11:14:18

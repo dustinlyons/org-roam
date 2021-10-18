@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       197b84dd-e508-4c72-be72-88c392a20840
+:END:
+#+TITLE: 2021-10-05
+#+filetags: Daily
+
+* 11:23:18
+
+Amanda and I made up last night, I'm feeling a bit better. How do I reset? That is the question.
+
+Another guix related thought:
+
+** DONE Configure git in guix-home and set init.defaultBranch     :#Computer:
+
+* 14:07:12
+
+** [[id:0658A09E-7BBD-40D2-8FCC-D5A05350B77A][Ashley Dickerson]] 1x1
+
+May 2019, 2.5 years
+
+Title - Data Programmer / Analyst
+Web Developer
+
+What projects? 
+    C#, Azure Functions
+    Table in reporting database
+    Run your queries there, PowerBI report
+    Working on automating Jeff's thing.
+
+What ad hoc work?
+    On the team, nothing client related
+    Generating reports, for Steve, for Jeff, for Matt, for Thao Pham, Louise
+    No strong preference
+
+- Calcuating subscriptions.
+
+  Used to auto create trial on subscription. Then they stopped.
+  Greater than a day after the trial started, count it.
+  If they had a trial, if they had a subscription, at all, count it.
+
+- Heap data
+  Some data (total bricks views, total cards views) we can bring over

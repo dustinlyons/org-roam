@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       878d1bcc-9cfe-4d42-b7c2-37ee29212747
+:END:
+#+title: Brian Troncone
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: ScholarRx
+Phone:
+Address:
+Birthday:
+
+* Notes
+
+ 

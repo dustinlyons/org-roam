@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       948dbbef-8877-42b8-b453-2381b939ece6
+:END:
+#+TITLE: 2021-09-05
+#+filetags: Daily
+
+* 14:13:51
+
+SO much work at the house. It's overwhelming. We need a plan to make it not so overwhelming.
+
+Created the Minimum Viable House node at the [[id:72A08182-0C7F-45C6-801F-B72D818E4B36][Braeview]] page.
+

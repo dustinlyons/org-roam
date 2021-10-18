@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       5b3aed6a-45c3-4b55-b460-5b0dff381b2c
+:END:
+#+title: Create automated file and photo backup
+#+filetags: Project
+
+* Goals
+
+Automatically back up photos, files, and computers for everyone in the family. Do it without paying Apple or Google.
+
+* Tasks
+
+** TODO Take inventory of all photos across iCloud
+** CANCELED Review Backblaze scripts for future potential
+** TODO Decide on in-house NAS to host LVM snapshots, videos, etc.
+

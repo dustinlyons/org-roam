@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       ce292920-b268-4803-937c-5064d67bbe9a
+:END:
+#+TITLE: 2021-09-25
+#+filetags: Daily
+
+* 10:46:46
+
+Pulled an all nighter and I'm now typing on my new PC. Arch worked like a charm, right out the box. USB hub and headphones, no sweat. That was great!
+
+* 10:47:16
+
+Some [[id:2c6b8092-3142-4dd2-bcaa-e9233dc84df6][SEO]] tips I am learning. [[id:e4cd3bc3-bf1f-4d4b-80f3-ff1b7fe06489][GrowthBar]] writes content with GPT-3 and helps with keyword research. Should do an investigation someday.

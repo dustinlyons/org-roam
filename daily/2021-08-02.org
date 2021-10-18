@@ -1,0 +1,93 @@
+:PROPERTIES:
+:ID:       0028D46B-D7A0-4CB4-B482-A7AAE2D40A24
+:END:
+#+title: 2021-08-02
+#+filetags: Daily
+
+* 00:07:07
+
+Getting started with another day. Working on getting my workflow together so I'm not just typing in an empty box. To start moving things over, I'll create my first workflow docs.
+
+* 02:11:58
+
+** Recording some old notes from [[id:76aaebea-441f-4669-9874-87716b859240][felix]] so that I get started installing [[id:5e1daa14-a277-4138-95db-5c2daa376a04][guix linux]].
+
+*** Some competitors for [[id:00c29f40-e552-4b90-aa9d-ebc148a68208][Bitcoin Noobs]] are:
+- crypthena.com
+- bitcompare.net
+- covemarkets.com
+- cryptohead.io
+- cryptorival.com
+- 99bitcoins.com
+- bestbitcoinexchange.io
+
+*** Some thoughts on [[id:af0cde3c-b64e-49f2-b1e1-3f4a03ed2f31][DustinOS]] 
+*** I found some old notes on [[id:98dd6da2-985c-4116-bdbe-68c6146ea59b][Sweeply]] 
+*** My old friend, [[id:20124708-3a6b-4a4a-a886-8a28178db682][Dave Mccoy]]
+*** Starting a collection of [[id:a3dc2a1c-01f6-4732-b127-e21abf8c15f9][quotes]]
+*** Writing some tips on [[id:2c6b8092-3142-4dd2-bcaa-e9233dc84df6][SEO]]
+*** My old [[id:9ec4905d-4460-4a44-88e1-ffe4809b6417][Chatbot Ideas]] 
+*** Some thoughts from my old [[id:7382f91a-e350-4b01-9b1f-bb6109746c41][psychiatrist]]
+
+* 15:10:50
+
+Hanging out here at [[id:3537A8D3-3CEB-4F31-9E97-4278286438B2][Story Coworking Space]], pretty great place. I'm considering renting an office they have. Anyway, I need to get back to work. Let's dive into what is needed for [[id:D40AF73B-46F4-42EE-893C-B6B23B22CED0][Justin Klutka]]. 
+
+* 15:41:35
+
+I'm struggling with a workflow to get started, and I believe my 'Tasks.org' is on my desktop... for now I'm going to work off the Microsoft Word document.
+
+* 15:53:33
+
+Idea for [[id:ABB1E9A5-22E6-4D4B-8A5E-10269A51ED66][Amanda Lyons]] on her birthday: buy a photo shoot for the whole family, somewhere around Louisville?
+
+Capturing some notes for [[id:301DD383-8440-4B7E-AE7D-777111C8FFE2][Corrigan Electric]] for the next time they are here:
+
+- Swap the bathroom light switch with stairwell switch
+- Laundry room light isn't working
+- Finish switch installation
+- More switches! Attic, sump pump, rack mount
+- All house transformer
+
+* 16:15:56
+
+Setting up time with [[id:800FF0B1-6D2B-493A-B141-C0700754B749][Jeff Downing]] to review new [[id:9C3F8E95-01B1-4C42-A520-E02BD3D8B809][Project: Heap Analytics]] features.
+
+* 16:33:11
+
+** 1x1 meeting with [[id:D40AF73B-46F4-42EE-893C-B6B23B22CED0][Justin Klutka]].
+
+*** Team is working on cleaning up agile process and board.
+
+- Meet with Jeff and review Kill Fred dashboard, Bricks discussion
+- Setup "Analytics Program Core Team" meeting
+- "Discovery & Describe Taskforce" meeting is there if needed
+- Goal: get the tracker in a good/final-ish place
+
+*** Strategy for team building
+
+- High level tasks, "how do you want to tackle it?"
+- This is your domain, what you're going to focus, document it on DevOps, raise your hand if you get stuck.
+- Need to share a timeline. Produtive "struggle".
+
+*** Ideas for future dashboard.
+
+- Bricks engagement, institution university engagement
+- Institutions dashboard for demo
+
+*** Executive meeting
+
+- Align with Matt and feedback beforehand
+- 1x1 meeting with Tao, what we have, what we see, what can happen next (after demo meeting
+
+*** DevOps
+
+- Leverage Alex on the first time entering stories, but do it yourself
+- Follow the taxonomy that is currently in place
+- Alex can be my point of contact for agile meeting updates / status
+
+* 21:59:52
+
+Sitting down to think about how to design my workflow in [[id:8EA04865-94A8-480A-8719-417C67F4355C][Emacs]]. It's a bit overwhelming, so I need to write it down. This is software baby. Software of the brain!  [[id:af0cde3c-b64e-49f2-b1e1-3f4a03ed2f31][DustinOS]] 
+
+[ Refiled node [[id:F355F26D-E4E5-4CF5-99EA-E77846D47FAF][Workflow]] ]

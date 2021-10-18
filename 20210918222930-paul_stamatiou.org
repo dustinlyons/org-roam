@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       e9acc05b-de62-4ab7-acb6-ada72cd97532
+:END:
+#+title: Paul Stamatiou
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: [[id:773429cf-3eb4-4087-b1d0-772d43d19d97][Twitter]] designer
+
+* Notes
+
+Has a great blog on design.  https://paulstamatiou.com/

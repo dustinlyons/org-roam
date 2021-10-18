@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4B8F2540-895D-449C-A31F-6D3697757E89
+:END:
+#+TITLE: 2021-09-27
+#+filetags: Daily
+
+* 14:02:05
+
+** [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]] breakout meeting.
+- Time when something went well? And did not go well?
+- Releae of Identity / Front End of Heap was broken, didn't go well. Daniel/Barry didn't know from each other.
+- Team conversations where we reached agreement, group communication went well.

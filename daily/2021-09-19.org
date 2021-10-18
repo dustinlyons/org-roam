@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       82f28b08-fe7d-45e1-9cd0-b6325a5b1b9a
+:END:
+#+TITLE: 2021-09-19
+#+filetags: Daily
+
+* 01:10:01
+
+Research on [[id:00c29f40-e552-4b90-aa9d-ebc148a68208][Bitcoin Noobs]].
+
+- Wirecutter is mobile friendly, and lends itself to long written form articles. I can easily make widgets/template "units" that are easy to add in and use. They can be:
+
+  Headers, Text, Image, Review, Pros/Cons List, Horizontal Bar Graph
+
+- ICO Drop. Research ICOs from this site to include on yours: https://icodrops.com/
+
+- We want to build CryptoVantage, and translate it to other languages. And get hella links inbound to really good content. Keep updating it every month, adding new ICOs, and articles.
+
+** Pages to keep
+
+*** HitBtc
+
+https://medium.com/revain/hitbtc-a-general-overview-91813fea691b
+
+* 13:15:11
+
+- [[id:2bc1ecd8-501c-4e64-bdbf-7c11993396f2][emmet-mode]] is a great autocompletion framework for HTML/css, but it's deprecated :(
+
+* 22:51:37
+
+Started a page on my [[id:5d3fb8c1-86ed-458d-bfb2-3ed23981f576][Home Lab]] to capture ideas with DustinOS.

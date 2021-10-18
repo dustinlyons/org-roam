@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       2ba011fd-1cf2-46f4-97b2-106e4f96c133
+:END:
+#+TITLE: 2021-09-30
+#+filetags: Daily
+
+* 12:11:04
+
+I made very impressive progress on my guix system over the last several days. I'm pretty happy with it. Also, I guess I'm typing in [[id:06cac899-e253-4780-9ac7-63925973141f][Helvetica]] now and it looks pretty damn good. I may have to run with this on the website?
+
+Thinking out loud. I should just start every daily note with an IFS journal/check-in, and a review of my linked references.

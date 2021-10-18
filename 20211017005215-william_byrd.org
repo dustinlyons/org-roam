@@ -1,0 +1,18 @@
+
+:ID:       6d9ed1a6-1086-41bc-a60c-2e9515dc427b
+:END:
+#+title: William Byrd
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Lisp programmer on Youtube
+Phone:
+Address:
+Birthday
+
+* Notes
+
+University of Alabama CS professor .
+
+"The Most Beautiful Program Ever Written", great [[id:ef8b7a0a-aff5-455a-9df5-bb20a7c65af7][Lisp]] / [[id:7abe9a5b-f79b-4fe9-95e0-4aa0a5ae4867][Scheme]] video: https://www.youtube.com/watch?v=OyfBQmvr2Hc

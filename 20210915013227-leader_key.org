@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       61199769-8c15-4a0d-972c-e31bd00ce4dd
+:END:
+#+title: leader key
+
+Uses for my leader key:
+
+| *use*                               | *key* |
+| creating timestamp for daily note | ,,  |
+| open toggles                      | ,t  |
+| rotate window                     | ,r  |

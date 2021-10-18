@@ -1,0 +1,50 @@
+:PROPERTIES:
+:ID:       2c6b8092-3142-4dd2-bcaa-e9233dc84df6
+:TYPE:   RESOURCE
+:END:
+#+title: SEO
+
+* Indie Hackers post on SEO
+
+https://www.indiehackers.com/user/benko?id=xIMqoekR6AeIHUSdHIY0NiePDhg1
+
+You've received a lot of good advice. When it comes to SEO links will help a lot. Rather than give you general advice like 'build links' here is a process you can follow (the same one I follow):
+
+Step 1 - Low Hanging Fruit
+
+Search for keywords related to the job hunting/career industry that offer writing opportunities. Some examples
+
+career advice + "write for us"
+job hunting + "write for us"
+resume writing + "write for us"
+
+Brainstorm a bit and think of tangentially related markets. It will open up more opportunities.
+
+Make a list of 100 or so sites that look promising. They don't have to be great sites, this is just the first step
+
+Mailshake every single one on the list. Use merge tags to personalize each email as much as possible. If you do a good job I'd expect between 10 - 20% success rate on this
+
+Link to inner pages of your site where allowed. Most places will allow you at least 1 link out. If you can only link in the bio make it to the homepage
+
+Step 2 - Legit Sites
+
+Now you have some authority and proof you don't suck at writing
+
+Search Google again for legit career or job hunting blogs. This time you are looking for sites that don't openly offer writing opps. This will get you started: https://blog.feedspot.com/career_development_blogs/
+
+Find a whole bunch of targets who you think might like some content from you.
+
+Outreach to them manually and, this is important, use your writing cred from Step 1 so they take you seriously. This works trust me
+
+Pitch your content and link as you do in Step 1
+
+Step 3 - Content Marketing
+
+Now, a few months have probably passed and you have a bunch of inbound links. Hopefully your traffic and rankings have improved
+
+Create awesome content on your own site and outreach
+
+Contact all the websites you networked with above to let them know, entice them to share your posts.
+
+This is a really quick brain dump. Advice like 'build links' and 'create epic content' is great but hopefully the above gives you some practical steps to take.
+

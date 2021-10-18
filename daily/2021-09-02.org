@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       c3ca3e9f-0d6c-4c60-9cdb-d577c4e8c386
+:END:
+#+TITLE: 2021-09-02
+#+filetags: Daily
+
+* 01:45:35
+
+Okay, up and running on inky! Built emacs from scratch.
+
+** I learned about how to quickly get [[id:a53c9cc8-6f22-4973-ad16-d56dbf850907][build dependencies]] 
+
+*** Linux packages
+build-essential, just has a bunch of stuff that is needed for builds. Came as default on PopOS but just in case, for the future.
+
+#+BEGIN_SRC bash
+$ apt-get build-dep emacs
+#+END_SRC

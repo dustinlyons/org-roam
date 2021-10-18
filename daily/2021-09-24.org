@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       F57CD5C5-9C8F-47AF-8CE3-9225C5A71058
+:END:
+#+TITLE: 2021-09-24
+#+filetags: Daily
+
+* 15:52:04
+
+We in business, new dotfiles, new life. On the mac, and a clean office. Have the weekend to build out my PC, keyboard, and [[id:43717907-095F-41AF-AD02-779B22FCCF51][Proxmox]] hypervisor.
+
+

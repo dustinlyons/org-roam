@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       5e1daa14-a277-4138-95db-5c2daa376a04
+:END:
+#+title: guix linux
+

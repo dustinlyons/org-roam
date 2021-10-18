@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       55B4C8C8-1141-44B1-A984-CCF841E723CD
+:END:
+#+title: 2021-08-05
+#+filetags: Daily
+
+* 08:51:32
+
+** Researching [[id:6ADF8FDF-7F29-4A17-9B30-C72E117C4BBD][Azure]] Git Hooks for [[id:F86C69F3-6DDE-4345-A206-F08F637FC313][Barry Rowe]].
+  - Looks like "service hooks" exist that we can potentially use to run Jenkins or Azure ServiceBus if needed. That's pretty heavyweight though. [[https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/jenkins?view=azure-devops][Link]]
+  - You can pick git events that will trigger the event
+  - If it has to run on every PR, we could do something "dumb" that just checks if it's a hotfix and does nothing if it's not
+  - Service hook events: https://docs.microsoft.com/en-us/azure/devops/service-hooks/events?view=azure-devops
+
+* 11:03:30
+
+Updated my [[id:F355F26D-E4E5-4CF5-99EA-E77846D47FAF][Workflow]] document. I think I'm ready to start diving into Project files and org-agenda views.
+
+* 11:54:37
+
+- Called [[id:7B4739ED-FF17-4241-A37F-D9329838BA70][Commonwealth Bank]] to explore options for a [[id:A30E6FAB-2413-4895-83DB-01276735C2F7][mortgage]]. Left a voicemail.
+- Called [[id:B619DC66-35AF-4F5C-B58A-61776022418A][First Savings Bank]] and they instructed me to call Betsy Clay, Wholesale Division for Louisville. Left a voicemail.

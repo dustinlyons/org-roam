@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       98c2cf2d-ddc1-4f8b-bae0-8a5ef352c721
+:TYPE:   RESOURCE
+:END:
+#+title: startups
+
+* Useful links across the web
+
+Founder to CEO
+https://docs.google.com/document/d/1ZJZbv4J6FZ8Dnb0JuMhJxTnwl-dwqx5xl0s65DE3wO8/preview#
+
+Epic Guide to Bootstrapping a SaaS from Scratch
+https://medium.com/@cliffordoravec/the-epic-guide-to-bootstrapping-a-saas-startup-from-scratch-by-yourself-part-1-4d834e1df8c1
+
+Bootsrapping to Ramen Profitability
+https://canny.io/blog/saas-startup-ramen-profitability/
+
+80% marketing, 20% product
+https://www.indiehackers.com/@eelcoj/running-a-business-is-80-marketing-and-only-20-product-b1f8b0d5e5
+
+Guide to building sales funnel
+https://www.entrepreneur.com/article/296526

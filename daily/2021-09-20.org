@@ -1,0 +1,68 @@
+:PROPERTIES:
+:ID:       144027e1-601e-4f5c-a519-a8ee0319cf4d
+:END:
+#+TITLE: 2021-09-20
+#+filetags: Daily
+
+* 02:45:40
+
+Monday, first day at [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]]. Let's do this. Don't have to start work until after 1pm ;)
+
+* 02:46:11
+
+Getting into a little bit of something. Tailwind or Vue course...?
+
+* 03:38:17
+
+Notes on [[id:8EA04865-94A8-480A-8719-417C67F4355C][Emacs]] window management.
+
+| Command                             | Key        | Description                            |
+|-------------------------------------+------------+----------------------------------------|
+| =balance-windows=                     | ~C-x +~      | Balance the sizes of all windows       |
+| =delete-other-windows=                | ~C-x 1~      | Close all other windows                |
+| =delete-window=                       | ~C-x 0~      | Close the current window               |
+| =enlarge-window-horizontally=         | ~C-x }~      | Make the window bigger horizontally    |
+| =shrink-window-horizontally=          | ~C-x {~      | Make the window smaller horizontally   |
+| =shrink-window=                       | None!      | Shrink the window vertically           |
+| =shrink-window-if-larger-than-buffer= | ~C-x -~      | Shrink the window vertically to buffer |
+| =split-window-below=                  | ~C-x 2~      | Split the current window horizonally   |
+| =split-window-right=                  | ~C-x 3~      | Split the current window vertically    |
+| scroll-other-window                 | M-pgup/pgn | Scrolls other window                   |
+
+Things I typed and learned.
+
+ctrl-x 4 f (file), d (dired), b (buffer)
+ctrl-x - (shrink to content, like a shell)
+ctrl-x 0 kills the window, ctrl-x 1 kills all the other windows
+alt-0 jumps around
+
+* 03:56:12
+
+[[id:8EA04865-94A8-480A-8719-417C67F4355C][Emacs]] universal argument: use ctrl-u <argument> then the command, like ctrl-x [. to augment and pass a parameter into the thing.
+
+* 13:47:29
+
+Great example of an acaia wood top for a [[id:83b6ea2e-4a3d-4689-b433-96e2b89f9138][standing desk]]: https://www.pinterest.com/pin/418060777912415128/
+
+* 16:43:56
+
+** [[id:a5441799-ed38-4982-bc4f-ea23994e82dc][Vim]] stuff: Delete characters with ~x~, delete words and lines with ~d~.
+Example. 3x deletes 3 characters.
+
+* 16:47:02
+** Testing new headers
+New shit.
+
+*** New header 1
+New shit.
+
+*** New header 2
+**** New header 3
+**** New header 4
+**** New header 5
+Sweet. I like this much better.
+
+* 16:48:33
+
+At [[id:4e6843e9-eade-4922-a153-1ab927eb0d2c][Please & Thank You]] coffee shop, working. Procrastinating, but thinking of the home lab. Will look at my agenda now...
+

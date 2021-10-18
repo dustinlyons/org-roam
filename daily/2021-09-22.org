@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       b00bec54-69f5-457a-8741-80b459da122f
+:END:
+#+TITLE: 2021-09-22
+#+filetags: Daily
+
+* 04:32:05
+
+** Some amazing hacks I've been put in so far
+
+*** DONE Verify Lemur Pro refund hits Chase account
+
+* 15:51:53
+
+** Talked to [[id:aa3c3d89-a624-4b3b-b3f3-96a6b612c6bf][System76]] about returning the Lemur Pro
+- Shipping label returned to me
+- Will receive the computer, 6-10 review the computer in its state, any damage time of ownership. 

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       cdec3613-5af5-4d6e-844d-f5cee6da31b8
+:END:
+#+title: Dr. Richard Schwartz
+
+Dr. Schwartz created Internal Family Systems, or [[id:D5951A75-FCE5-44D6-A820-A0257E70BCC4][IFS]].

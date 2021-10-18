@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       fdc6bec4-17a1-445b-a345-3c13d1b8d913
+:END:
+#+title: Create and maintain a skin care routine
+#+filetags: Project
+
+* Goals
+
+Research and implement good skincare!
+
+* Tasks
+
+** TODO  Research what skin care looks like, write into schedule

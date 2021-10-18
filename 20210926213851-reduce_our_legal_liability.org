@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       f8304e05-9a06-42b3-8965-7fd8ae7c176d
+:END:
+#+title: Reduce our legal liability
+#+filetags: Project
+
+* Goals
+
+Create the best possible situation for us in event of lawsuit from other people.
+
+* Tasks
+
+** NEXT Contact [[id:07a12b19-56e6-44eb-8fb9-7af738367c31][Nelson Insurance]] for liability insurance            :@Office:

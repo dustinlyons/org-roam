@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       E674CBFC-05FB-4AED-BA3E-A37CB29202DB
+:END:
+#+title: Start an Exercise Routine
+#+filetags: Project Fitness Active
+
+* Overview
+
+Run a few 5ks and get back to where you're exercising regularly for 90 days in a row.
+
+* Tasks
+
+** NEXT Run outside for 20 minutes                                    :@Home:
+** TODO Find a local 5k to sign up and put on the calendar        :#Computer:
+** TODO Find a running stroller for [[id:69C564A2-3AB7-485A-B395-AC6E51F02972][Isaiah Lyons]]                  :#Computer:
+** TODO Research online physical trainers and decide on workout plan :#Computer:
+
+* Notes
+
+ Do I consider Michael Alzheimer? What about Yoga?

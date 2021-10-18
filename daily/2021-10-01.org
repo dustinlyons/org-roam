@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       50e32b88-a11b-40f1-b36a-96c2ccd68ec3
+:END:
+#+TITLE: 2021-10-01
+#+filetags: Daily
+
+* 02:01:35
+
+Guix is in a steady state for sure. Now I need to move it over to a declarative place and publish it, then start working on a blog pipeline to write about my experience building it.
+
+* 21:00:21
+
+Thinking of organizing my system configuration. [[id:af0cde3c-b64e-49f2-b1e1-3f4a03ed2f31][DustinOS]]
+
+- home-lab
+
+  Documentation describing the home-lab, what features it is, principles, system components.
+  Describe Homekit and smart home components.
+  System is brought in via git sub-modules, and documentation is updated with changelog of versions.
+  Describe Networking vlans, descisions.
+  Describe security model.
+
+  - [[id:0031c1e6-3b3d-4916-a3fd-80c0706a5bbd][Guix Linux]] config (guix-config)
+
+    - Workstation
+    - Workstation-Felix
+    - Workstation-Chevy
+    - Workstation-Desktop
+    - Workstation-Laptop
+    - Workstation-Emacs
+    - Server
+    - Server-Hypervisor
+    - Server-Homebridge
+    - Server-HomeAssistant
+    - Server-PiHole
+    - Server-Web
+    - Server-ReverseProxy
+    - Server-Storage
+    - Server-JobScheduler
+
+  - guix-channel
+  - dotfiles

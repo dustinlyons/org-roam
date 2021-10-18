@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       ed1c2ca3-a8d5-48ec-af12-afb5642729ff
+:END:
+#+title: Kayla Brewer
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Works at [[id:c1f534f7-939d-4b79-874b-6bace6c7eb8c][Landmark Recovery]]
+Phone: 859-585-9360
+
+* Notes

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       3c252bb7-25f6-4678-905a-19a16cb7a06d
+:END:
+#+title: Launch personal blog site
+#+filetags: Project
+
+* Goals
+
+Create a personal blog with Tailwind UI.
+
+* Tasks
+
+** NEXT Build and manage a homepage blog template in Tailwind     :#Computer:

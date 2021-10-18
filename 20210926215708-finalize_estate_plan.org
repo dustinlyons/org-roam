@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       9b16dfa9-5723-42c4-995d-df9b86d6c005
+:END:
+#+title: Finalize estate plan
+#+filetags: Project
+
+* Goals
+
+- Settle will and estate of assets.
+- Finalize and complete a will and living trust that holds our assets (and pays us).
+
+* Tasks
+
+** TODO Open safety deposit box                                        :@Car:
+** TODO Email estate planning attorney #@next #@email             :#Computer:
+
+* Resources::
+    - **Wayne F. Wilson**
+        - Partner
+        - Tax, Benefits & Wealth Planning Practice Group Leader
+        - Dinsmore & Shohl LLP  •  Legal Counsel
+            - 101 South Fifth Street
+            - Suite 2500
+            - Louisville, KY 40202
+            - Phone (502) 581-8052  •  **F** (502) 585-2207
+            - Email [[wayne.wilson@dinsmore.com][mailto:wayne.wilson@dinsmore.com]]
+        - Assistant:  Denice Diggs
+            - 502.540.2370
+            - [Denice.diggs@dinsmore.com](mailto:Denice.diggs@dinsmore.com)

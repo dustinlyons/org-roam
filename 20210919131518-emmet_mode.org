@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       2bc1ecd8-501c-4e64-bdbf-7c11993396f2
+:END:
+#+title: emmet-mode
+
+HTML and CSS autocompletion. https://github.com/smihica/emmet-mode

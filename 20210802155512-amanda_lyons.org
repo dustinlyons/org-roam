@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       ABB1E9A5-22E6-4D4B-8A5E-10269A51ED66
+:TYPE:   PERSON
+:END:
+
+#+title: Amanda Lyons
+#+relationship: Family
+

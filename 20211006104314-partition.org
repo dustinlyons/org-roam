@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a7918cca-4a38-44b7-90e6-747429c3608c
+:END:
+#+title: partition
+
+Disk partitioning.

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e8d2c28d-5ea1-46b2-acb9-eee76e99d63d
+:END:
+#+title: Bosch
+
+We own a Bosch dishwasher. The serial number is SHS843AF5N.

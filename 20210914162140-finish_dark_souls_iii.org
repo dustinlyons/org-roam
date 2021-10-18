@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       0247b298-686f-4dba-a70e-595f155f30ed
+:END:
+#+title: Finish Dark Souls III
+#+filetags: Project Fun
+* Goals
+
+Finish the damn game. :)
+
+* Tasks
+
+** DONE Buy new computer parts for upgrade                            :@Home:
+** DONE Setup new computer and clean in office room                   :@Home:
+** TODO Finish the next chapter                                       :@Home:

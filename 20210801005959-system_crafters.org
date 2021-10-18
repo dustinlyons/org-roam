@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       D896258A-A383-40F1-B995-165942F43169
+:TYPE:    RESOURCE
+:END:
+#+title: System Crafters
+
+YouTube channel by [[id:0EA6533A-15EA-4652-A808-DF5352B21698][David Wilson]].
+
+

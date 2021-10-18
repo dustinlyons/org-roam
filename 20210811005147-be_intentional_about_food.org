@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       96ad6263-8041-45c1-afc0-c24d260ade5c
+:END:
+#+title: Be Intentional About Food
+#+filetags: Project Nutrition
+
+* Goals
+
+Eat and track according to a good macro ratio of someone your age.
+
+* Tasks
+
+** NEXT Identify macro ratios and food groups                     :#Computer:
+** TODO Create grocery list for foods you need
+** TODO Come up with an accountability and habit tracking plan
+** TODO Eat your macros for 1 day
+
+* Notes
+
+** Water
+
+I should be drinking around 13 cups of water a day.

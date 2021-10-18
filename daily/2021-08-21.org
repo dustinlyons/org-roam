@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       09910AFC-BDF4-491D-B4C2-170EDD8EC09A
+:END:
+#+TITLE: 2021-08-21
+#+filetags: Daily
+
+* 19:27:50
+
+At home, finally getting back to this Emacs world from time spent working on the house. Last night, I got the rack mount together and setup the rest of the house switches. That's done! Pretty amazing.
+
+Now I just need to finish up the Cat6 at the wall, and the cameras.
+
+* 22:00:50
+
+** DONE Return hard drive and Unifi surge protectors
+
+* 22:37:55
+
+Found a decent [[id:FF94C542-6053-4190-B6A2-E70E03E86106][baby gate]] that we may purchase later. + [[id:dd7e7c0a-c4f8-4d2d-b2b6-bf714124b859][Wishlist]]
+    - Retract a gate: https://retract-a-gate.com/

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2C7537DB-C1F3-438B-81BA-1C6738B061DA
+:END:
+#+title: tools
+
+* A list of [[id:2C7537DB-C1F3-438B-81BA-1C6738B061DA][tools]] to purchase.
+
+- Tool belt
+- New power drill
+- Simple wire crimper

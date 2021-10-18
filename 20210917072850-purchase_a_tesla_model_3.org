@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       866edfc2-f4e7-4472-89a7-d8954cf94daa
+:END:
+#+title: Purchase a Tesla Model 3
+#+filetags: Project
+
+* Goals
+
+Purchase a new Tesla Model 3.
+
+* Tasks
+
+** NEXT Arrange financing for new car                        :#Computer:

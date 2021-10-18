@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       33431d20-2310-4a46-9035-cbc8ddd9c49c
+:END:
+#+TITLE: 2021-09-13
+#+filetags: Daily
+
+* 15:27:46
+
+At the new office, Lemur Pro up and running and keyboard/mouse/etc/etc. I need to acknlowdge the progress I've made so far. I do I do I do.
+
+* 16:51:10
+
+** [[id:D40AF73B-46F4-42EE-893C-B6B23B22CED0][Justin Klutka]] meeting on part time work, reset, analytics, and context of projects.
+
+- Term boxes -- hover and get a definition.
+- Hard to get these out of MedEd
+- OMM Bricks -- brick collections.  Just content.
+- Bricks 1.1 -- Laundry list of features we're trying to get in Bricks Create.
+- Examples, ability to dynamically add references. Ability to have multiple heading types.
+- 2022 First Aid Book online.
+- Revised every year, bunch of Johnie Karr. Rinse and repeat, very manual.
+- RX search is something people hate. Daniel's top priority.
+- Qmax Export Tool - MedEd (Fraizer's team) needs this to revise Qmax. They need everything to do it. Has taken 3 weeks on export.o
+
+** [[id:5a008fdc-1c2c-4b83-989c-54cc75b47b93][Capstone]] introduction meeting
+
+- Send out some resources for learning the technologies this semester
+- Email on NuxtJs and backend pipeline
+- Git repo, bootstrap the project -- send that out.
+- M, W, F -- 11:30 - 12:00
+- Initial design meeting first
+- Break it out into cards in Trello, and assign the work out
+- Meet reguarly the progress
+- New work -- Patrick, Typescript. Others, not sure.

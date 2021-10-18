@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       ba04cbfc-5a05-41d2-ab97-281500131eb1
+:END:
+#+title: Refinish Garage Door
+#+filetags: Project Braeview
+
+* Goals
+
+Refinish the garage door to make it last.
+
+* Tasks
+
+** TODO Create list of tools needed for Garage Door                   :@Home:
+** TODO Buy a handheld sander for Garage Door                         :@Home:

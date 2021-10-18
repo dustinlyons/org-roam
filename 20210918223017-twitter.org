@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       773429cf-3eb4-4087-b1d0-772d43d19d97
+:END:
+#+title: Twitter
+#+filetags: Institution CRM
+
+* Contacts
+
+Relationship: Social network
+Phone:
+Address:
+
+* Notes
+
+ 

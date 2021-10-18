@@ -1,0 +1,131 @@
+:PROPERTIES:
+:ID:       F355F26D-E4E5-4CF5-99EA-E77846D47FAF
+:END:
+#+title: Workflow
+#+filetags: Workflow
+
+* Principles
+
+** Improve my focus
+
+Define clear points of focus, as Areas, to be intentional about where my time is spent. Currently, I've defined these areas as: Health, Fun, Family, Money, Spirit.
+
+** Drop the "autopilot"
+
+Spend my energy in a balanced way: incorporate projects across a diverse set of Areas. Be intentional about my time.
+
+** Drop the "categories"
+
+Don't arbitrarily tag bookmarks and other resources that you import into your workflow. Assoicate new information with active projects instead to drive more actionable insight.
+
+* Design
+
+** Overview 
+
+- Single page to keep everything, titled [[id:E8B03D08-5BF9-4542-816C-D44FF1D458D7][Life]].
+
+- Inside Life, we have the following Areas: Health, Fun, Family, Money, Spirit.
+
+- Each Area has a 6-month, 12-month, and 24-month Vision, updated every 6 months aligned with the year turning, aka New Years' Resolutions.
+
+- To execute against each Vision, Areas move through phases. Discovery, Execution, Maintainenance.
+
+- While in Discovery, we explore, we read, we learn and decide why something is important to us. We strive to have conviction that we are spending energy in the right way. We create Objectives that reflect the reality we would like to create.
+
+- In Execution, we turn Objectives into smaller measurable Goals, and create Projects against those Goals. To reach those Goals we create Tasks in the style of Getting Things Done (contexts, next actions, etc).
+
+- Once all Objectives have been met, the Project moves to Maintenance. We define the desired Maintenance state, what Tasks are required to keep it, and the interval for which they are created. We create these as scheduled in the future.
+
+** Tactics
+
+- Each day, I login to my computer and open up that day's Daily Log.
+
+- If there are any Maintenance tasks, I see a reference to that Area as a backlink. If I can't do it that day, I easily push it off to tomorrow, the next day, or skip it entirely.
+
+- I record timestamps and activites of what I'm doing in my Daily Log, using it as a jump point to add entries into my Zettalkasten.
+
+- To review my tasks for the day, I view all @now projects in org-agenda. @now is combined of @next, @maintain.
+
+- To begin working from zero, I review my Areas and label Projects as @next. I record any ongoing maintainenance tasks as @maintain.
+
+- As I'm working on Projects, I tag the appropriate Project page in my Daily Log and describe what I'm doing. I use org-agenda views to see the tasks for that project, and mark them complete. 
+
+- As I'm working on Projects, I am also tagging various resources across the Internet. These are streaming into my Daily Log in the form of backlinks to the Inbox via Readwise.io. As I see the backlink come in, I open the Inbox in another window, and rewrite into my Zettalkasten or refile as a Task or Project.
+
+- As Tasks are completed, Objectives are reached. We close out Projects but don't worry about creating new work until the end of the week.
+
+- Every Sunday, I review where I'm at. Did I make progress against my projects? Do I need to change directions? Did I have the right allocation of work to balance all Areas and be well rounded? I setup the next week with the right @next tasks, and look ahead at what's coming up to @maintain.
+
+*** Tasks
+
+Tasks have the following states:
+
+NEXT - marked as the next thing I can do for the Project
+TODO - general backlog todo
+WAIT - someone owes me something (we are "blocked")
+DONE - yay we finished it
+DUPE - duplicate of some other work we thought we'd do
+CANC - cancelled
+SKIP - I delibertly decided to skip this, likely a maintenance task I'm okay with not doing
+
+*** Projects
+
+Projects can have the following states:
+
+NEXT - marked as the next thing I can do for the Objective
+SOME - something I'd like to do someday
+WAIT - someone owes me something (we are "blocked")
+DONE - yay we finished it
+CANC - cancelled
+
+*** Files on disk
+
+- "Project" work
+  - In Discovery phase, we write Objectives of what we want to be true.
+  - In Execution phase, we write Projects defined as individual notes, with Tasks attached to the note.
+
+- "Ad hoc" work
+- Tasks are also created in Daily Logs as ad hoc work arrives.
+  
+*** org-agenda views
+
+- View of all tasks
+- View of @wait, @maintain, @next
+- Each project should have a view automatically
+- View of all @home, @computer, @phone, @car, @greg, @amanda tasks (@contexts)
+- View of all inbox tasks (@inbox)
+- View of all "unassigned" tasks (TODO but not attached to a project)
+
+* Appendix
+
+** Importing resources from the outside
+a
+- Each hour, we import in the latest highlights and fleeting notes from Drafts, readwise.io, and email into "emacs@dustinlyons.co".
+- Imports are dropped into the Inbox and a backlink is created to the Daily Log.
+- Each Inbox entry is a template, describing the "message", where it came from, etc.
+
+** Creating a static site to read on my phone
+
+- Each hour, we generate a view of the world so that we can browse and access everything from our phones.
+
+- org-roam notes are rendered via netlify and Hugo, and then self hosted by our own VM infrastructure, and we access it via our own VPN.
+
+** Deciding on how much work to take on
+
+- TBD
+
+** Vocabulary
+
+*** [[id:E8B03D08-5BF9-4542-816C-D44FF1D458D7][Life]] - Jump off point for each day
+*** Area - Where I want to focus my energy, has standards of what I expect
+*** Objective - Goal I want to obtain
+*** Maintenance - Something I always have to do, defines Tasks after all Goals are complete
+*** Project - Execution plan against a Goal
+*** Task - Unit of Execution, in Projects or Maintenance
+*** Inbox - Entry point for Workflow (Readwise, Drafts)
+*** Daily Log - Entry for daily activities, thoughts, everything
+*** Brain - my Zettelkasten note library
+*** Note - Log entry in Daily Log (fleeting)
+*** Resource - Durable entry in Brain (literature, conceptual)
+*** Autopilot - Not being intentional with our time and thus not being effective at reaching our Goals
+*** Zeroed - Focused, our own internal "Inbox Zero"

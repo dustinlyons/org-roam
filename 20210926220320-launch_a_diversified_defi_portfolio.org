@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       5805a376-5ed4-49db-87dd-3c64c6ceba3f
+:END:
+#+title: Launch a diversified Defi portfolio
+#+filetags: Project
+
+* Goals
+
+Own a set of defi tokens that generate income
+
+* Tasks
+
+** NEXT Decide on amount of capital and DCA for one week

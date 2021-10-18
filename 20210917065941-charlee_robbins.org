@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       c49fcb5b-247d-494c-8947-d283ea285565
+:END:
+#+title: Charlee Robbins
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Loan officer at Chase Bank
+Phone:
+Address:
+Birthday:
+
+* Notes
+
+ 

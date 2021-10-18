@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4f02ff3d-951d-435a-bdba-50b976a49b9c
+:END:
+#+title: Finish Mandalorian
+#+filetags: Project
+
+* Goals
+
+Finish Star Wars: Mandorlian! Foundation will also be on.
+
+* Tasks
+
+** TODO Watch one episode of TV (Star Wars)                           :@Home:

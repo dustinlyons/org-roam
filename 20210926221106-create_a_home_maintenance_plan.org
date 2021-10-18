@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       6b964349-250e-448e-b126-a103cd4de41d
+:END:
+#+title: Create a home maintenance plan
+#+filetags: Project
+
+* Goals
+
+Crate a calendar of home maintenance tasks
+
+* Tasks
+
+** TODO Create a list of tasks for each month                 :@Home:@Amanda:
+        - https://www.nytimes.com/guides/realestate/home-maintenance-checklist
+
+* Resources
+    - Find opportunities for delgation / hiring others

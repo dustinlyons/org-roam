@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       276C5B52-8CDF-419A-958B-D85E5EC89003
+:END:
+#+title: Tailwind CSS
+
+Tailwind CSS is a framework for making websites, focused on keeping you in code instead of working in Photoshop, Figma, etc.
+
+I plan on using it with a CMS for scaling blog content.
+
+* Tutorial Notes
+
+** 

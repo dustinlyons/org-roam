@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       0EA6533A-15EA-4652-A808-DF5352B21698
+:TYPE: PERSON
+
+:END:
+#+title: David Wilson
+#+filetags: CRM Person
+#+github: https://github.com/daviwil
+
+* David's emacs configuration
+
+I used this configuration as a learning resource for developing my own. https://github.com/daviwil/dotfiles/blob/master/Emacs.org
+

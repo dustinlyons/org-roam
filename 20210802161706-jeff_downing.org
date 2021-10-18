@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       800FF0B1-6D2B-493A-B141-C0700754B749
+:TYPE:   PERSON
+:END:
+
+#+title: Jeff Downing
+
+* Contacts
+
+Relationship: [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]]
+Phone:
+Address:
+Birthday:
+
+* Notes
+
+ 

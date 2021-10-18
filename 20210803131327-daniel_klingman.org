@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       769ECCDF-730A-4F74-B71D-C0E2CADB22A9
+:END:
+
+#+title: Daniel Klingman
+#+filetags: CRM Person
+
+* 1x1
+
+** Next up
+
+*** Talk about RxSearch project, take some notes on decisions

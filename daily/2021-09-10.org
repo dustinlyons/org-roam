@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       72e89aa0-0a92-4648-b1ce-bbf353216619
+:END:
+#+TITLE: 2021-09-10
+#+filetags: Daily
+
+* 07:10:48
+
+Starting the day early. Today, I need to help clean up the house, work on Bitcoin Noobs and my productivity workflow, and review finances / buy stuff we need.
+
+* 09:34:39
+
+Amanda registered our new [[id:e8d2c28d-5ea1-46b2-acb9-eee76e99d63d][Bosch]] dishwasher.
+
+* 09:35:57
+
+[[id:a8290213-3af8-4c76-b6a1-01a7a7af5fe3][Dario Martinez]] recommended an [[id:D5951A75-FCE5-44D6-A820-A0257E70BCC4][IFS]] audio series on spirituality.
+
+* 16:13:02
+
+Missed a meeting at ScholarRx this morning. It's like the fourth one. I have to have to have to spend time to get organized. This isn't working, and I love emacs -- to death -- but having it buried away isn't working either.
+
+I need these pages hosted somewhere.
+
+* 17:11:02
+
+Some [[id:33e8ff49-444d-492d-8475-8a3bbb5fb2db][battery life]] tips for when I install my own *nix on this laptop.
+
+* 17:21:24
+
+Dumping list of what I need to for ScholarRx.
+
+1. Make inventory of services, dependencies, based on code
+2. cypress.io POC
+3. Create new stories based on requirements (Matt's report, Flash Facts / Study Stream report)
+4. Update tracker with latest work
+5. Send out email on canceling weekly meeting
+
+* 17:27:21
+
+** Ideas
+
+Drafts list, how to get into Daily Note and Inbox?
+Agenda list -- how do I quickly see different views, jump between them, and mark things done?
+How do I quickly add new tasks? (or I won't do it)
+How do I get links I tag into my Daily Note, and a workflow for getting them into my brain?

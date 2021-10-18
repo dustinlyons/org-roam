@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       0087aa88-4f5e-4c5a-9cff-c03b202757e6
+:END:
+#+TITLE: 2021-09-16
+#+filetags: Daily
+
+* 00:01:58
+
+Github Projects, Wiki now setup... feeling great! Now let's find some themes or start taking Tailwind class.
+
+* 01:10:54
+
+** Listening to [[id:007091F7-5069-4037-93AF-BCBCBC572833][Into the Cryptoverse]] for tips over next few months +
+
+- We will see if Bitcoin tests 20W again.
+- If it doesn't, we'll speculate we arean't going to get one in the short term.
+- Every 20 week test... leads to 6x. Not true. We don't know what is going to happen.
+- DCA under 0.5 risk level... admit we can't time the market.
+
+* 13:01:15
+
+Listening to the new AZ album and jumping into some Bitcoin Noobs... still not using org-agenda to the fullest.
+
+* 14:49:37
+
+** Meeting with [[id:d9c531ed-27ab-47e6-b006-1fa50d3a6245][Jose Pacheco]], [[id:F86C69F3-6DDE-4345-A206-F08F637FC313][Barry Rowe]], [[id:878d1bcc-9cfe-4d42-b7c2-37ee29212747][Brian Troncone]] of [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]]
+
+- Bricks content has "bombs" -- HTML in the content. Rich Text Editor puts whatever into the database.
+- QA looks at more content, HTML parse at that string. Once a release. First Aid Facts. Sometimes you can't even do the string conversion.
+- Decisions on how we do mobile/web work. 
+- Rewrite apps native iOS and native Android. Mobile has always been behind, always been catchup.
+- RxSearch may be the first time doing something in parity (mobile and web).
+
+* 16:04:57
+
+Moving back into Bitcoin Noobs for the last hour.

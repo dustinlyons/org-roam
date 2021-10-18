@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       F03B6E96-6BD5-4719-818C-6DD1312EEB78
+:END:
+#+TITLE: 2021-08-31
+#+filetags: Daily
+
+* 15:12:01
+
+** [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]] Alamanac meeting notes.
+- How does Fraizer's team use Dropbox? Understand that process.
+
+** [[id:D40AF73B-46F4-42EE-893C-B6B23B22CED0][Justin Klutka]] meeting
+
+Api project is the Monolith
+Make inventory of entire projects
+Where are the anti-patterns?

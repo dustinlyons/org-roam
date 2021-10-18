@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       9DE39843-790F-4386-8D4C-9A23D604A266
+:END:
+#+title: Delighted
+
+* Overview
+
+Delighted is a customer feedback platform that enables products to capture feedback (such as [[id:875D1B9E-1AD0-45F4-BCF3-8FA0CA6AF255][Net Promoter Score]]) and integrate that with other online tools and data warehouses.
+
+* ScholarRx survey detail
+
+- Name
+- Email
+- School
+- Promoter Score
+- Why did you rank us that way?
+
+** Explaining and giving more info
+** QMax to competitors, focus group
+** Testimonials
+** Support for future products and features

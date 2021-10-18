@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       A30E6FAB-2413-4895-83DB-01276735C2F7
+:TYPE:   RESOURCE
+:END:
+
+#+title: mortgage
+

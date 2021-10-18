@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9674C7C4-7873-455F-B958-3F154212536F
+:TYPE:   RESOURCE
+:END:
+#+title: smart home
+

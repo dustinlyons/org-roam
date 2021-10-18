@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID: 9C3F8E95-01B1-4C42-A520-E02BD3D8B809
+:END:
+
+#+title: Launch ScholarRx Analytics Program
+#+filetags: Project Active ScholarRx
+
+* Overview
+
+Launch the ScholarRx Analytics Program to where someone else inside the company has taken it over completely.
+
+** Launch a set of dashboards and reports to 3-4 stakeholders
+** Give a workshop and demo to the company
+
+* Tasks
+
+** DONE Flesh out task list of available ScholarRx work   :@Office:
+** DONE Create Heap segments for B2B/B2C                  :@Office:
+context: Microsoft Word notes
+** CANCELED Create spike stories for Daniel, Ashley                 :@Office:
+** DONE Update Tracker with relevant milestones
+** DONE Cleanup Heap reporting to be more organized                 :@Office:
+** NEXT Create outline of plan for company demo                     :@Office:
+** DONE [#A] Create epic for new reports                            :@Office:
+** WAITING [#A] Announce in All Hands about Analytics Meeting       :@Office:
+** WAITING [#A] Setup Office Hours with Julie                       :@Office:
+** TODO Verify data quality of school tagging source     :@Office:#Computer:
+** WAITING [#A] Meet with Matt to go over data after it's fixed :@Office:#Computer:
+
+* Notes

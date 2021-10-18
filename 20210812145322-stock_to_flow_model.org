@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       CC990612-7785-42D2-8A13-B753230D6A90
+:END:
+#+title: Stock to Flow Model
+
+* [[id:007091F7-5069-4037-93AF-BCBCBC572833][Into the Cryptoverse]] video with [[id:60E070C4-12C2-42D3-8DFB-CF42BD99A2F8][PlanB]] explaining the Stock To Flow Model
+
+Link: [[youtube.com/watch?v=sWXnUc8IMLs][YouTube]]
+
+Essentially, it's a simple linear regression model of scarcity, defined as "stock to flow", and the value of Bitcoin. PlanB created it by looking at asset models of how they compare gold, silver, platinum, etc.

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       354E19F6-2415-421D-A154-53E54604CB6A
+:END:
+#+title: Credit Karma
+#+filetags: Institution CRM
+
+* Contacts
+
+Relationship: Employer
+
+* Notes
+
+ 

@@ -1,0 +1,82 @@
+:PROPERTIES:
+:ID:       b0a4b6f6-ba10-4966-b033-ae0fe5ac19f5
+:END:
+#+TITLE: 2021-09-14
+#+filetags: Daily
+
+* 00:02:29
+
+Office was setup yesterday and I'm super pumped about it. It's nice to sit at a desk that's my own, working on what I want. Let's keep it going!
+
+713 Braeview, I've resigned to the house. It's won. Just too much work, that's going to take "too long". Just one project at a time, that's all we can do...
+
+Ugh. I also signed my offer letter with [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]] today, which is a big deal! I'm now working 4 hours a day. 
+
+[[id:2E154EDA-B357-461B-981E-7D6C2A959382][Create a Daily Schedule]]. That's something we need to work on.
+
+* 01:39:22
+
+** Looking for good links for buying keycaps. + [[id:8e73788b-9b35-421f-87b7-f36f794a19eb][Keyboards]] 
+
+https://www.alexotos.com/keyboard-vendor-list/
+
+KBD Fans
+Novel Keys
+Kinetic Labs – Keyboards accessories
+Space Cables – Keycaps, cables, and accessories.
+Omnitype – Accessories,  keycaps, & more.
+Novelkeys – Parts, kits, & accessories.
+Mechanical Keyboards
+The Key Dot Company
+Originative Co
+Cannon Keys
+Prime Keyboards – Parts and accessories
+Little Keyboards – Parts and PCBs.
+Keycult – Premier High-end Keyboards.
+Ringerkeys – Lube and accessories.
+Clawsome Boards – Keyboard parts and macro kits!
+Divinikey – Parts & accessories – ALEXOTOS 5% off
+Prevail Key Co – Lube, parts & accessories.
+Bolsa Supply – Keyboards parts.
+LastPadawan – Keyboards and accessories.
+Vala Supply – Keycaps and accessories.
+Keeb.io – Parts, kits and more!
+415Keys –  Keyboard parts and switches.
+Typr.tools – Parts and accessories
+3dKeebs – Parts & Accessories
+American Haptics – Keycaps and silicone work mats.
+Thockeys – General parts & accessories
+1upkeyboards – Kits, parts & accessories
+Dangkeebs – Keyboards, parts & more
+Flashquark – Keycaps & various parts
+eType – Acrylic Keyboards
+Stupid Bullets Tech – Keyboard accessories
+Keyspensory – Keycaps and more!
+Bespokekeys – Keyboard parts and accessories.
+CFTKB – Keyboard kits
+cbkbd – Keyboard Kits
+Keebz – Keyboard parts & Accessories
+
+* 02:47:47
+
+Finding resources for the [[id:5a008fdc-1c2c-4b83-989c-54cc75b47b93][Capstone]] group to study Nuxt. Sent out my first email.
+
+https://www.netlify.com/
+https://www.netlifycms.org/
+https://nuxtjs.org/blog/going-full-static/
+https://mtlynch.io/simple-vue-pre-rendered/
+https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/
+
+* 15:50:09
+
+Worked on [[id:2E154EDA-B357-461B-981E-7D6C2A959382][Create a Daily Schedule]]. I have something I like, now I need to put it into action. To do that I need a workflow.... org-agenda.
+
+Let's work on that next.
+
+* 16:12:35
+
+Working on [[id:E8B03D08-5BF9-4542-816C-D44FF1D458D7][Life]] baby...
+
+* 17:45:30
+
+Thinking of places to [[id:8c1a3d01-03d0-43ed-a337-4bcf8190bc5f][travel]]. [[id:a3cee0d9-a930-4dfd-b5f9-de431a916002][Otter's Pond]] is on our [[id:5c8b0d09-c848-441e-ba1a-b66ed9299d54][bucket list]].

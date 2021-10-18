@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       42db1f59-eed8-40de-bb69-5444fbc23982
+:TYPE:   RESOURCE
+:END:
+
+#+title: AppImages

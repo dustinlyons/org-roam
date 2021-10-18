@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       EC970BBC-4298-4445-AEE1-2C18D9113E0F
+:END:
+#+TITLE: 2021-08-10
+#+filetags: Daily
+
+* 12:00
+
+Met with [[id:176761FB-A7F3-4BBA-98E1-CBF51FF13CA8][Julie Metzinger]] and discussed painting the recessed lights in the primary bedroom, and replacing the front recessed light in the foyer with our light fixture.
+
+* 14:46:24
+
+Had a meeting with Brian, Art ([[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]]) on finalizing their release process.
+
+* 14:50:22
+
+Need a good workflow to define the work I'm doing each day. Ugh. Gotta get there.
+
+* 18:41:09
+
+** DONE Add templates for projects in org-agenda before adding the rest
+
+* 23:30:02
+
+Reading about how to make [[id:0031c1e6-3b3d-4916-a3fd-80c0706a5bbd][Guix Linux]] fast on older hardware: ([[https://www.reddit.com/r/GUIX/comments/oj4y96/guix_system_on_old_hardware/][source]])
+
+"Guix is very write intensive, so reducing the amount of writes to your system will in turn reduce the load. Setting the mount option to noatime makes the computer much much faster. Using zram also increases the responsiveness. There was a recent patch I read on phoronix that should also increase the responsiveness on these old systems. The link to that is [[https://www.phoronix.com/scan.php?page=news_item&px=le9-Linux-Low-RAM][here]].
+
+What you can do with guix is package a custom linux libre kernel using the patch, and guix has tools built in to do that. Hope this helps."
+
+** DONE Outline our daily schedule and pick a date to start 

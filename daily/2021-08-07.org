@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       ecebe8e3-2b76-4704-9d17-1f7798a79160
+:END:
+#+TITLE: 2021-08-07
+#+filetags: Daily
+
+* 00:25:06
+
+Feeling more positive. Need to spend the time to dump my projects into org-roam. Feeling much better about my decision to make the jump into emacs.
+
+* 01:14:20
+
+** DONE Cancel Chase Sapphire Reserve CC by Sept 1
+** DONE Buy [[id:ABB1E9A5-22E6-4D4B-8A5E-10269A51ED66][Amanda Lyons]] birthday present
+** DONE Remove filters HasTodo from org-agenda
+
+* 02:39:38
+
+I found some great running shorts for when I run next. ASRV, with a cell phone pocket against your leg. +[[id:dd7e7c0a-c4f8-4d2d-b2b6-bf714124b859][Wishlist]]
+
+* 04:08:28
+
+Working on updating my [[id:E8B03D08-5BF9-4542-816C-D44FF1D458D7][Life]]

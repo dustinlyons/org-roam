@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       D40AF73B-46F4-42EE-893C-B6B23B22CED0
+:TYPE:   PERSON
+:END:
+
+#+title: Justin Klutka
+#+relationship: The Learning House
+
+* 1x1
+
+Discuss last meeting with Jose and team.
+
+** TODO Flash Cards should be going web. Content the user can bring in themselves. :Inbox:@Justin:

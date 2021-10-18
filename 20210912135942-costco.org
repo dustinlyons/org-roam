@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       7036058e-919b-4dfa-b460-0c1ecf053b07
+:END:
+#+title: Costco
+#+filetags: Institution CRM
+
+* Contacts
+
+Relationship: Store where we buy shit in bulk
+Phone:
+Address:
+
+* Notes
+
+ 

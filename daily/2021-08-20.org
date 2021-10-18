@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       28E7271A-1638-43C5-9CFC-1E852A6CC935
+:END:
+#+TITLE: 2021-08-20
+#+filetags: Daily
+
+* 12:48:31
+
+This morning I talked to dad to let him know I was concerned about him, I needed him to get help. I've worked to get to this point; to be able to stand up to my sister and dad and express to them confidently how I feel. I am very proud this morning.
+
+I love my dad but he has a serious drinking problem. Lindsay and my mom want to deny it; but the evidence is there. I'm doing what I only know how to do, and that is communicate what we will and won't tolerate. I won't tolerate watching him slowly kill himself. Until he goes into treatment I'm not talking to him. I'll drive him to treatment.
+
+* 14:47:37
+
+Notes from [[id:A346E0C8-EBF0-4A2D-800F-1A746B270853][Tech Weekly Meeting]].
+- Discussed release process again, need to focus more on git branching and how that works here.
+
+** CANCELED Need to find a way to quickly create a new project, and assign new tasks to it 
+** DONE Diagram out version 0 of ScholarRx Release Process        :#Computer:
+** DONE Setup meeting with Daniel/Art to gather info on current branching strateegy :#Computer:
+** DONE Create quick Identity reports of school users             :#Computer:
+** DONE Setup meeting with Matt to review Identity reports of school users :#Computer:

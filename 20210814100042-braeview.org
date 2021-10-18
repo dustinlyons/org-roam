@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:       72A08182-0C7F-45C6-801F-B72D818E4B36
+:END:
+#+title: Braeview
+#+filetags: Area
+
+* Move In Planning
+
+** Target Run
+** Receive Mattresses
+** Move in furniture
+
+*** Isaiah's Room
+- Bring up the chair
+- Buy a rug
+*** Shower curtain
+- Buy a shower liner, shower curtain
+- Buy a shower rug
+*** Living room
+- Install rug we own
+- Put together couch we own
+- Install TV on wall
+*** Guest Room
+- Bring up rug
+- Bring up guest room bed, put it together
+- Bring up old master dresser
+*** Primary Bedroom
+- Buy king sheets, king comforter, pillows
+- Buy a rug
+
+** Lowe's List
+*** DONE Hose clamp for dryer
+
+
+* Minimum Viable House
+
+** Greg's spreadsheet
+** Garage unpacked, clean/organized, parking + Tesla charger
+** Child proof electric outlets
+** Child proof corners and rough edges
+** Install child gates at basement, top of stairs 
+** Install window hardware everywhere
+** Install nightstands in Primary Bedroom
+** TVs are hung
+** Rugs are installed in a few key rooms
+** Playroom is setup with toys + toy storage
+** Office is setup with our current desk, monitors, etc
+** Mechnical room clean, emptied
+** Basement deep cleaned
+** Wiring is fixed, APs are installed everywhere
+** Basic landscaping (edging, cleaning, plant grass seed in fall, removal of brick/material)
+** Kitchen is setup with stools, cooking supplies
+** Pressure wash and seal decks
+** Pressure wash fence
+** Clean and seal tile
+* DONE [#A] Prepare for handy man with measurements                   :@Home:
+* DONE [#A] Test and/or fix the wiring behind Primary Bedroom TV      :@Home:
+

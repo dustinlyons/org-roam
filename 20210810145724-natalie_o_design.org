@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       30BA1587-B1F4-4B53-9B7C-7527A8F9FFE5
+:TYPE:   INSTITUTION
+:END:
+
+#+title: Natalie O'Design
+

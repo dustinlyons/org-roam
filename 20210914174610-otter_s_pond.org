@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       a3cee0d9-a930-4dfd-b5f9-de431a916002
+:END:
+#+title: Otter's Pond
+#+filetags: Institution CRM
+
+* Contacts
+
+Relationship: Bed and breakfast on our bucket list
+Phone: 360-376-8844 
+Address:
+Link: https://www.otterspond.com/
+
+* Notes
+
+ 

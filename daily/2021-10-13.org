@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       f0f146c7-d649-4968-9393-ea8245d30f2b
+:END:
+#+TITLE: 2021-10-13
+#+filetags: Daily
+
+* 14:36:28
+
+Moving things around on my disk, settled on a /data directory so that my /home directory is something I can avoid. I"ll just create links there and use it as a central hub, but my real state lives in /data.
+
+Getting my machine to MVP, which means package manifests and sym links in home directory. Then I think I'm good to move on to other projects.

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8e73788b-9b35-421f-87b7-f36f794a19eb
+:END:
+#+title: Keyboards
+
+A place to start capturing various resources are mechnical keyboards.

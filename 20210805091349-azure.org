@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       6ADF8FDF-7F29-4A17-9B30-C72E117C4BBD
+:END:
+#+title: Azure
+
+Azure is Microsoft's cloud platform.

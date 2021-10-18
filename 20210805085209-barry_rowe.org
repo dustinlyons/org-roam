@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       F86C69F3-6DDE-4345-A206-F08F637FC313
+:TYPE:   PERSON
+:END:
+
+#+title: Barry Rowe
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7abe9a5b-f79b-4fe9-95e0-4aa0a5ae4867
+:ROAM_ALIASES: Guile
+:END:
+#+title: Scheme
+
+Programming language for Guix.

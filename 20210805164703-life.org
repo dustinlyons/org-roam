@@ -1,0 +1,78 @@
+:PROPERTIES:
+:ID:       E8B03D08-5BF9-4542-816C-D44FF1D458D7
+:END:
+
+#+title: Life
+#+filetags: Workflow
+
+I'm walking in this direction. See [[id:F355F26D-E4E5-4CF5-99EA-E77846D47FAF][Workflow]] for how I accomplish it.
+
+* Projects
+** Family
+*** Isaiah
+**** TODO [[id:303d1ee8-22d8-4c51-9694-de5af9df6ae6][Create and schedule Dad+Son activities]]
+
+*** Amanda
+**** TODO [[id:0c84d7d5-0587-4bdc-8181-78bed0918801][Make date night a habit]]
+*** Future
+**** TODO [[id:9b16dfa9-5723-42c4-995d-df9b86d6c005][Finalize estate plan]]
+
+** Fun
+*** Friends
+*** Hobbies
+**** TODO [[id:0247b298-686f-4dba-a70e-595f155f30ed][Finish Dark Souls III]]
+**** TODO [[id:4f02ff3d-951d-435a-bdba-50b976a49b9c][Finish Mandalorian]]
+**** TODO [[id:0ecaa0fe-6c10-4616-a4d5-a0f7d69e502c][Finish Mistborn]]
+**** TODO [[id:2a0d1692-9505-42bb-9914-75971cb5fd37][Learn Guile Scheme for Guix]]
+
+** Health
+*** Fitness
+**** TODO [[id:E674CBFC-05FB-4AED-BA3E-A37CB29202DB][Start an Exercise Routine]]
+**** TODO [[id:C58AE821-EC2F-4ABC-A934-7D3D0266ACE2][Become a Mountain Biker]]
+
+*** Nutrition / Body
+**** TODO [[id:96ad6263-8041-45c1-afc0-c24d260ade5c][Be Intentional About Food]]
+**** TODO [[id:fdc6bec4-17a1-445b-a345-3c13d1b8d913][Create and maintain a skin care routine]]
+
+*** Mental
+**** TODO [[id:57ffe0cd-e169-446d-9b36-97c2c8f1b575][Start a meditation routine]]
+**** TODO [[id:5f31d0c5-f16c-43c8-a1fb-f9609c717e14][Create and maintain an IFS journal]]
+
+** Money
+*** [[id:72A08182-0C7F-45C6-801F-B72D818E4B36][Braeview]]
+**** TODO [[id:3ADE72AA-53E6-49FB-A71B-C1C4497D9076][Create a Smart Home]]
+**** TODO [[id:6b964349-250e-448e-b126-a103cd4de41d][Create a home maintenance plan]]
+**** TODO [[id:ba04cbfc-5a05-41d2-ab97-281500131eb1][Refinish Garage Door]]
+**** TODO [[id:5b3aed6a-45c3-4b55-b460-5b0dff381b2c][Create automated file and photo backup]]
+**** TODO [[id:169acc85-2d59-429a-b3b7-8f3598bbb218][Refinance Construction Loan]]
+
+*** Productivity
+**** TODO [[id:2E154EDA-B357-461B-981E-7D6C2A959382][Create a Daily Schedule]]
+**** TODO [[id:2593B695-336F-4485-87CE-8480C320D066][Create an Emacs Workflow]]
+**** TODO [[id:ad505c74-11bb-4a54-b953-610b60cbcdc8][Create Daily Note Pipeline]]
+
+*** Investing & Budgeting
+**** TODO [[id:4C767002-FD20-4096-9F35-05269E6A6976][Build a Financial Data Spreadsheet]]
+**** TODO [[id:5805a376-5ed4-49db-87dd-3c64c6ceba3f][Launch a diversified Defi portfolio]]
+**** TODO [[id:866edfc2-f4e7-4472-89a7-d8954cf94daa][Purchase a Tesla Model 3]]
+
+*** Zeroed Labs
+**** TODO [[id:224e71af-f7e9-413b-bcb4-a783ab3f8014][Organize 2021 Business Taxes]]
+**** TODO [[id:f8304e05-9a06-42b3-8965-7fd8ae7c176d][Reduce our legal liability]]
+**** TODO [[id:00c29f40-e552-4b90-aa9d-ebc148a68208][Launch Bitcoin Noobs]]
+
+*** ScholarRx
+**** TODO [[id:9C3F8E95-01B1-4C42-A520-E02BD3D8B809][Launch ScholarRx Analytics Program]]
+**** TODO [[id:12729c25-ea83-4702-a23e-f6f75c345b50][Create Test Automation POC]]
+**** TODO [[id:c1453c23-fc74-4a6e-a62c-9c4aafbfbf1e][Build Master Architecture Diagram]]
+**** TODO [[id:c607207a-65c7-439f-9efb-1cb96f2ccf54][Build Relationships with ScholarRx]]
+
+*** Blogs
+**** TODO [[id:3c252bb7-25f6-4678-905a-19a16cb7a06d][Launch personal blog site]]
+
+** Spirit
+*** Buddhism
+
+* Areas
+** Stuff
+*** [[id:163f7aff-307e-40dc-bbc1-1cf56bacbac8][Maintain the Tesla]]

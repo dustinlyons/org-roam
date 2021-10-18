@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       C74FDB62-51C7-4746-9EDD-4AF0C3B42670
+:END:
+#+TITLE: 2021-08-24
+#+filetags: Daily
+
+* 01:48:10
+
+Emacs.
+
+* 02:35:00
+
+[[id:af0cde3c-b64e-49f2-b1e1-3f4a03ed2f31][DustinOS]] upgrades. Spent some time looking at server chassis for my rack mount.
+
+* 13:30:00
+
+** Meeting with [[id:BCDD50DD-B059-4B21-BAFE-002D8F75E642][Matt Harris]].
+
+*** First meeting
+- How they are using the platform?
+- hasFacultyRole for this account is = 0
+- Need to track the Faculty Portal -  faculty.scholarx.com
+
+*** 2nd meeting
+Rebecca -- customer success, alerts
+Contracts renew every year, 1 year renewals
+As we're coming up to renewal, to come up with some report
+Here is a snapshot of everything you did over the platform
+
+Are we getting a return on this invest? We proactively send them a report. You're getting the bang of the buck.
+
+Named reports:
+
+    Faculty Usage Report
+    Return on Investment Report
+    Customer Success Reports & Alerting
+
+Matt's access
+
+Students are secondary, not as important
+
+Scale -- we have our hands full, getting contracts signed, doing onboarding, and doing training
+Beyond that we don't have visibility, how students and faculty are actually using
+To what degree, on a regular basis
+
+To give us a little bit of a visibility into the utility of that school
+
+

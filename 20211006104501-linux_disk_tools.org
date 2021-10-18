@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d7eba114-050a-4e3e-b500-6c52f703ff5c
+:END:
+#+title: linux disk tools
+
+Many ways to skin a cat, er disk, in linux.

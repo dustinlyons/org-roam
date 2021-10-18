@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       0527cd93-53c0-4da0-b967-1d30b54571be
+:END:
+#+title: Brad Fitz
+#+filetags: People
+
+Created Go programming language

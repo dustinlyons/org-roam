@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       1045d532-543f-4312-9e6d-7854675d4942
+:END:
+#+title: Git Lab
+#+filetags: Institution CRM
+
+* Contacts
+
+Relationship: Supports open source, git repository provider
+Phone:
+Address:
+
+* Notes
+
+ 

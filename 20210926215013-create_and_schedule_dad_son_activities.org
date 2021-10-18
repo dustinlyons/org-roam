@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       303d1ee8-22d8-4c51-9694-de5af9df6ae6
+:END:
+#+title: Create and schedule Dad+Son activities
+#+filetags: Project
+
+* Goals
+
+Setup 2-3 activities for just you and Isaiah.
+
+* Tasks
+
+** NEXT Sit down and brainstorm (write) 5-10 dad/son activities   :#Computer:

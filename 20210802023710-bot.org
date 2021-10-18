@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       9ec4905d-4460-4a44-88e1-ffe4809b6417
+:TYPE:   RESOURCE
+:END:
+#+title: Chatbot Ideas
+
+* Ideas for my own bot
+
+** Create shopping list from recipe
+NLP to build list
+    "next week, we'd like recipe a, b, c, d and e"
+    create list, push to list service
+    can we automate to do auto grocery tasks ?
+    can we extrapolate a list to do shopping across 
+    amazon / grocery automatically?
+    needs a simple beautiful list app
+
+** Help with finance tasks
+    can we automate filing expenses with our work ?
+    can we leverage some fabric bot?
+    simple budgets, let me know about changes
+        daily emails > filter in gmail for both
+        hangout message on important shit
+    ask how much we have left to spend in a budget ?
+    tell, can we move X amount from one budget to another?
+    what is the most available budget?
+
+** Drive water of plants via wireless watering kit ?
+    get status of health via voice
+    remind me after we've watered, update me on changes in status
+    can we detect how much light we received for the day ?
+        for score calculation
+        score = water + light + soil + ???

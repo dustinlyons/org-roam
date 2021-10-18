@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       acb0891a-1bdf-47b0-9213-37954aaf93c5
+:END:
+#+title: River City Bank
+#+filetags: Institution CRM
+
+* Contacts
+
+Relationship: Loan provider for Braeview
+Phone:
+Address:
+
+* Notes
+
+ 

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       875D1B9E-1AD0-45F4-BCF3-8FA0CA6AF255
+:END:
+#+title: Net Promoter Score
+

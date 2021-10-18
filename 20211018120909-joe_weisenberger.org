@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       0b26d9b4-1dd2-402b-854f-4cf158ccd2c5
+:END:
+#+title: Joe Weisenberger
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Long time friend
+Phone:
+Address:
+Birthday:
+
+* Notes

@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       433f8227-80ac-4cc4-a12a-ba19c41df69d
+:END:
+#+TITLE: 2021-09-08
+#+filetags: Daily
+
+* 02:24:29
+
+TV is up! I'm watching Akira.
+
+* 12:04:20
+
+Okay, pulled an all nighter and fixed some more cables. Learned so much about wiring CAT6 cables (yay?). Need to sit down and get my workflow back in order now that I'm officially starting with Justin, and moved into my house.
+
+Hack the planet.
+
+On [[id:96ec8386-a3e5-4e63-9103-0ddaa8960b4e][2021-12-01]]: Reach out to [[id:df4d88ec-d205-4b73-b143-ad4f20aa6319][Stripe]] and ask for payment limit increase.
+
+* 14:55:33
+
+** DONE [#A] Take out covers over ducts before COIT appointment

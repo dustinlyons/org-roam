@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       20124708-3a6b-4a4a-a886-8a28178db682
+:TYPE:   PERSON
+:END:
+#+title: Dave Mccoy
+#+phone: 415-420-3059
+
+

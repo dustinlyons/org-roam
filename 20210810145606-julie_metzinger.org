@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       176761FB-A7F3-4BBA-98E1-CBF51FF13CA8
+:TYPE:   PERSON
+:END:
+
+#+title: Julie Metzinger
+#+phone 502-649-5222
+#+relationship: Braeview
+
+Julie works for [[id:30BA1587-B1F4-4B53-9B7C-7527A8F9FFE5][Natalie O'Design]].

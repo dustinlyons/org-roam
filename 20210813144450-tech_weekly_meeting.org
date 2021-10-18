@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       A346E0C8-EBF0-4A2D-800F-1A746B270853
+:END:
+#+title: Tech Weekly Meeting
+

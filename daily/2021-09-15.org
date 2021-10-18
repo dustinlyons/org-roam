@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       186e8488-ec38-4fc8-9539-705dae06463c
+:END:
+#+TITLE: 2021-09-15
+#+filetags: Daily
+
+* 01:32:09
+
+New day. We doing this. Also, I need to use my [[id:61199769-8c15-4a0d-972c-e31bd00ce4dd][leader key]] more...
+
+* 01:39:48
+
+Working on [[id:00c29f40-e552-4b90-aa9d-ebc148a68208][Bitcoin Noobs]], initializing the git repo to share with the rest of the team. Watching Akira while on our green couch in the living room.
+
+* 02:23:21
+
+Thinking... with Netlify, and rebuilding the site over and over, can we invalidate on the cache and refresh the page, live? That way on the pricing page, we can also change the title bar text. +[[id:5a008fdc-1c2c-4b83-989c-54cc75b47b93][Capstone]]
+
+* 02:42:57
+
+Thinking of classes [[id:ABB1E9A5-22E6-4D4B-8A5E-10269A51ED66][Amanda Lyons]] and I could take around owning and operating a [[id:3bc16d0e-6361-49e1-8ecf-ff59f45e5cb2][blog]].
+
+Any great blogger business e-books?
+Courses on [[id:381edf46-fac4-44ef-902d-67ed34f6ec23][copy writing]]?
+How to win at SEO + How to win at semrush
+
+* 05:23:09
+
+Holy cow. Amazing progress. Outside of [[id:69C564A2-3AB7-485A-B395-AC6E51F02972][Isaiah Lyons]] waking up for a bit (sorry little dude), I cranked out a bunch of well defined Github projects that can scale out to the team, a-la bounty style, so they can get shit done easily. Hopefully it works.
+
+* 21:49:20
+
+Ready to smoke some pot and get into some Tailwind UI.
