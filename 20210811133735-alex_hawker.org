@@ -6,4 +6,4 @@
 #+filetags: People CRM
 
 Relationship: [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]]
-* TODO Talk to [[id:B0547623-034B-4C5F-9386-831CE6FFDB65][Alex Hawker]] about DevOps and native/web parity on features :Inbox:@Office:
+* DONE Talk to [[id:B0547623-034B-4C5F-9386-831CE6FFDB65][Alex Hawker]] about DevOps and native/web parity on features :Inbox:@Office:

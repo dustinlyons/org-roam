@@ -30,6 +30,23 @@ Building Brave packages and watching [[id:8EA04865-94A8-480A-8719-417C67F4355C][
 
 *** Thinking about contexts that are actually useful. Also what an [[id:9c445fdf-05c2-48fd-a731-7f4a8a8392cf][Ideal schedule]] looks like.
 
+**** Agenda
+Dashboard
+    Priority A
+    Inbox
+    Waiting
+    All
+Work - ScholarRx
+    Priority A + ScholarRx
+    Inbox + ScholarRx
+    All
+Work - Zeroed
+Work - Braeview
+Play (Games, Books, Emacs, etc.)
+Health
+
+Use pmodo timers on Work ScholarRx, Work Zeroed
+Force Health and Play tasks each week
 **** Contexts
 
 1. I'm in ScholarRx mode. --> White Board (Inbox), Emacs (Inbox), org-agenda
