@@ -4,7 +4,56 @@
 #+TITLE: 2021-10-18
 #+filetags: Daily
 
-
 * 12:08:59
 
 Good conversation with [[id:0b26d9b4-1dd2-402b-854f-4cf158ccd2c5][Joe Weisenberger]] at [[id:4e6843e9-eade-4922-a153-1ab927eb0d2c][Please & Thank You]] coffee this morning. He has started a baking business, 6Grains, and I'm going to help him think through digital strategy.
+
+* 14:34:07
+
+** [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]] Feature Flag Meeting
+- Global turn on/turn off everywhere
+- Have to hack the feature if you want clients to be turned on/off
+- This is good
+- All in the UI -- qa, dev, local. SuperAdmins, Admins, and Developers.
+
+** [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]] Bricks Life Cycle Meeting
+- Justin -- how do we find an immediate use case so we can see/use it? Not just a database table.
+- Creating content, how does it work? Where do we add this visual of bricks?
+
+  Create, Clone, Retire, Draft
+  Enhance this with more visual information
+
+* 15:59:17
+
+** [[id:D40AF73B-46F4-42EE-893C-B6B23B22CED0][Justin Klutka]] 1x1 Meeting
+*** Thing I did while you were out
+- Created new Heap Epic, meeting with Matt and Steve this week, regular meeting
+- On the Friday list, update last week was we were refining new requirements
+- Sending out All Hands reminder on Friday
+- 1x1s with Daniel, Ashley, Alex, Julie, many discussions with Kyle on Graph
+- Worked on Term Boxes, ran into problems Brian is going to need to step in
+- Cleaned up Heap (round 1, governance)
+ - Planning more education for Company Meeting
+
+*** How to manage Ashley?
+- Very direct, clear instruction
+
+*** How do we tag everything for Heap?
+**** [[id:878d1bcc-9cfe-4d42-b7c2-37ee29212747][Brian Troncone]] -- can we add IDs everywhere?
+
+*** Content Creation and Consumption in fixed time period
+Quarters -- high content consumption
+We can effect that, by increasing features that explore our content
+Or we release more content
+
+More Tao and more Matt
+Matt has specific revenue goals, walk us through the revenue goals
+Translate that
+
+How do we charge more and secure renewal?
+
+More meetings with Matt to setup KPIs
+Integrate the regular review of analytics into our product planning process
+
+What features, software do we need to build to bring them to green?
+Come up with a set of product focused revenue KPIs.
