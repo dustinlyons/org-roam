@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       c26d677e-e701-4d9e-882f-ed3e20cc0715
+:END:
+#+title: Arthur Guepe
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: ScholarRx Infrastructure Guy
+Phone:
+Address:
+Birthday:
+
+* Notes

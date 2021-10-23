@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       a3dd0810-86da-45e2-95fd-e09ce7b6e2cd
+:END:
+#+title: IFS Exercise

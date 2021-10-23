@@ -1,0 +1,77 @@
+:PROPERTIES:
+:ID:       7e955f71-4f7d-4ddf-b4e4-dd484e0a2d8e
+:END:
+#+TITLE: 2021-10-20
+#+filetags: Daily
+
+* 13:37:59
+
+Brain dump for today.
+
+Starting to feel happier and learn what it is I need to be doing, to be happy. Such as...
+
+1) Putting myself on a track where I'm learning, growing, and building cool shit. Feeling "that feeling".
+2) Having fun. Playing video games, reading, watching TV with Amanda.
+3) Being a good husband and dad. Feeling pride from that.
+4) Taking care of myself. Physically, mentally. Eating, journaling, exercising.
+
+   I just listed: Work, Play, Family, Health. This maps to my agenda notes the other day.
+
+* 16:25:13
+
+** Notes from 1x1 with [[id:c26d677e-e701-4d9e-882f-ed3e20cc0715][Arthur Guepe]]
+
+- Our edge is defined by Traffic Manager.
+- We are in South central azure datacenter.
+- We use "App Plans"
+    Prod API APP Plan -- Application Plans, it gives you a website
+    App Plan, dedicated server -- 3 servers, managing API
+    Prod Identity APP Plan
+    Prod APP Plan
+	Editorial
+	USMLE
+	Faculty Portal
+	Brick Portal
+	Search
+	Jobs
+
+    Docker
+
+	Typeahead
+	Study Stream
+
+    Database
+
+	Prod-Elastic
+	Prod-Mongo
+
+- Art owns the subscription. Kyle can do everything but remove the subscription
+
+- Infra is self-healing, restarts itself, etc.
+- People have to go look into this and see what's going on.
+- SSO record was inserted wrong, and we had to update the records.
+- I get called with manual SQL updates.
+- Writing runbooks would be a good idea.
+- Temporary ID for prod access we give out.
+
+
+** Notes from [[id:aa1b7e0d-7783-4cf9-b47b-a9371f93f2a3][Aditya Acharya]] meeting ([[id:1f635cde-c9ce-4d3d-ae02-d2bbc8c4c591][Haven]])
+  JSON blob -- schema
+
+What tools should we use where? We have Google Analytics, don't use it anywhere?
+
+Fairly sophisticated
+    What tools
+    Our customers -- white label. Google Tag Manager
+    Facebook Analytics - Ad
+
+What report would make sense?
+Heap Analytics -- these companies
+
+Client side capture of Heap
+90,000 table
+
+Hotjar -- user sessions. Hotjar, Heap Analytics.
+Force redirect to log revenue, audit log
+
+Last piece, getting all of this data, how do we get people to look at it, who is analyzing it, data engineer, data scientist, data expert -- what is the right level of investment for now, 12 months from now

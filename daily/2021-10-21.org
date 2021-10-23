@@ -1,0 +1,268 @@
+:PROPERTIES:
+:ID:       7caa07ee-ba26-4b11-9af1-3c56917c7cf9
+:END:
+#+TITLE: 2021-10-21
+#+filetags: Daily
+
+* IFS Journal
+
+** What part felt online the most yesterday?
+
+** What did that part want? What did it need?
+
+* Log
+
+** 00:02:49
+
+*** Haven Proposal Final - 40 hours - $8,000 (+ [[id:1f635cde-c9ce-4d3d-ae02-d2bbc8c4c591][Haven]] )
+
+Overview
+I estimate around 40 hours, give or take. If we learn new information about scope along the way we can have a discussion on how we want to handle.
+
+I'll work with your team to create and publish your first set of "core metrics".
+
+(Rewrite this after rereading it one more time)
+
+These metrics will be written down in a data dictionary, tagged as important (i.e engineers be careful), with investment of some lightweight data quality monitoring.
+
+Breakdown
+
+    5-10 hours
+    Research for core metrics
+    * Me spending time in your product, understanding the roadmap
+    * Understanding your customers, understanding your business model,
+    * Understanding your goals
+
+    5-10 hours
+    Design of core metrics
+    * Internal core metrics, how do we capture them, how do we report them
+    * Not Google Tag Manager
+
+    20 hours
+    Create a proposal for analytics strategy and deliver it, refine it
+    Working with your team to integrate Haven data into Heap
+    * Build reports, finalize core set of dashboards
+    * Provide opinion on confidence of data, suggest data quality methods
+
+    5 hours
+    * Miscellaneous chat, follow up, emails, etc.
+
+Operations
+
+    I usually create a set of milestones to work against, and have weekly check-ins / 1x1s against those. Some companies have me have 1x1s with some of their engineers, but I don't think that is necessary here.
+
+Additional Notes / Appendix
+
+    What are Data Quality Monitoring Dimensions?
+
+        We can choose from these and invest where we think it's needed:
+
+            Accuracy
+            Completeness
+            Consistency
+            Timeliness
+            Validity
+            Uniqueness
+
+
+*** [[id:a3dd0810-86da-45e2-95fd-e09ce7b6e2cd][IFS Exercise]]
+Let's think about the part that was online, when we felt a little like "our old self", happy and somewhat purposeful I guess. Feeling not like "why am I here? What is the point of all of this?". Maybe, if I think about it, I've been searching for a bit of purpose and not finding it. And that is leading to some unhappiness.
+
+At any rate, the part.
+
+It was a San Francisco part, so something that I remember feeling back then. I had felt like I had a "smart" day and it was a 9-5 sort of day. I had an afternoon of meetings.
+
+This gave me the identity of someone who was in charge, who was leading, who was important, who had something other people wanted.
+
+    I realized that that part of me, the specific work-techie part, hadn't been online in a while. Even at the end of Credit Karma, I don't think I felt it.
+
+   So I just want to explore this part. [[id:a8290213-3af8-4c76-b6a1-01a7a7af5fe3][Dario Martinez]]
+
+** 03:16:02
+
+[[id:af0cde3c-b64e-49f2-b1e1-3f4a03ed2f31][DustinOS]] server idea: build farm. Run CI builds of my apps.
+
+** 03:18:12
+
+Old post on [[id:aed2f6ce-a37c-42c0-bca4-150387231da0][NixOS]] in [[id:5b27151b-c7cd-4fb5-8f1b-3be1466cc548][production]]:  https://www.haskellforall.com/2018/08/nixos-in-production.html
+
+** 10:10:27
+
+Stole this from [[id:d3cdcd56-dbe9-49e1-aea6-c1761fa7298d][Shreyas Doshi]]:
+
+Many talented & ambitious leaders spend their entire careers being underwater and overwhelmed with their work because no one teaches them the difference between Busy Problem Solving and Effective Problem Solving.
+
+
+*** What Busy Problem Solving looks like:
+
+See a problem
+↓
+Solve that problem
+↓
+Find next problem
+
+
+*** What Effective Problem Solving looks like:
+
+Whose problem is it?
+↓
+Should it be solved?
+↓
+Should it be solved now?
+↓
+Do we understand the root problem?
+↓
+Should we solve the root problem?
+↓
+What are the possible solutions?
+↓
+What are some non-obvious solutions?
+↓
+What new problems might our solutions beget?
+↓
+Are we fine with those problems?
+↓
+Who should own solving the problem?
+↓
+How will we know it is solved?
+↓
+How might we prevent such problems in the future?
+
+
+** 10:16:06
+
+Getting back to [[id:276C5B52-8CDF-419A-958B-D85E5EC89003][Tailwind CSS]] class. But let's look at our schedule
+
+** 16:02:33
+
+Took some measurements in the [[id:5d3fb8c1-86ed-458d-bfb2-3ed23981f576][Home Lab]] rack:
+- For the new home lab rack computer, the space we have is...
+    - 17.5 across, 14.5 depth
+    - If greater than 17.5, only have a 12 depth
+
+** 16:03:52
+
+Checkin against schedule.
+
+- Woke up at 9:15am, hung out until 10:15am :check:
+- Went to work at ScholarRx
+- Did some Zeroed Lab stuff
+- Hand lunch
+- Now I need to turn off work, ask the emotional / dad part to come out, put the work guy to sleep for a while
+- Dario at 6:15 though
+
+** 16:20:17
+
+I created this suboxone taper: [[id:31a1f318-15a5-4560-ae1e-a3fc917be714][Suboxone]]
+
+* 17:05:11
+
+End of the day... how do we want to close it out? Let's review all email and clean up the office.
+
+* 17:05:38
+
+** TODO Create org-agenda tag for Ideas, use different identifer to not mean "Context". And we can have types of ideas, maybe. :Inbox:
+
+** TODO Emacs org-roam idea: Scan daily files for any dates, add them to daily link :Inbox:
+
+* 17:16:29
+
+My late night brain dump...
+
+    Plan to revisit smart home, v2
+    Plan what light switches still need to be replaced
+    Security networks, etc
+    New 🔑 in the mail: how to use it effectively
+    What scenes do I need? Fix the speaker problem
+    Buy more Sonos speakers (or not)
+    Listen to podcast
+    Organize work and clean plate to do tailwind + table
+    Do taxes!!!! And Amanda meeting + org agenda / Trello
+
+* 17:18:21
+
+Idea -- I like this [[id:ebae1958-abf7-4a52-9975-6c64b1868a8e][theme]] to be used as colors for something we swap in our style. We can swap and have Macs and Linux change at once! Let's do it!
+
+https://raw.githubusercontent.com/iqbalansari/emacs-emojify/master/screenshots/emojify-in-action.png
+
+* 17:20:26
+
+End of day. Focus areas for us? Let's create this as a template and do this on our daily. Can we program dailies to show for different days?
+
+* [[id:898f47c5-1eac-4fdf-b8f9-81a3a6c84931][Close-out]]
+
+** ScholarRx
+
+ScholarRx -- Is Matt happy? Justin happy? Are you organized? Is the presentation / education ready for giving to the company? What is your demo / walkthrough / talking points?
+
+Need to practice at least twice before giving it.
+
+** Zeroed
+
+Read dude's email and respond to his job req. Organize org-agenda and get to what you're using that solely.
+Work with Amanda to get my taxes over to RD.
+
+** Braeview
+
+Get standing desk up, office cleaned up and camera working. Get keyboard put together, and one thermostat up.
+
+** Health
+
+Am I eating what I need to be? Let's think through food list / macros -- how to get them. Is the food scale downstairs? Let's get it and make a food list soon.
+
+*** TODO Make a grocery list for yourself based on macros           :Inbox:
+
+* 18:24:06
+
+Things to purchase if I need more [[id:d74ca95f-00b2-4cbb-96bc-f30323e3ef77][expenses]] this year: new monitor, APC for rack
+
+* 18:38:30
+
+** [[id:a8290213-3af8-4c76-b6a1-01a7a7af5fe3][Dario Martinez]] session
+
+- The reason I'm miserable is that I think it's not good enough. Embody exact part, doing what we've learned. Impact it's having on Amanda -- she is feeling judge.
+- We find the people that are going to help us work through it; she's calling me out on it.
+- Now you're back in my birth place. Going through a very intense time.
+- Underneath it all, deep insecurity. Always could do it better.
+- Is there a different way? Talking to the part. Instead of submitting to it, buying into the narrative. I'm the problem, continuning to call my mom and get her to feel better. Just stop buying into it. Not my job to make you feel better.
+- Changing my external family. Changed it by not continuning to enable it.
+
+- Two parts fighting -- academic, school, emotions, fun. The other part -- ego. Fight fight fight.
+- Two important questions we want to ask ourselves.
+
+- Sense of identity of well being and success is dependent on external factors.
+- I need a house, and a car, and a right job, to prove you are succesful.
+- All of that stuff goes away. We all die alone.
+
+- Massive wealth is mental illness. Jeff Bezos' dick is so small, he needs to prove I'm something.
+- But it's okay in this country, we make them into heroes.
+- Why is my sense of identity dependent on external things, I have no control over?
+
+ - Humbile, academic part is there. Senior Manager comes online, at highest end of spectrum, isn't emotional. It's completely driven over everything.
+ - Where am I on the spectrum?
+ - How to identity this? Connection. The key is connection. To other people, and to myself.
+ - When I'm in the nervous, academic part, I'm not connected to myself. Not seeing myself clearly. I am a leader. But when I go back to a part, I go back in time to a place. And beliefs about myself change.
+ - Recognize the feeling. What does the part feel like? When is it online? Then tell yourself. I am a leader. Remember, senior manager is there.
+
+  1. Connection to myself and other people. If I'm really deep in a part, I'm not conneted to myself. I won't see I'm a leader. If I'm only in the Senior Manager part, I don't care about people around me.
+  2. The feeling. How does each part feel?
+
+ BOTH PARTS -- academic/humble guy and senior manager guy both driven by insecurity. Academic guy isn't able to stand up for himself, he kinda goes along with everything. He submits. He doesn't know anything; he doesn't trust himself. That's why he has to study along. He's trying to show how smart he is. No value outside of how smart he is.
+
+ BOTH SIDES -- one side has humility, one has drive. If you can have drive with humilty, you're unstoppable. How do we combine these?
+
+ Humble part can own the part -- I do know what I'm talking about, I don't have to study 24 hours a day. I can afford to spend time with my son.
+
+ The Senior Manager part -- I want to spend time with my son, I want to take in what Amanda is saying. I have humility. I don't know everything. If I try to fight it, it will always win. Recognize it, and acknowledge it. There you are, I understand what you trying to do. Can't fight it-- going to keep kicking my ass. Validate it, ask if it's possible to do something different?
+
+ Dario logistics:
+ - Jan 6th - Dec 17th
+ - 10 minute call, if something comes up. If needed.
+ - IFS Meditations. Dick Schwartz IFS meditation.
+
+
+* 23:48:39
+
+What an insane day for this lil' Emacs log. I'm starting to really have the need to look things up, and sometimes it hasn't been here... so I'm much more motivated now to use it. Because I know I need it.
+
+Log -> Notebook -> Query it later.

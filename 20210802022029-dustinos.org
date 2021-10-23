@@ -7,19 +7,21 @@
 * Computer upgrades
 
 ** Rack
+
 *** Server
-- Chassis:  [[https://www.newegg.com/black-istarusa-d-314-matx/p/N82E16811165573][iStarUSA D-314-MATX Black 3U Rackmount Chassis ATX Power Supply Compatible]] (Purchased)
+- Chassis: TBD
 - PSU: Crucial 600w PSU (Purchased)
 - Hard drive: Crucial 1TB SSD (Purchased)
 - Motherboard + CPU: Current
 - RAM: Current
-- Screen: Old asus 24"
+- Screen: Old Asus 24"
 - Peripherals: IBM M2 + old logitech
 
 *** Power
 - APC: [[https://www.amazon.com/APC-SmartConnect-Interactive-Uninterruptible-SMC1500-2UC/dp/B077Y7QGCK/ref=sr_1_3?dchild=1&keywords=rack%2Bapc&qid=1629786776&s=electronics&sr=1-3&th=1][APC Smart Connect 1500]]
 
 ** Home Office
+
 *** Workstation
 - Monitor: [[https://www.amazon.com/gp/product/B08DWD38VX?tag=rtings-mn-r-20&ie=UTF8][LG 34GP83A-B 34 Inch 21: 9 UltraGear Curved QHD]]
 - Motherboard: Asus Mobo (Purchased)
@@ -31,11 +33,12 @@
 - Case: [[https://www.amazon.com/Fractal-Design-Node-Case-Computer/dp/B00JBBH93K/ref=psdc_572238_t2_B00K6OVG0I][Node 804]] (Purchased)
 - PSU: same
 
-** Story
+** Downtown Office
+
 *** Workstation
-- Monitor: Asus Rog swift 27"
-- Docking station: 
-- Peripherals: das keyboard + old logitech
+- Monitor: Asus Rog Swift 27"
+- Docking station:
+- Peripherals: Das Keyboard + old Logitech
 
 *** Office Decor
 - NIN poster
@@ -58,7 +61,7 @@ Keys come from our own Vault server (VM)
 
 Virtual networks isolating access and data to where it matters
 
-** Immutable infrastructure -- Guix and Stow
+** Immutable infrastructure -- NixOS and reproducible builds
 The system can be destroyed and brought back to it's initial state. It
 accomplishes this from a set of composable bootstrap and configuration
 files (_dotfiles_).
@@ -112,6 +115,7 @@ Configuration to point to a NAS or other storage and encrypted snapshots happen 
 ** Virtual machines
 Easy virtual machines using open source virutalization (Proxmox). Some VM ideas:
 
+ - Build farm, run CI builds and connect to Gitlab
  - Handles Homebridge, and porting Ubiquiti feeds to Homekit
  - 2FA Tokens / Keys (protected by paper password)
  - Crypto Staking

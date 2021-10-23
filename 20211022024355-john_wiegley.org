@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       2030ba5e-1fe2-40c1-b42c-64d3c92629d4
+:END:
+#+title: John Wiegley
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: DFINITY engineer and Emacs God
+Phone:
+Address:
+Birthday:
+
+* Notes
+
+Found a good way tro write a :load-path argument to use-package. Will be helpful if I need to do this if I write my own modules.

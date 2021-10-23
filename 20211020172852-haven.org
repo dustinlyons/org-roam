@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       1f635cde-c9ce-4d3d-ae02-d2bbc8c4c591
+:END:
+#+title: Haven
+#+filetags: Institution CRM
+
+* Contacts
+
+Relationship: Fintech company
+Phone:
+Address:
+
+* Notes
+
+Chief Product Officer is [[id:356808b1-27d7-4e56-94c0-7ed3cb036f02][Jonathan Chao]]

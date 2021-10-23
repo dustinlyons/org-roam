@@ -30,89 +30,6 @@ Building Brave packages and watching [[id:8EA04865-94A8-480A-8719-417C67F4355C][
 
 *** Thinking about contexts that are actually useful. Also what an [[id:9c445fdf-05c2-48fd-a731-7f4a8a8392cf][Ideal schedule]] looks like.
 
-**** Agenda
-Dashboard
-    Priority A
-    Inbox
-    Waiting
-    All
-Work - ScholarRx
-    Priority A + ScholarRx
-    Inbox + ScholarRx
-    All
-Work - Zeroed
-Work - Braeview
-Play (Games, Books, Emacs, etc.)
-Health
-
-Use pmodo timers on Work ScholarRx, Work Zeroed
-Force Health and Play tasks each week
-**** Contexts
-
-1. I'm in ScholarRx mode. --> White Board (Inbox), Emacs (Inbox), org-agenda
-1a. This has Justin, and 1x1 docs for individuals.
-
-2. I'm in Zeroed mode. --> Work in Public, Open Goals
-2a. This has open goals I'm tracking.
-
-3. I'm in Play mode. --> Read fiction, video games
-
-4. I'm in Braeview / Life Work mode. --> org-agenda
-4a. This has Home, Errands, Amanda.
-5. I'm in Family mode. --> Emotion, connect. Drop the agenda. May feed into Life Work tasks.
-5a. This has Marriage, and Isaiah.
-
-6. I'm in Knowledge / Learning mode. --> Coding my OS, Economist, Wall St Journal, Investing
-
-7. I'm in Health mode. --> Running, Meal Planning
-
-**** Schedule.
-
-Morning -> Evening
-
-8:15am Wake up -> IFS journal, use time to flesh out people, agenda / calendar
-1. Family - hang with Isaiah
-2. Health - run, plan for 5k/10k, eat breakfast
-
-Start at 10:30am
-3. Life Work + Zeroed Work -> focus on setting public goals and reaching them
-
-1pm
-4. ScholarRx (minimal amount, 1 hr) -> be around, meetings, minimal amount of hands on work
-
-Leave at 5:30
-5. Family -> dinner, date time with Amanda
-
-10pm
-6. Set agenda / calendar next day
-6. Knowledge + Learning Mode or Play (force balance)
-
-2am Sleep
-
-org-agenda views:
-
-Contexts -
-
-(Office) ScholarRx
-(Office) Zeroed
-(Home) Braeview
-(Car) Errands
-Amanda
-Justin
-Play
-
-Projects by Areas -
-
-Zeroed
-ScholarRx
-Love
-Braeview
-Health
-Money
-Spirit
-
-
-
 * 14:41:22
 
 ** SOMEDAY Log this idea: send an email once a week to Amanda and I describing how are assets went up and down
@@ -120,5 +37,3 @@ Spirit
 * 16:42:31
 
 ** TODO Call and remove late fee for Chase Business Card     :@Office:#Phone:
-
-* 23:53:37

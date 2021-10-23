@@ -14,7 +14,7 @@ Create a foundation of smart locks, lights, and cameras at Braeview.
 ** NEXT Install Ecobee thermostat in Dining Room
 ** TODO Schedule time with handyman and install security cameras
 ** TODO Identify and take inventory of additional light switches needed
-** TODO Test August Lock HomeKit compatability with HomeKit Hub in proximity
+** SOMEDAY Test August Lock HomeKit compatability with HomeKit Hub in proximity
 ** TODO Cleanup mechnical room and organize cable cabinet
 
 * Notes
@@ -35,4 +35,4 @@ Create a foundation of smart locks, lights, and cameras at Braeview.
 - Upstairs closet
 - Master closet
 - Porch camera
-- Downstairs tv 
+- Downstairs tv

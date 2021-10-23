@@ -9,4 +9,8 @@ I plan on using it with a CMS for scaling blog content.
 
 * Tutorial Notes
 
-** 
+*** PostCSS
+
+- [[id:3221f0ff-92f6-412f-857f-9f0ab32e5423][PostCSS]] is a tool for transforming CSS with Javascript. [[id:70DD4633-F18F-4980-A700-35FB65B6C724][Adam Wathen]] has you use it to convert @tailwind base; @tailwind components; @tailwind utilities into the actual CSS classes.
+
+- [[id:ac5ed973-29de-4bd0-bc5b-333f3883057f][Autoprefixer]] is a PostCSS plugin that adds vendor prefixes. What's a vendor prefix? It takes values from the Can I Use? website, which manages polyfills and other browser nuances, and applies those to your CSS via those -moz, -webkit, -ms-input, etc, etc. tags you see.

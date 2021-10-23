@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       d3cdcd56-dbe9-49e1-aea6-c1761fa7298d
+:END:
+#+title: Shreyas Doshi
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Found on LinkedIn
+Phone:
+Address:
+Birthday:
+
+* Notes
+
+Tech guy on LinkedIn who worked at Stripe, Twitter, Google, Yahoo. Occasionally shares insightful stuff.

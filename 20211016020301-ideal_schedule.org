@@ -4,3 +4,119 @@
 #+title: Ideal schedule
 
 Thoughts on my ideal day to day schedule and discipiline to get there.
+
+* Thinking about contexts that are actually useful.
+
+** Agenda
+
+Dashboard
+    Priority A
+    Inbox
+    Waiting
+    All
+Work - ScholarRx
+    Priority A + ScholarRx
+    Inbox + ScholarRx
+    All
+Work - Zeroed
+Work - Braeview
+Play (Games, Books, Emacs, etc.)
+Health
+
+Use pmodo timers on Work ScholarRx, Work Zeroed
+Force Health and Play tasks each week
+
+** Contexts
+
+The goal of labeling contexts is to "bring them out" from the shadows, and to be explict about them all. No more implict stuff going in my life. I was doing all of this at once; let's force myself to do just once context at a time.
+
+1. I'm in ScholarRx mode. --> White Board (Inbox), Emacs (Inbox), org-agenda
+1a. This has Justin, and 1x1 docs for individuals.
+
+2. I'm in Zeroed mode. --> Work in Public, Open Goals
+2a. This has open goals I'm tracking.
+
+3. I'm in Play mode. --> Read fiction, video games
+
+4. I'm in Braeview / Life Work mode. --> org-agenda
+4a. This has Home, Errands, Amanda.
+5. I'm in Family mode. --> Emotion, connect. Drop the agenda. May feed into Life Work tasks.
+5a. This has Marriage, and Isaiah.
+
+6. I'm in Knowledge / Learning mode. --> Coding my OS, Economist, Wall St Journal, Investing
+
+7. I'm in Health mode. --> Running, Meal Planning
+
+** Schedule.
+
+Morning -> Evening
+
+7:45am Wake up -> IFS journal, use time to flesh out people, agenda / calendar
+1. Family - hang with Isaiah
+2. Health - run, plan for 5k/10k, eat breakfast
+
+Start at 9:45am
+3. Life Work + Zeroed Work -> focus on setting public goals and reaching them
+
+1pm
+4. ScholarRx (minimal amount, 1 hr) -> be around, meetings, minimal amount of hands on work
+
+Leave at 5:30
+5. Family -> dinner, date time with Amanda
+
+10pm
+6. Set agenda / calendar next day
+6. Knowledge + Learning Mode or Play (force balance)
+
+1:30am Sleep
+
+org-agenda views:
+
+Guidelines -
+
+Life Goals
+Areas are created to focus on balance, based on the principles of The Four Rooms
+Or same thing: need a hobby to keep you create/brain moving, a hobby for health, and a hobby for money
+The four rooms: balance across mental, physical, spiritual, emotional
+Once we have areas, we decide. What is our ideal state in 1 year? I don't care beyond that. I change too much.
+Then those goals help us create projects
+
+Tasks
+    We only show high priority, stuff to process, next actions
+        Priority A, Inbox, Next, Waiting, All
+    Each area has a list of projects
+
+Daily flow -- change the daily page to reflect this
+    IFS journal
+    Something physical + health
+    Get It Together Time
+        Inbox tasks get assigned to a project
+        Projects have NEXT actions, and when completed, move TODO -> NEXT
+        When Project is complete, new projects are chosen
+
+Sunday flow - change sunday pages to reflect this? can we add this functionality into org-roam itself?
+    Review projects, add any new tasks, decide if our time is going to the right stuff
+    Prioritize strategic + long term goals over short term goals
+
+Resources
+    Project resources are added to the page to collect info on it
+    Pipeline from Readwise, email, etc also add resources to the page
+
+Contexts -
+
+    (Office) ScholarRx
+    (Office) Zeroed
+    (Home) Braeview
+    (Car) Errands
+    Amanda
+    Play
+
+Projects by Areas -
+
+    Zeroed
+    ScholarRx
+    Love -- Called this to focus on emotion, how will we show love to people? We get love when we show love.
+    Braeview - Sync this with Trello somehow.
+    Health - Set weekly goals with this one.
+    Money
+    Spirit - Set weekly goals with this one, after Health is set.

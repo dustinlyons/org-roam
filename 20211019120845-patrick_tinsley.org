@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       7760fcd3-75e3-4ddc-8a1b-c5e6998cd7ff
+:END:
+#+title: Patrick Tinsley
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Friend
+Phone:
+Address:
+Birthday:
+
+* Notes

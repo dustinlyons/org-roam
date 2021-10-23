@@ -23,8 +23,8 @@ context: Microsoft Word notes
 ** NEXT Create outline of plan for company demo                     :@Office:
 ** DONE [#A] Create epic for new reports                            :@Office:
 ** WAITING [#A] Announce in All Hands about Analytics Meeting       :@Office:
-** WAITING [#A] Setup Office Hours with Julie                       :@Office:
+** DONE [#A] Setup Office Hours with Julie                          :@Office:
 ** TODO Verify data quality of school tagging source     :@Office:#Computer:
-** WAITING [#A] Meet with Matt to go over data after it's fixed :@Office:#Computer:
+** DONE [#A] Meet with Matt to go over data after it's fixed :@Office:#Computer:
 
 * Notes

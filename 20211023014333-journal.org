@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       256353f4-71fb-41fb-ba47-521f6ff70510
+:END:
+#+title: Journal
+
+Root page for my own journal. Mostly used for linking in from Daily Notes. This may change in the future.

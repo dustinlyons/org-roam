@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d1835d1c-742b-474b-abf4-8d5bea6bf6a8
+:END:
+#+title: Linux
+
+Root page for everything linux.
+
+* Notes

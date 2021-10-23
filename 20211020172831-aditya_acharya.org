@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       aa1b7e0d-7783-4cf9-b47b-a9371f93f2a3
+:END:
+#+title: Aditya Acharya
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: [[id:1f635cde-c9ce-4d3d-ae02-d2bbc8c4c591][Haven]] Financial Co-Founder
+Phone:
+Address:
+Birthday:
+
+* Notes

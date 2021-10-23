@@ -3,7 +3,8 @@
 :END:
 
 #+title: Life
-#+filetags: Workflow
+#+STARTUP: content
+#+FILETAGS: workflow
 
 I'm walking in this direction. See [[id:F355F26D-E4E5-4CF5-99EA-E77846D47FAF][Workflow]] for how I accomplish it.
 
@@ -19,17 +20,17 @@ I'm walking in this direction. See [[id:F355F26D-E4E5-4CF5-99EA-E77846D47FAF][Wo
 
 ** Fun
 *** Friends
+
 *** Hobbies
 **** TODO [[id:0247b298-686f-4dba-a70e-595f155f30ed][Finish Dark Souls III]]
 **** TODO [[id:4f02ff3d-951d-435a-bdba-50b976a49b9c][Finish Mandalorian]]
 **** TODO [[id:0ecaa0fe-6c10-4616-a4d5-a0f7d69e502c][Finish Mistborn]]
-**** TODO [[id:2a0d1692-9505-42bb-9914-75971cb5fd37][Learn Guile Scheme for Guix]]
+**** CANCELED [[id:2a0d1692-9505-42bb-9914-75971cb5fd37][Learn Guile Scheme for Guix]]
 
 ** Health
 *** Fitness
 **** TODO [[id:E674CBFC-05FB-4AED-BA3E-A37CB29202DB][Start an Exercise Routine]]
 **** TODO [[id:C58AE821-EC2F-4ABC-A934-7D3D0266ACE2][Become a Mountain Biker]]
-
 *** Nutrition / Body
 **** TODO [[id:96ad6263-8041-45c1-afc0-c24d260ade5c][Be Intentional About Food]]
 **** TODO [[id:fdc6bec4-17a1-445b-a345-3c13d1b8d913][Create and maintain a skin care routine]]
@@ -37,6 +38,9 @@ I'm walking in this direction. See [[id:F355F26D-E4E5-4CF5-99EA-E77846D47FAF][Wo
 *** Mental
 **** TODO [[id:57ffe0cd-e169-446d-9b36-97c2c8f1b575][Start a meditation routine]]
 **** TODO [[id:5f31d0c5-f16c-43c8-a1fb-f9609c717e14][Create and maintain an IFS journal]]
+
+*** Spirit
+**** Buddhism
 
 ** Money
 *** [[id:72A08182-0C7F-45C6-801F-B72D818E4B36][Braeview]]
@@ -70,9 +74,7 @@ I'm walking in this direction. See [[id:F355F26D-E4E5-4CF5-99EA-E77846D47FAF][Wo
 *** Blogs
 **** TODO [[id:3c252bb7-25f6-4678-905a-19a16cb7a06d][Launch personal blog site]]
 
-** Spirit
-*** Buddhism
 
 * Areas
 ** Stuff
-*** [[id:163f7aff-307e-40dc-bbc1-1cf56bacbac8][Maintain the Tesla]]
+*** ACTIVE [[id:163f7aff-307e-40dc-bbc1-1cf56bacbac8][Maintain the Tesla]]

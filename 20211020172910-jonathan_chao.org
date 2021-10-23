@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       356808b1-27d7-4e56-94c0-7ed3cb036f02
+:END:
+#+title: Jonathan Chao
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Credit Karma employee
+Phone:
+Address:
+Birthday:
+
+* Notes

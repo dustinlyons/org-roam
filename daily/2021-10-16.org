@@ -27,4 +27,4 @@ Brain Dump of Drafts.
 
 * 11:13:36
 
-** SOMEDAY Install Github helper and initialize installing key for first time :#Computer:
+** CANCELED Install Github helper and initialize installing key for first time :#Computer:

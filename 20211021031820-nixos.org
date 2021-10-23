@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       aed2f6ce-a37c-42c0-bca4-150387231da0
+:END:
+#+title: NixOS
+
+Ideas for future README...
+
+Features
+
+Screenshot
+
+Getting Started

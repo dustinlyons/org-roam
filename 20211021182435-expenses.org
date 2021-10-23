@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d74ca95f-00b2-4cbb-96bc-f30323e3ef77
+:END:
+#+title: expenses
+
+Related to my business expenses.

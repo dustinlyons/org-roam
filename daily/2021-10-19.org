@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       07e5692c-6a65-45a4-92c8-ae8aec5f36af
+:END:
+#+TITLE: 2021-10-19
+#+filetags: Daily
+
+* 12:07:45
+
+Canceled my [[id:586e5f99-63b5-4e19-8e53-116dbd2a45f7][Thinkpad]] order. The support rep gave me her email to return the sleeve if I receive it: jquerol@lenovo.com
+
+* 12:08:35
+
+Good conversations with [[id:7760fcd3-75e3-4ddc-8a1b-c5e6998cd7ff][Patrick Tinsley]] on buying my Macbook Pro 16".
+
+* 14:05:19
+
+[[id:0658A09E-7BBD-40D2-8FCC-D5A05350B77A][Ashley Dickerson]] 1x1 meeting.
+
+- What stuff do you do?
+  - Fraizer asks you for big stuff.
+  - Do a lot for Steve and Matt.
+  - Some sort of, people at a school. All schools? One school?
+  - Some stuff for Louise, lists of people that meet some criteria.
+  - Coupon code related -- for Louise and Jeff.
+  - Stuff for QA.
+- Multiple people, what do you do?
+  - Push off the bigger things, do the smaller ones.
+- She does Ad hoc SQL.
+- Comes and goes. Steve and Ingrid last couple weeks, lately Fraizer.
+
+- Subset of questions, a lot of it. Saved queries and reuse this.
+
+- Story for Jeff/Becca, can't get to it.
+
+Brick -> QMax Question or Flash Card or Express Video
+- Expore Deeper report
+
+- Build school reports based on what they need
+
+Blockchain focused -- leadership
+Platform focused -- leadership

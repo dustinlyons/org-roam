@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       d5feb078-5db0-45cc-8dea-be91bc22bdf6
+:END:
+#+TITLE: 2021-10-23
+#+filetags: Daily
+
+* Intentions
+
+Install the thermostat and put one coat of stain on the table top. Other than that, have fun and relax! You deserve it, remember that.
+
+* Workflow
+
+** Start Day
+*** TODO Process Inbox, Inbox Zero
+*** TODO Review Intentions, Pick Pomodo Tasks
+*** [[[id:256353f4-71fb-41fb-ba47-521f6ff70510][Journal]]]
+
+**** What part felt online the most yesterday?
+
+
+**** What did that part want? What did it need?
+
+
+**** What do I need to remind this part?
+
+
+** Close Day
+*** TODO Process Inbox, Inbox Zero
+*** TODO Write down Intentions for tomorrow
+
+* Journal
+
+** What part felt online the most yesterday?
+
+** What did that part want? What did it need?
+
+** What do I need to remind this part?
+
+* Log
+
+** 01:41:29
+
+*** TODO Todo list that pays you. I take a cut of Bitcoin for every time you lose. Submit for proof to validator network. Write it on The Internet Computer. :Inbox:
+
+*** TODO Research Isaiah's bike                                       :Inbox:

@@ -1,0 +1,124 @@
+:PROPERTIES:
+:ID:       2f5eec8d-b6d7-4d39-adbb-371f161d97d5
+:END:
+#+TITLE: 2021-10-22
+#+filetags: Daily
+
+* Workflow
+
+** Start Day
+*** TODO Process Inbox, Inbox Zero
+*** TODO Review Intentions, Pick Pomodo Tasks
+*** [[[id:256353f4-71fb-41fb-ba47-521f6ff70510][Journal]]]
+
+**** What part felt online the most yesterday?
+
+More of the academic part. But also the not good enough; kept hearing that for sure. Telling me I'm procrastinating and to get to work (I am).
+
+**** What did that part want? What did it need?
+
+Progress on something to feel like we're building something. It's a good feeling; this one is okay.
+
+**** What do I need to remind this part?
+
+That we are pretty damn awesome; have SF connections, people reaching out, crypto moves, beautiful kid and wife and house and two Teslas. Two Teslas! So relax. It's fine. You can just be with your kids. The freak out has just been your own doing. Period.
+
+Let's just find focus time and the rest, be offline. Let's check out the day today.
+
+
+** Close Day
+*** DONE Process Inbox, Inbox Zero
+*** DONE Write down Intentions for tomorrow
+
+
+* Log
+
+** 02:09:19
+
+Alright. Feeling this new format. Let's keep it up! Opening up [[id:276C5B52-8CDF-419A-958B-D85E5EC89003][Tailwind CSS]] to move through some videos.
+
+** 02:43:17
+
+Major procrastination. Started, but drifted off into [[id:2030ba5e-1fe2-40c1-b42c-64d3c92629d4][John Wiegley]]'s dotfiles. I've decided my next go around I'll remove all of the crazy tangling and indirection/"encapuslation" when reading. It should read linear, and just explain to the user what is going on in the order that it's happening.
+
+[[id:aed2f6ce-a37c-42c0-bca4-150387231da0][NixOS]] does support [[id:85393955-02c5-43bc-89e7-6f7ff9db2081][literate programming]] according to [[https://discourse.nixos.org/t/nix-shells-in-emacs-org-mode-source-blocks/12673][this article]]. I'm also watching this video, need to continue from 30min: https://www.youtube.com/watch?v=WP_oAmV6C2U
+
+** 02:53:33
+
+[[id:8EA04865-94A8-480A-8719-417C67F4355C][Emacs]] tip of the day! ~find-file-other-window <file>~ from an ~eshell~ terminal will open the window in your other buffer. How cool!
+
+** 04:01:53
+
+Review yesterday's note, such as...
+
+** 17:16:29
+
+*** TODO Do taxes!!!! And Amanda meeting + org agenda / Trello      :Inbox:
+
+*** Content ideas for my [[id:3bc16d0e-6361-49e1-8ecf-ff59f45e5cb2][blog]]
+
+Work in public -- why bitcoin noobs
+capstone project hack
+how to organize a team (or catchy clickbait)
+progress with students 1
+progress with students 2 -- website launch (we are here)
+progress with me 3 -- tailwind UI polish
+
+Technical bits
+how to get started with analytics
+nixos series, complimentary desktop + macbook setup 2021
+solidity and nixos
+
+** 04:47:51
+
+ Sleep :p
+
+** 11:38:02
+
+Back at it.
+
+** 12:32:52
+
+[[id:d1835d1c-742b-474b-abf4-8d5bea6bf6a8][Linux]] page created.
+
+** 13:00:54
+
+*** Talked to [[id:45661153-4574-4ae8-ab0d-d4b8495b8c24][Experian Mortgage Services]] related to my loan refinance
+
+Need to call some [[id:acb0891a-1bdf-47b0-9213-37954aaf93c5][River City Bank]] mortgage line. 888-899- 1126. Case number is 656-5633.
+
+Order number related to case: RBGZW6
+
+
+** 16:26:29
+
+*** Making a list of [[id:a90ef2a3-e336-4209-b435-77cc32dc82bc][MacOS]] apps I have on the [[id:62ef4f00-f748-4107-8e76-7889766a9f2c][Macbook Air]].
+
+**** Brave
+**** 1Password
+**** Dropbox (or some light daemon)
+**** Drafts
+**** Discord
+**** Slack
+**** Emacs
+**** Grammarly
+**** iTerm
+**** Instapaper
+**** HiddenBar
+**** Kap
+**** Yoink
+**** Teams
+**** Telegram
+**** Notion
+**** Raycast
+**** VLC
+**** Zoom
+**** Transmission
+**** Apple
+***** TV
+***** Music
+***** Photos
+***** Podcasts
+***** Time Machine
+
+*** TODO Cancel Hulu TV service                                       :Inbox:

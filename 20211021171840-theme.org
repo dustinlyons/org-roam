@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ebae1958-abf7-4a52-9975-6c64b1868a8e
+:END:
+#+title: theme
+
+Related to theming linux computers (for now).
