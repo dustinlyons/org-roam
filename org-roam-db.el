@@ -167,12 +167,14 @@ Performs a database upgrade when required."
 (defun org-roam-db-query (sql &rest args)
   "Run SQL query on Org-roam database with ARGS.
 SQL can be either the emacsql vector representation, or a string."
+  (interactive)
   (apply #'emacsql (org-roam-db) sql args))
 
 (defun org-roam-db-query! (handler sql &rest args)
   "Run SQL query on Org-roam database with ARGS.
 SQL can be either the emacsql vector representation, or a string.
 The query is expected to be able to fail, in this situation, run HANDLER."
+  (interactive)
   (condition-case err
       (org-roam-db-query sql args)
     (emacsql-constraint
