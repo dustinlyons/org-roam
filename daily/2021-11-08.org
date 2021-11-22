@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       e5886141-be9a-40a2-8d66-4586c103d513
+:END:
+#+TITLE: 2021-11-08
+#+filetags: Daily
+
+* Log
+
+** 11:09:30
+
+So happy that Emacs is fixed. Had to bring over to my init.el but that's fine for now.
+
+*** [[id:8EA04865-94A8-480A-8719-417C67F4355C][Emacs]] lisp development talk with [[id:2030ba5e-1fe2-40c1-b42c-64d3c92629d4][John Wiegley]]:
+
+**** Key Bindings
+***** Programming
+- (bind-key "C-c e b" 'do-eval-buffer)
+- (bind-key "C-c e b" 'toggle-debug-or)
+- (bind-key "C-c e b" 'emacs-lisp-byte-compile...)
+- (bind-key "C-c e b" 'eval-region)
+- (bind-key "C-c e b" 'scratch)
+***** Help
+- (bind-key "C-h e e" 'view-echo-area-messages)
+- (bind-key "C-h e f" 'find-function)
+- (bind-key "C-h e k" 'find-function-on-key)
+- (bind-key "C-h e l" 'find-library)
+- (bind-key "C-h e v" 'find-variable)
+- (bind-key "C-h e V" 'apropos-value)
+
+**** Macrostep
+***** If I get into macros heavily, this is used to jump around
+**** eval-expr, M-C-X (evaluate region), C-x C-e (evaluate cursor)
+**** paredit
+***** check-parens for when paredit fails
+**** elp for performance
+***** (memory-use-counts) to see what is slow
+**** Debugging (edebug)
+***** find function using keybindings above, C-u C-M-x and then run your function.
+***** Usually C-M-x runs the function. So to debug, it's just C-u when the function is at point.
+***** D to get a backtrace
+**** Workgroups -- alternative, coding, etc
+***** Need this for org-roam/notebook vs coding
+**** yasnippets
+***** tab is going to insert points in his snippet, end up where ever $0 is.
+**** backup-each-save
+**** ediff, compare windows

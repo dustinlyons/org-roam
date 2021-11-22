@@ -24,7 +24,7 @@ Building Brave packages and watching [[id:8EA04865-94A8-480A-8719-417C67F4355C][
 
 * 14:13:54
 
-** TODO Organize stories in new Heap Epic to make it look like you did a lot :Inbox:@Office:
+** DONE Organize stories in new Heap Epic to make it look like you did a lot :Inbox:@Office:
 
 * 14:14:44
 
@@ -32,8 +32,8 @@ Building Brave packages and watching [[id:8EA04865-94A8-480A-8719-417C67F4355C][
 
 * 14:41:22
 
-** SOMEDAY Log this idea: send an email once a week to Amanda and I describing how are assets went up and down
+** DONE Log this idea: send an email once a week to Amanda and I describing how are assets went up and down
 
 * 16:42:31
 
-** TODO Call and remove late fee for Chase Business Card     :@Office:#Phone:
+** DONE Call and remove late fee for Chase Business Card     :@Office:#Phone:

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       cde0610a-357c-4e1f-97ab-4e53fc901bd2
+:END:
+#+title: Pro Lighting
+#+filetags: Institution CRM
+
+* Contacts
+
+Relationship: Bought [[id:07c34bb5-2eb3-49b0-8287-6dc4abfd0ca9][smart switches]] here
+Phone:
+Address:
+
+* Notes

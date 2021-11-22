@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       0b00a634-4a23-40a8-b089-78ca420c61f1
+:END:
+#+TITLE: 2021-11-17
+#+filetags: Daily
+
+* Log
+
+** 01:57:27
+
+Following instructions for [[id:d9f6e0b2-2f4f-48b8-abf0-078e1fb0dc73][ZFS]] on my virtual machines, to create new filesystems:
+- https://nixos.wiki/wiki/ZFS#Single-disk
+
+** 10:52:26
+
+Stayed up waaaaay too late last night.

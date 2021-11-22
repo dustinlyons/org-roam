@@ -210,7 +210,7 @@ Get standing desk up, office cleaned up and camera working. Get keyboard put tog
 
 Am I eating what I need to be? Let's think through food list / macros -- how to get them. Is the food scale downstairs? Let's get it and make a food list soon.
 
-*** TODO Make a grocery list for yourself based on macros           :Inbox:
+*** CANCELED Make a grocery list for yourself based on macros         :Inbox:
 
 * 18:24:06
 

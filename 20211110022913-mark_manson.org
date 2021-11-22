@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       af349a3f-700f-4255-bf97-6978734777d2
+:END:
+#+title: Mark Manson
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Youtube guy who says Fuck a lot
+Phone:
+Address:
+Birthday:
+
+* Notes

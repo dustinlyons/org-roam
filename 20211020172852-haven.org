@@ -13,3 +13,41 @@ Address:
 * Notes
 
 Chief Product Officer is [[id:356808b1-27d7-4e56-94c0-7ed3cb036f02][Jonathan Chao]]
+
+** Statement of Work
+
+*** Cost
+
+Total project cost: $8500
+
+I estimate the project to be around 40-50 hours. If we learn new information that increases scope of work along the way, we can discuss how to proceed.
+
+*** Summary
+
+I'll work with your team to
+
+1) create and publish your first set of "core metrics",
+2) document everything down in a data dictionary/wiki page,
+3) think through and build the right level of data quality monitoring
+
+*** Breakdown
+
+5-10 hours
+Complete research for core metrics, hold 2-3 meetings where you all walk me through the product and I ask a lot of questions.
+I'll spend time in your product, meet with you to understand the roadmap
+I'll seek to understand your customers, business model, and goals
+
+5-10 hours
+Design of core metrics
+Internal core metrics, how do we capture them, how do we report them
+Not focused on Google Tag Manager / external facing
+
+20-25 hours
+Create a proposal for analytics strategy and deliver it, refine it
+I'll work with your engineers to integrate Haven data into Heap (should be low effort)
+Build reports/dashboards in Heap and document definitions in wiki (or Heap's Data Dictionary)
+Provide an opinion on the confidence of data, suggest data quality methods for high risk data
+(Accuracy, Completeness, Consistency, Timeliness, Validity, Uniqueness)
+
+5 hours
+Miscellaneous chat, follow-up, emails, etc.

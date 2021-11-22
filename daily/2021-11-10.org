@@ -1,0 +1,116 @@
+:PROPERTIES:
+:ID:       4f317cc7-b077-480c-b6aa-6b8247160fcf
+:END:
+#+TITLE: 2021-11-10
+#+filetags: Daily
+
+* Log
+
+** 02:24:36
+
+*** Tips on [[id:90762aaa-be10-42ac-a93d-1935c323f57c][reading]] from Youtube [[id:af349a3f-700f-4255-bf97-6978734777d2][Mark Manson]]
+
+**** How to read
+
+1. Use your finger when reading
+2. Stop reading stuff I hate / Skip parts that you know or that are repeating
+3. Kill the "inner voice" that talks to you while you read -- I have this very bad
+4. Read more than one book at a time -- science/math or psychology, non-fiction general, fiction
+5. Schedule reading time
+
+**** Remembering stuff
+
+1. Implement the idea in your life in some way
+2. The only reason to read non-fiction is to improve yourself. Remember this!
+3. Talk about the book to someone else (Amanda, Caitlin, friends, online, etc.)
+4. You don't have to remember every idea, just what ideas are in the book. Don't remember everything you've read, just where you've read it. So you can go grab it off the shelf. Or just Emacs ;)
+
+*** Things I want to do to make me happy
+
+**** Run some 5k's, 10k's, etc. and Yoga
+**** Read
+
+*** TODO Listen to Tim Ferris and Chris Dixon
+*** TODO Setup Ceph computer and org-agenda
+
+** 02:45:35
+
+*** [[id:8bf7fe9b-56fa-471e-98ea-c3a52d1b9b94][Naval Ravikant]] podcast notes
+
+**** Status games
+Status games. Different games. 0 sum game. When you want to get wealth, you'll see people trying to attack you. They are just playing a different game. Trying to put you down to up their status. It's a bad game. You're playing the wealth game.
+
+**** Wealth got created from people, technology, hard work
+Everyone can be rich. We're all richer than we were 200 years ago. As a species, we are rich.
+
+**** Imagine everyone had high technology skills. We'd all be living amazing; making today look like ancient France.
+
+**** Luck
+***** You see things others don't because of your knowledge
+***** You showcase yourself to others, so they come to you with their luck
+****** Technology is just the things that do not work yet. - Alan Kay
+****** People make money from technology... Henry Ford (cars), Rockerfeller (oil)
+
+** 03:27:26
+
+Self esteem -- your reputation with yourself. Low self esteem = low reputation with yourself.
+When people say they are high integrity or high status, it's low integrity or low status. Be weary.
+
+Action bias -- do things, then decide. Action bias. Optimistic. Go for it!
+
+** 14:00:14
+
+[[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]] Johnie meeting
+
+Faculty controller has nothing to do with Brian or anyting he works on, yet
+First iteration of Faculty tooling, was built inside the Editorial app
+When Daniel L was here, he was the mastermind of our architecture
+He wanted to be very strict about seperating schemas
+ADM, COM, SEC, API schemas
+
+Faculty controller is the exclusive controller for that faculty app
+it's giving faculty members tools, create pools of users, they can put their students into groups, can create tests, assign them to students
+
+PolicyAuthorize is a function -- is important. Your token needs this access.
+
+Swagger is used by Johnie for testing. When he's testing dev. Swagger is used a lot.
+Swagger generates a sample JSON.
+
+    Not strongly typed
+
+    No contracts,
+
+    Function isn't going to be matched, so type won't be found.
+
+    Anything that matters there is validation rules around it. Imperative instead of declarative.
+
+    ScholarRx.Api.Data -- where all the Entity Framework lives
+
+    We use Entity Framework everywhere. We use it also for migrations. C# Db is where the database migration definition lives.
+
+    Business logic isn't consistent. Faculty controller has no helper for it. That's why it is 3000 lines. All business logic lives there.
+
+    Bricks -- some lives in controllers, some lives in BrickHelper.
+
+--
+
+    Core is shared between all projects.  Updated quite a bit. Anytrhing Daniel, Kyle, or Johnie has Core.
+
+    What's the main job of Core?
+
+    For Bricks, for example, parser needs to know how to translate a Word doc. API needs to know how to create a Brick.
+     CPWordImporter.cs -- uses Core.Publishing. 1400 lines.
+
+     API is our backend monolith outside Identity. Backend apps need to be broken up.
+
+     Editorial and Faculty. Kyle is building a Blazer app for Editorial.
+
+     Identity has all of the customer service tools, policy management, etc. Identity Framework.
+
+** 17:08:28
+
+*** DONE Pay American Express card and call for fee reversal
+*** WAITING Get suboxone Rx in your hand
+*** TODO Schedule time with Amanda to build finance sheet / organize subscriptions
+*** TODO Mow the lawn one last time
+*** CANCELED Find a woodworker to build door, repair outside

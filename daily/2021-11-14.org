@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       0acf3d38-c0cd-45f7-9763-65ea65260f46
+:END:
+#+TITLE: 2021-11-14
+#+filetags: Daily
+
+* Log
+
+** 01:00:33
+
+Found a good [[id:39c19e25-0e68-4c15-98b8-de2651a8c8c6][responsive design]] example, [[id:4cea89c5-752e-4154-9010-28d83ac8fe2c][Syncthing]]:
+- https://docs.syncthing.net/users/autostart.html#linux
+- Good example of tutorial images for [[id:00c29f40-e552-4b90-aa9d-ebc148a68208][Bitcoin Noobs]]
+
+** 01:02:32
+
+Spending some Saturday night vibes to get my home-lab server up and running. Some goals I have.
+
+*** DONE Create an easy way to launch VMs with Nix packages, a boot script, and systemd
+*** TODO Use that to create a syncthing server managing my Data volume
+*** TODO  Create a bootstrap script that determines the OS, sets up syncthing, downloads data, downloads nix-config
+*** TODO Ensure dustinlyons/nix-config runs and nix-darwin / Home Manager takes over, Emacs is setup
+*** TODO Use nix or brew to install and configure Mac applications
+
+** 01:27:16
+
+** 02:05:29
+
+Ordered some [[id:07c34bb5-2eb3-49b0-8287-6dc4abfd0ca9][smart switches]] from [[id:cde0610a-357c-4e1f-97ab-4e53fc901bd2][Pro Lighting]]. Says they will arrive in 3 weeks.
+
+** 02:10:07
+
+Black Friday home-lab needs:
+- RAM
+- MOre hard drives (sic)
+- Synology?
+
+** 03:08:36
+
+Got a nix VM running in Proxmox. That's a success! Let's check the [[id:af0cde3c-b64e-49f2-b1e1-3f4a03ed2f31][DustinOS]] page for what to build...
+
+Also, some [[id:3a23f6be-7c59-493e-b286-6e14e1d6a1af][bash]] snippets were found and added...
+
+** 14:01:59
+
+Getting ready to volunteer at the [[id:70190255-cb59-4e32-9e47-5a01fa3943a9][Ronald Mcdonald House]]. Pretty tired.

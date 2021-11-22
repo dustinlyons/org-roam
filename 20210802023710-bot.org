@@ -11,7 +11,7 @@ NLP to build list
     "next week, we'd like recipe a, b, c, d and e"
     create list, push to list service
     can we automate to do auto grocery tasks ?
-    can we extrapolate a list to do shopping across 
+    can we extrapolate a list to do shopping across
     amazon / grocery automatically?
     needs a simple beautiful list app
 
@@ -31,3 +31,5 @@ NLP to build list
     can we detect how much light we received for the day ?
         for score calculation
         score = water + light + soil + ???
+
+** Send a message to Amanda and I with finances, end of week

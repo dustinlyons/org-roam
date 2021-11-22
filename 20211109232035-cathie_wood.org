@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       c9473a83-5070-4fd8-9959-f66f306e9fec
+:END:
+#+title: Cathie Wood
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Leads Ark Invest
+Phone:
+Address:
+Birthday:
+
+* Notes

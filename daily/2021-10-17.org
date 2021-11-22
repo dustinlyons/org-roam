@@ -4,7 +4,6 @@
 #+TITLE: 2021-10-17
 #+filetags: Daily
 
-
 * 00:52:05
 
 ** Watching a talk from [[id:6d9ed1a6-1086-41bc-a60c-2e9515dc427b][William Byrd]] on Lisp and "The Most Beautiful Program Ever Written".

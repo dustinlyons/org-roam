@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       69e99050-5220-41cf-a11e-84e52a9c091b
+:END:
+#+TITLE: 2021-11-01
+#+filetags: Daily
+
+** 05:57:50 (2am, my clock is wrong lol)
+
+Looks like I was out for about a week, came back to NixOS and my text is italicalized lol :)
+
+Shit still works though. But I have some learning to do.
+
+I've been on an exploration of immutable infrastructure, to really grok it and get an environment locally setup. I also want to use Nix in my home-lab, so I have tons of learning to do there.
+
+I realized today though that it was absolutely eating up everything; I have a tendacy to "go hard" on something if I'm doing it.
+
+Anyway, I need balance. Tomorrow is our court meditation day with [[id:b47d440e-43d0-4a2c-ac65-42f68fc2ef8b][Nelson Kwan]].
+
+** 06:04:58
+
+Okay, after a few reboots, shit is beautiful, fonts are installed, and I have my links in org-roam.
+
+** 14:14:43
+
+Let's fix the time in Nix :) lol... this is fun? Why?
+
+Just woke up. So happy to come back to a working Emacs setup. I really don't like not having this... ugh. org-roam. So. damn. good.
+
+Fixed my time by just updating one line in my nix-config, and ./bin/nixos-build. Sweet.

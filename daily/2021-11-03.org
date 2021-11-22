@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       4f15e42e-10ee-4f78-9fa9-df51794db487
+:END:
+#+TITLE: 2021-11-03
+#+filetags: Daily
+
+* Log
+
+** 01:04:32
+
+*** TODO Clean washing machine once tablets arrive                    :Inbox:
+
+** 02:59:14
+
+*** DONE Remember to turn off facuet freezing.

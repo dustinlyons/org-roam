@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       4cea89c5-752e-4154-9010-28d83ac8fe2c
+:END:
+#+title: Syncthing
+
+Easy sync between multiple computers. Linux, MacOS, Windows.

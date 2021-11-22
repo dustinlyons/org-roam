@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       f10937cd-18b5-4fcc-87c8-78a4d3af96b8
+:END:
+#+TITLE: 2021-11-18
+#+filetags: Daily
+
+* Log
+
+** 01:54:00
+
+Well, I've been ignoring all my other responsibilities, but I've learned a ton about ZFS, Proxmox, and Nix-darwin. My 6 month procrastination (or longer...?) into building out the most amazing toolset to work on... haha. It's been fun. And I made a killing (minus Luna :( RIP) with crypto. So whatever.
+
+MOving on.......

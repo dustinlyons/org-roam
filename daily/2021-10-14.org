@@ -19,6 +19,6 @@ Idea. Another store. Show up, and we use GPT-3 to generate review comparisons ba
 
 * 12:57:47
 
-** TODO [#B] Fix dryer duct to not have a hole                        :@Home:
+** DONE [#B] Fix dryer duct to not have a hole                        :@Home:
 ** DONE [#A] Pay Corrigan bill
-** NEXT [#A] Pay Tesla loan
+** DONE [#A] Pay Tesla loan

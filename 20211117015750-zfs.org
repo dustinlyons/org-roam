@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d9f6e0b2-2f4f-48b8-abf0-078e1fb0dc73
+:END:
+#+title: ZFS
+
+* Notes
+
+** Good resources on how to use NixOS + ZFS on install, creating datasets and mounting them, and installing the OS...
+- https://nixos.wiki/wiki/ZFS#Single-disk

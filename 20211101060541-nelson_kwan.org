@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       b47d440e-43d0-4a2c-ac65-42f68fc2ef8b
+:END:
+#+title: Nelson Kwan
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Previous landlord
+Phone:
+Address:
+Birthday:
+
+* Notes
+
+Court meditation date 11/1/21.

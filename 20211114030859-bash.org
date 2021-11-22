@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       3a23f6be-7c59-493e-b286-6e14e1d6a1af
+:END:
+#+title: bash
+
+* Snippets
+
+# Gets current working directory, absolute path
+"$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"

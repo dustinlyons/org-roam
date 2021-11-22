@@ -22,7 +22,7 @@ context: Microsoft Word notes
 ** DONE Cleanup Heap reporting to be more organized                 :@Office:
 ** NEXT Create outline of plan for company demo                     :@Office:
 ** DONE [#A] Create epic for new reports                            :@Office:
-** WAITING [#A] Announce in All Hands about Analytics Meeting       :@Office:
+** DONE [#A] Announce in All Hands about Analytics Meeting          :@Office:
 ** DONE [#A] Setup Office Hours with Julie                          :@Office:
 ** TODO Verify data quality of school tagging source     :@Office:#Computer:
 ** DONE [#A] Meet with Matt to go over data after it's fixed :@Office:#Computer:

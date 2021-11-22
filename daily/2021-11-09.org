@@ -1,0 +1,176 @@
+:PROPERTIES:
+:ID:       2b32f143-f1a3-4509-9a04-406fc4538409
+:END:
+#+TITLE: 2021-11-09
+#+filetags: Daily
+
+* Log
+
+** 06:27:36
+
+Alright, we out here. Emacs text is italicized again lol. Let me restart it and see what happens... I can now build from source without any errors, and evil mode and org-roam stick.
+
+** 06:28:19
+
+Alright fam we in italics now. Keeping it I guess lol.
+
+** 11:06:11
+
+*** Good [[id:ecc18bf2-efe5-476d-bd89-d2b2e3b3e0a8][security]] article for [[id:dfe02fbb-1acf-431d-8ea2-22e25f7cf99e][air gapped machines]]
+**** https://medium.com/blockchannel/mind-the-crypto-air-gap-89dd8650cba7
+
+** 12:03:36
+
+*** [[id:1f635cde-c9ce-4d3d-ae02-d2bbc8c4c591][Haven]] onboarding meeting with [[id:aa1b7e0d-7783-4cf9-b47b-a9371f93f2a3][Aditya Acharya]]
+
+**** We want Time series, reliable data
+
+**** We want Monitoring, tolerant break
+
+**** Volume going down, platform broken, monitoring
+
+**** Walkthrough of product
+
+What is it? White label mortgage aplication
+
+White label credit karma
+customer's website
+login with okta
+
+our customer's website directly or legacy portals
+the extension, add on, replacement
+all of their end users, credentials
+
+legacy portal, not their main,
+they login on the 2nd page, the admin they normally do on their loan
+similar to how chase has seperate portals
+
+you can interact with the offer,
+i want to apply online
+
+there are different types of offers, you can cash out, you can leverage your home equity, you can save money
+business logic -- for each user, there is at most one offer they are eligible for
+search in table of active offers where user is in a list from the customer
+
+different offers for different experiences
+
+we get a new offer each week, for each borrower. we look up most active offer for each borrower
+
+if you don't take the offer.....
+
+you get a home dashboard
+
+top 3 offers, we don't have that info
+
+Heap is source of truth for sessions
+60% of sessions don't pass auth, get kicked back to portal
+
+only 40% actually land on experience
+
+customer chooses a subset of users, if they don't have an offer, we fail the auth and make sure the user sees the portal
+
+1.9m sessions, that's correct. that's everywhere -- 60% shouldn't count though.
+
+Heap, Javascript, our backend all have concepts of what a session in.
+
+In JS, it has to be the same tab.
+Our backend,
+Heap says, you have one their own.
+
+What should Heap do? Same thing as ScholarRx. We will upload data and do autocapture.
+
+they use aws athena. they upload heap data into athena.
+
+problem right now
+
+funnels
+1. top of funnel and clicking on call of action
+2. daily file, csv, downstream conversion email
+   find some way to drop that into s3
+
+3. interactive components to the UI, not well setup to track events
+
+   every friday, there is a series of reports we need to build the customer
+   get that automated that it happens each week
+
+   simulators, who uses it
+   first time user onboarding, conversion
+   client side from heap
+   server side in athena / code
+   events tracked in our own database, for money only
+
+   some customers have sophisticated oauth
+   for those that don't, we have an auth system
+
+   --
+
+   because there are different offers, sometimes offer CTAs break in some places and not the others
+   breakdowns in some tool, that let us immedately diagnose issues
+   this thing broke offers during entry point instead of main flow
+
+they want a business reliablity team
+
+the report you send
+
+currently one customer, one report
+they are just baseline success KPIs, number of users, number of offers engaged
+
+they aren't showing time series, or growth
+
+basis of our platform, we're going to created an enhancing user engagement
+we have all these components they engage with
+they are the clicks, the linear concepts
+
+oh we've increased the times someone logged in
+
+there is also.... user scoring. The user is coming in, not just engaging with offers, but other things...
+
+profile for the user.
+
+for example, onboarding. yes i want to enroll and track this over time. equity, track. that should be collected into a profile. have an "engagement score".
+
+how are we compiling the behavioral data when we started, and here is
+
+this level of higher
+
+business model
+
+our commerical model is being developed. we're looking to move to, active monthly users.
+We don't have 100% of users in the platform, they are going to stay here to manage this.
+
+active monthly users. platform fee.
+
+mining from their own data. user logged. .20 a month. when that user decides to take a home, we get a percentage to it. success pricing. 6 months.
+
+Statement of work contract fee --
+
+definitely talk to Jonathan, very afraid of relying on Heap
+data is missing, data isn't randomly distributed across all people
+engagement is the bread and butter, not offer presentation
+how do we get them to sign in and interactive
+
+he's expressed a lot of concern, i don't trust heap
+
+the reports jonathan is constructing. he is manually writing these every week, job that runs in Heap.
+
+analytis user -- read only analytics. NDA.
+
+-
+there are bunch of tables that have a bunch of PII. security improvements. security posture. nice to have.
+
+-
+onboarding flow -- most complex use caes. ian.
+
+
+** 14:56:08
+
+*** [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]] deep dive into Bricks. Added to the note.
+
+** 23:20:17
+
+*** [[id:c9473a83-5070-4fd8-9959-f66f306e9fec][Cathie Wood]] weekly call notes
+
+**** No capital gains tax, no corporate tax gains
+**** Social bill won't happen -- what's in this bill?
+**** Government spending as taxation. Debt is a tax. Debt payments get passed to us in taxes.
+****  Inflation is a tax. Paying down debt with inflated dollars is much easier.

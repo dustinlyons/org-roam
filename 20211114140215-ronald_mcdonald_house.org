@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       70190255-cb59-4e32-9e47-5a01fa3943a9
+:END:
+#+title: Ronald Mcdonald House
+#+filetags: Institution CRM
+
+* Contacts
+
+Relationship: Volunteered with[[id:0b26d9b4-1dd2-402b-854f-4cf158ccd2c5][ Joe Weisenberger]]
+Phone:
+Address:
+
+* Notes

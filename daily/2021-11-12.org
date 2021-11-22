@@ -1,0 +1,93 @@
+:PROPERTIES:
+:ID:       1181ba5c-f3ba-4b3d-b514-3f05ba88b5ff
+:END:
+#+TITLE: 2021-11-12
+#+filetags: Daily
+
+* Log
+
+** 14:17:42
+
+Good meeting with [[id:356808b1-27d7-4e56-94c0-7ed3cb036f02][Jonathan Chao]] of [[id:1f635cde-c9ce-4d3d-ae02-d2bbc8c4c591][Haven]] this morning. Very impressed by the opportunity in front of Haven. Next steps are to talk to Ian and dig through all of the data to define it. Also need to start documenting any data nuances.
+
+** 15:05:51
+
+* [[id:38622600-5b87-4d84-abe1-199064c10d51][Ian Plunkett]] meeting with [[id:1f635cde-c9ce-4d3d-ae02-d2bbc8c4c591][Haven]]
+
+SERVICERS / SUBSERVICERS
+
+- Master servicer - Mortgage Servicing Rights.
+  - Subservicers -- do the leg work. Do the call centers, document creation, escrow.
+
+    We are working with Lakeview. They are the MSR. We are working with their subservicers, who is called LoanCare.
+
+    Lakeview has many subservicers. LoanCare subservices many MSRs.o
+
+    The only thing we really have is LoanCare subserviced loans for LakeView.
+
+    We are in talks with another sub-servicers with Mr Cooper.
+
+    Fannie Mae rules. Jennie Mae. Freddie Mac. All do slightly differento
+
+PEOPLE
+
+    Poland, San Francisco, Miami, Hawaii, New York (Monday), Chile
+
+    Nipun, Aditya
+
+    Michael
+
+HIGH LEVEL
+
+    At Login we write a bunch of data (mortgages + borrower info)
+    And bulk import (offers)
+
+    Users
+
+    Organization
+
+    Loans (Mortgages)
+
+    Escrows (Tax, Mortgage)
+
+    * Varied based on who we're working with, through the single sign on piece they give us some piece.
+
+    * Very little data about the person from provider
+
+    Offers
+
+    * Come in a spreadsheet
+
+      --
+
+      If we're successful, we build out a RecSys.
+
+     LVDMS --
+
+As you login, we get loan number that are time sensitive. When was the last time you paid? Things that need to be somewhat real time...
+
+The rest of the non time sensitive data, comes from LVDMS
+
+Then de-duplication
+
+LakeView data loan + borrower
+
+Usually comes through Login phase --
+
+Offer load happens week
+
+VENDOR --
+
+estated. they provide AVM. they provide home valuations and other property. if the data is correct, it's good.
+
+DATA MODEL
+
+organization data model
+
+use interface
+
+MSR / Subservicer
+
+In our loan table, we have loan origin ID. This is a free form string, as you pass into one of the implementations, we need to have a custom function and know what to do with it. Get you info on a loan, for example.
+
+Haven Models, the user, the loan, the escrow

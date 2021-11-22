@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       e89d7348-c456-4dd4-acf9-e58fd5b33b64
+:END:
+#+TITLE: 2021-11-15
+#+filetags: Daily
+
+* Log
+
+** 13:42:33
+
+Working today. Feeling a bit overwhelmed by it all, given the state of my personal projects as well. What do I need to focus on this week?
+
+- Write down all the data, any hidden hacks or rules, if it's important or not, data quality metrics
+- Decide on new metrics Haven should be using
+-
+
+** 23:07:46
+
+*** TODO Watch and take notes on Haven Analytics Video
+- https://drive.google.com/file/d/1VA2ctZHcp2sSnNacfDgJ0OkMQR89oFGu/view

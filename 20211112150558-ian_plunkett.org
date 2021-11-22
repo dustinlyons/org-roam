@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       38622600-5b87-4d84-abe1-199064c10d51
+:END:
+#+title: Ian Plunkett
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Old Credit Karma friend
+Phone:
+Address:
+Birthday:
+
+* Notes

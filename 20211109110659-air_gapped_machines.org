@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       dfe02fbb-1acf-431d-8ea2-22e25f7cf99e
+:END:
+#+title: air gapped machines
+
+The practice of using a computer that isn't connected to the Internet for better security. Relevant to [[id:6c1235e0-327e-400f-b788-b7a01c9f667c][cryptocurrency]] trading.

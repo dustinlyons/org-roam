@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       39c19e25-0e68-4c15-98b8-de2651a8c8c6
+:END:
+#+title: responsive design
+
+Web design that adjusts to the form factor of the device. i.e mobile vs desktop

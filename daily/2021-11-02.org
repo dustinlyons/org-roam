@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       998d30d8-3e0a-452d-a4ba-5b1e2a81a0d0
+:END:
+#+TITLE: 2021-11-02
+#+filetags: Daily
+
+** 17:45:08
+
+*** [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]] Tech Leadership Meeting
+**** Bricks upgrade process is tricky
+***** New versions of Bricks are published
+***** Highlights, notes, annoations have to be considered
+****** Have to be remapped to the new Brick
+
+** 17:46:40
+
+*** TODO Create a kep mapping, shift tab, to move bullets back
+*** TODO Make 'alt enter' as enter, and remove the extra space
+*** TODO Turn on the unreferenced history in buffer
+
+** 17:48:35
+
+lol these times are off
+
+** 19:18:41
+
+*** Unpopular opinion.
+**** [[id:19fa328a-67b3-44f5-afcd-1ccdc79c6072][Agile]] [[id:e1c8fe47-4afc-4622-b126-42cc3e5d66d3][User stories]] that start" As a user, I'd like to..."don't work and waste time. It's the equivalent of a PM throwing their feature over the fence.
+***** Instead, PMs and engineers should work together to colloborate on the details and put that context down in writing.
+
+** 21:09:58
+
+[[id:31a1f318-15a5-4560-ae1e-a3fc917be714][Suboxone]] treatment for after my Rx is finished: https://spruce.care/recovery_delivered

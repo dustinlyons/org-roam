@@ -11,8 +11,8 @@ Install the thermostat and put one coat of stain on the table top. Other than th
 * Workflow
 
 ** Start Day
-*** TODO Process Inbox, Inbox Zero
-*** TODO Review Intentions, Pick Pomodo Tasks
+*** DONE Process Inbox, Inbox Zero
+*** DONE Review Intentions, Pick Pomodo Tasks
 *** [[[id:256353f4-71fb-41fb-ba47-521f6ff70510][Journal]]]
 
 **** What part felt online the most yesterday?
@@ -25,8 +25,8 @@ Install the thermostat and put one coat of stain on the table top. Other than th
 
 
 ** Close Day
-*** TODO Process Inbox, Inbox Zero
-*** TODO Write down Intentions for tomorrow
+*** DONE Process Inbox, Inbox Zero
+*** DONE Write down Intentions for tomorrow
 
 * Journal
 
@@ -40,6 +40,6 @@ Install the thermostat and put one coat of stain on the table top. Other than th
 
 ** 01:41:29
 
-*** TODO Todo list that pays you. I take a cut of Bitcoin for every time you lose. Submit for proof to validator network. Write it on The Internet Computer. :Inbox:
+*** DONE Todo list that pays you. I take a cut of Bitcoin for every time you lose. Submit for proof to validator network. Write it on The Internet Computer. :Inbox:
 
-*** TODO Research Isaiah's bike                                       :Inbox:
+*** DONE Research Isaiah's bike                                       :Inbox:

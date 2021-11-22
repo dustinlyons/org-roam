@@ -5,3 +5,30 @@
 
 #+title: ScholarRx
 
+* Notes
+
+** Bricks Deep Dive
+
+Bricks is comprised of
+
+*** ScholarRx.API
+
+**** Questions
+
+***** What do these decorators do?
+
+**** Code surface area
+33 files contain the word Brick in API project
+1 model (< 50 lines), 1 helper (1600 lines), the rest Controllers
+
+**** Tech Debt
+
+***** No comments in the Controllers. Some todos, commented out code.
+***** Faculty Controller is over 3000 lines. Lots of copy/paste code instead of patterns like inheritance, composobility, etc.
+***** Business logic in how we decide state for a route, examples Line 2190, 1963, 1818, 1645
+***** AuthoringController -- 1300 lines, no comments. Examples, 882. Create new brick.
+***** Magic strings, magic numbers. No defined constants.
+
+*** ScholarRx.BrickManagement
+
+*** ScholarRx.Client

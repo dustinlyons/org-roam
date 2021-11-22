@@ -61,6 +61,9 @@ Keys come from our own Vault server (VM)
 
 Virtual networks isolating access and data to where it matters
 
+From reddit comment (gold):
+- I prefer my HA Proxy set up with CloudFlare doing the SSL termination, a backside SSL cert from CloudFlare securing everything between me and them, and my firewall set up to ONLY listen to CloudFlare IP addresses, thus negating a ton of possible exploit area, as no one ever sees my local IP ever, and my local IP is 100% stealth-mode to anything other than packets from CloudFlare IPs, the rest is dropped.
+
 ** Immutable infrastructure -- NixOS and reproducible builds
 The system can be destroyed and brought back to it's initial state. It
 accomplishes this from a set of composable bootstrap and configuration

@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       07c34bb5-2eb3-49b0-8287-6dc4abfd0ca9
+:END:
+#+title: smart switches

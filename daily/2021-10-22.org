@@ -6,30 +6,21 @@
 
 * Workflow
 
-** Start Day
-*** TODO Process Inbox, Inbox Zero
-*** TODO Review Intentions, Pick Pomodo Tasks
-*** [[[id:256353f4-71fb-41fb-ba47-521f6ff70510][Journal]]]
+** [[[id:256353f4-71fb-41fb-ba47-521f6ff70510][Journal]]]
 
-**** What part felt online the most yesterday?
+*** What part felt online the most yesterday?
 
 More of the academic part. But also the not good enough; kept hearing that for sure. Telling me I'm procrastinating and to get to work (I am).
 
-**** What did that part want? What did it need?
+*** What did that part want? What did it need?
 
 Progress on something to feel like we're building something. It's a good feeling; this one is okay.
 
-**** What do I need to remind this part?
+*** What do I need to remind this part?
 
 That we are pretty damn awesome; have SF connections, people reaching out, crypto moves, beautiful kid and wife and house and two Teslas. Two Teslas! So relax. It's fine. You can just be with your kids. The freak out has just been your own doing. Period.
 
 Let's just find focus time and the rest, be offline. Let's check out the day today.
-
-
-** Close Day
-*** DONE Process Inbox, Inbox Zero
-*** DONE Write down Intentions for tomorrow
-
 
 * Log
 
@@ -121,4 +112,4 @@ Order number related to case: RBGZW6
 ***** Podcasts
 ***** Time Machine
 
-*** TODO Cancel Hulu TV service                                       :Inbox:
+*** TODO Cancel Hulu TV service                               :Inbox:@Amanda:
