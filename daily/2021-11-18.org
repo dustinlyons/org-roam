@@ -10,4 +10,34 @@
 
 Well, I've been ignoring all my other responsibilities, but I've learned a ton about ZFS, Proxmox, and Nix-darwin. My 6 month procrastination (or longer...?) into building out the most amazing toolset to work on... haha. It's been fun. And I made a killing (minus Luna :( RIP) with crypto. So whatever.
 
-MOving on.......
+Moving on.......
+
+** 13:04:39
+
+*** [[id:c26d677e-e701-4d9e-882f-ed3e20cc0715][Arthur Guepe]] meeting + [[id:23E5974A-2B42-401E-A6D8-6C5BDD514D83][ScholarRx]]
+- Most everything goes out the build. We run scripts for databases, primarily.
+- Dictates a process of QA and then ships it! No backup strategy, really. Just moving forward. Very dangerous.
+- Need to make backup of database before running scripts.
+
+** 23:31:03
+
+Trying out a Georgia Tech class. Let's think of everything on our plate:
+
+1. Part time jobs that are easy, minimum time commitment
+2. Isaiah and spending time with him, learning about what to do
+3. Building Bitcoin Noobs
+4. Building out Braeview and our home renovation, home-lab
+
+I think I can park the breaks on #4 to slow roll it, but #1 and #3 will require some work. I probably need to think about what do I want? and what are my goals? Armond's voice in the back of my head...
+
+Let's ask the parts of me.
+
+The dad part just wants to be super engaged with Isaiah, learn how to be a great dad that can teach him how to be super intelligent and turn out to be a great kid.
+
+The ambitious part of me really wants a startup, my own business, that I can blog about.
+
+What part of me wants this ML degree...? The part of me that just wants to learn, be academic, have fun with computing. The same little kid that is following his passion. I should probably listen to this...? This same parts wants to read non-fiction.
+
+Another part wants to game, get into TV shows, cooking, and living and enjoying life. Exercising and meditating and focusing on the here and now and enjoying life.
+
+It feels like too many parts to serve all of their needs. Just not enough time.

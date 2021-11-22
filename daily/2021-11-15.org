@@ -12,9 +12,3 @@ Working today. Feeling a bit overwhelmed by it all, given the state of my person
 
 - Write down all the data, any hidden hacks or rules, if it's important or not, data quality metrics
 - Decide on new metrics Haven should be using
--
-
-** 23:07:46
-
-*** TODO Watch and take notes on Haven Analytics Video
-- https://drive.google.com/file/d/1VA2ctZHcp2sSnNacfDgJ0OkMQR89oFGu/view

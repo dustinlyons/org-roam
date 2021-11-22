@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       bc3643b0-dd1e-417c-b825-ad30b39b0a19
+:END:
+#+title: data science
+
+Everything to do with the field of data science.
+
+* Hierarchy of Needs
+
+This is a great diagram illustrating the layers of abstraction in developing data-focused solutions.
+
+[[~/State/Areas/Writing/Notebook/img/data-science-hierarchy-of-needs.png]]

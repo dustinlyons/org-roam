@@ -161,9 +161,10 @@ End of the day... how do we want to close it out? Let's review all email and cle
 
 * 17:05:38
 
-** TODO Create org-agenda tag for Ideas, use different identifer to not mean "Context". And we can have types of ideas, maybe. :Inbox:
+** DONE Create org-agenda tag for Ideas, use different identifer to not mean "Context". And we can have types of ideas, maybe. :Inbox:
+- Just create an Ideas page and move them from Inbox there
 
-** TODO Emacs org-roam idea: Scan daily files for any dates, add them to daily link :Inbox:
+** CANCELED Emacs org-roam idea: Scan daily files for any dates, add them to daily link :Inbox:
 
 * 17:16:29
 

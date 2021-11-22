@@ -44,8 +44,6 @@ Review yesterday's note, such as...
 
 ** 17:16:29
 
-*** TODO Do taxes!!!! And Amanda meeting + org agenda / Trello      :Inbox:
-
 *** Content ideas for my [[id:3bc16d0e-6361-49e1-8ecf-ff59f45e5cb2][blog]]
 
 Work in public -- why bitcoin noobs

@@ -11,4 +11,4 @@ Start and attend multiple 1x1s with team members to build relationships.
 * Tasks
 
 ** DONE Identify first set of 1x1s with Justin              :@Justin:@Office:
-** NEXT Schedule 1x1s on calendar                              :@Office:
+** DONE Schedule 1x1s on calendar                                   :@Office:

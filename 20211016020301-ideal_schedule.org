@@ -33,7 +33,7 @@ The goal of labeling contexts is to "bring them out" from the shadows, and to be
 1. I'm in ScholarRx mode. --> White Board (Inbox), Emacs (Inbox), org-agenda
 1a. This has Justin, and 1x1 docs for individuals.
 
-2. I'm in Zeroed mode. --> Work in Public, Open Goals
+2. I'm in Assets mode. --> Work in Public, Open Goals
 2a. This has open goals I'm tracking.
 
 3. I'm in Play mode. --> Read fiction, video games
@@ -56,7 +56,7 @@ Morning -> Evening
 2. Health - run, plan for 5k/10k, eat breakfast
 
 Start at 9:45am
-3. Life Work + Zeroed Work -> focus on setting public goals and reaching them
+3. Life Work + Assets Work -> focus on setting public goals and reaching them
 
 1pm
 4. ScholarRx (minimal amount, 1 hr) -> be around, meetings, minimal amount of hands on work
@@ -104,8 +104,8 @@ Resources
 
 Contexts -
 
-    (Office) ScholarRx
-    (Office) Zeroed
+    (Office) Contract
+    (Office) Our Business
     (Home) Braeview
     (Car) Errands
     Amanda
@@ -113,10 +113,11 @@ Contexts -
 
 Projects by Areas -
 
-    Zeroed
-    ScholarRx
+    Contract -- broke these out to set time between the two, and track it.
+    Assets -- including writing about it
     Love -- Called this to focus on emotion, how will we show love to people? We get love when we show love.
+      * marriage, Isaiah
     Braeview - Sync this with Trello somehow.
     Health - Set weekly goals with this one.
-    Money
+    Money - organizing it, managing it
     Spirit - Set weekly goals with this one, after Health is set.

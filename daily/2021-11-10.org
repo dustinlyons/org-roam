@@ -30,8 +30,8 @@
 **** Run some 5k's, 10k's, etc. and Yoga
 **** Read
 
-*** TODO Listen to Tim Ferris and Chris Dixon
-*** TODO Setup Ceph computer and org-agenda
+*** DONE Listen to Tim Ferris and Chris Dixon
+*** DONE Setup Ceph computer and org-agenda
 
 ** 02:45:35
 
@@ -48,7 +48,7 @@ Everyone can be rich. We're all richer than we were 200 years ago. As a species,
 **** Luck
 ***** You see things others don't because of your knowledge
 ***** You showcase yourself to others, so they come to you with their luck
-****** Technology is just the things that do not work yet. - Alan Kay
+****** Technology is just the things that do not work yet. - [[id:73164818-eb76-494a-8729-78d7293ca09f][Alan Kay]]
 ****** People make money from technology... Henry Ford (cars), Rockerfeller (oil)
 
 ** 03:27:26
@@ -110,7 +110,7 @@ Swagger generates a sample JSON.
 ** 17:08:28
 
 *** DONE Pay American Express card and call for fee reversal
-*** WAITING Get suboxone Rx in your hand
+*** DONE Get suboxone Rx in your hand
 *** TODO Schedule time with Amanda to build finance sheet / organize subscriptions
 *** TODO Mow the lawn one last time
 *** CANCELED Find a woodworker to build door, repair outside

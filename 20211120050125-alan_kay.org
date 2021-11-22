@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       73164818-eb76-494a-8729-78d7293ca09f
+:END:
+#+title: Alan Kay
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Famous Computer Scientist
+Phone:
+Address:
+Birthday:
+
+* Notes

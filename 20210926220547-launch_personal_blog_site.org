@@ -9,5 +9,3 @@
 Create a personal blog with Tailwind UI.
 
 * Tasks
-
-** NEXT Build and manage a homepage blog template in Tailwind     :#Computer:

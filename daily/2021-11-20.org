@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       08182678-4e98-4a44-b7b9-1f382423fc11
+:END:
+#+TITLE: 2021-11-20
+#+filetags: Daily
+
+* Log
+
+** 02:29:19
+
+Another day, another do-- fun time! It's Saturday. Need to do something fun today. Spent some time looking into the automatic mounting for my ZFS datasets... and then forgot to change the path in the syncthing config :doh:.
+
+Now it's 3am, I'm up for another hour with a bowl a cereal and digging into Emacs dotfile / home configuration.
+
+I also need to decide on direction for my email, calendar, and go with it. Then start working on CSS for my blogs / contract work, Linear Algebra class / reading, running, hanging with family.
+
+** 03:16:07
+
+Created an [[id:58a6e2b2-905a-4b72-9ba4-3e2cc3f0c651][Ideas]] page for future ideas after being tagged Inbox.
+
+** 05:03:57
+
+[[id:58a6e2b2-905a-4b72-9ba4-3e2cc3f0c651][Ideas]] -- Readwise my own stuff. Example -- I tag something as #Readwise, and a job finds it, imports it into the pipeline, and presents it back to me as Daily Note to digest and do something with.
+
+Also need to spend time making Emacs look good and my backlink buffer perfect.
+
+** 10:33:57
+
+Recording some bookmarks from earlier in the month.
+
+[[id:423edaff-0481-4c8b-8013-f2f640913233][Yubikey]] instructions for SSH and Github. I followed these and easily got SSH up and running on Felix.
+    - https://github.blog/2021-05-10-security-keys-supported-ssh-git-operations/

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       85da5bf5-28b9-41b1-8b1a-1e12ac3dc39f
+:END:
+#+title: Launch Haven Heap 2.0
+#+filetags: Project
+
+* Goals
+
+Build a few reports with user properties.
+
+* Tasks
+
+** NEXT Create notes and prep for initial meeting
+** DONE Create list from meeting with team
+** NEXT Watch and take notes on Haven Analytics Video
+- https://drive.google.com/file/d/1VA2ctZHcp2sSnNacfDgJ0OkMQR89oFGu/view

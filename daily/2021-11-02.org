@@ -16,7 +16,7 @@
 
 *** TODO Create a kep mapping, shift tab, to move bullets back
 *** TODO Make 'alt enter' as enter, and remove the extra space
-*** TODO Turn on the unreferenced history in buffer
+*** DONE Turn on the unreferenced history in buffer
 
 ** 17:48:35
 

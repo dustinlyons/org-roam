@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       fe7d8195-7c50-4dca-80a5-99f9f58f07e2
+:END:
+#+title: Complete Linear Algebra Class
+#+filetags: Project
+
+* Goals
+
+Complete the class
+
+* Tasks
+
+** TODO

@@ -17,10 +17,10 @@ Found a good [[id:39c19e25-0e68-4c15-98b8-de2651a8c8c6][responsive design]] exam
 Spending some Saturday night vibes to get my home-lab server up and running. Some goals I have.
 
 *** DONE Create an easy way to launch VMs with Nix packages, a boot script, and systemd
-*** TODO Use that to create a syncthing server managing my Data volume
-*** TODO  Create a bootstrap script that determines the OS, sets up syncthing, downloads data, downloads nix-config
-*** TODO Ensure dustinlyons/nix-config runs and nix-darwin / Home Manager takes over, Emacs is setup
-*** TODO Use nix or brew to install and configure Mac applications
+*** DONE Use that to create a syncthing server managing my Data volume
+*** DONE  Create a bootstrap script that determines the OS, sets up syncthing, downloads data, downloads nix-config
+*** DONE Ensure dustinlyons/nix-config runs and nix-darwin / Home Manager takes over, Emacs is setup
+*** DONE Use nix or brew to install and configure Mac applications
 
 ** 01:27:16
 

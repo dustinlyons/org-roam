@@ -10,9 +10,7 @@ Create a first version of Bitcoin Noobs.
 
 * Tasks
 
-** NEXT [#A] Create wire frame for article content        :@Office:#Computer:
 ** NEXT Complete Tailwind class                           :@Office:#Computer:
-** NEXT [#A] Research and find business liability insurance :@Office:#Computer:
 ** TODO Manage toxic backlink audit for Bitcoin Noobs    :@Office:#Computer:
 ** TODO Create Binance affiliate account                  :@Office:#Computer:
 ** TODO Create Robinhood affiliate account                :@Office:#Computer:
@@ -29,11 +27,11 @@ Create a first version of Bitcoin Noobs.
 ** List of competitors
 ** Email from Coinbase
 
-Should you need anything please do reach out to affiliates@coinbase.com. 
+Should you need anything please do reach out to affiliates@coinbase.com.
 
-You'll find your affiliate handbook implemented within your contract at the bottom of the screen. Simply click on "View All" within the Contract Terms section (bottom right-hand side of dashboard), and scroll down. 
+You'll find your affiliate handbook implemented within your contract at the bottom of the screen. Simply click on "View All" within the Contract Terms section (bottom right-hand side of dashboard), and scroll down.
 
-If you do not see the affiliate handbook, please do reach out so that I can send you one directly. Our handbook aims to provide you with additional tips and information in order to set you up for a successful partnership with us. 
+If you do not see the affiliate handbook, please do reach out so that I can send you one directly. Our handbook aims to provide you with additional tips and information in order to set you up for a successful partnership with us.
 
 All of our new affiliate partners are put on a 3 month trial with targets to drive a minimum of 30 signups over the trial period. This allows us to understand which partners may need a little more support from us, we want to make sure each partner has the best chance to do well.
 
@@ -76,7 +74,7 @@ Colors I like:
 - Engage in Social Media, finding "noobs" and helping people learn how to buy and get into Bitcoin
 - Reaching out to other places to offer to write or share content for them in exchange for linking back to our blog
     http://www.ico-prmarketingservices.com/#bx-item-actions-8
-  
+
 ** Ideas for Articles
 ...Buying an NFT requires a person to open an account on a cryptocurrency exchange, at least one crypto wallet, sending money to a crypto exchange wallet, connecting the wallet to the appropriate platform, and paying a gas fee.
 

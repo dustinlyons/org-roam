@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       fac4a653-568d-4a2e-802c-04ba58799f46
+:END:
+#+title: tmpfs
+
+Filesystem that doesn't persistent between boots.

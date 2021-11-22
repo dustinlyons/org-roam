@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       8870f143-7158-403b-a757-8cb8b0f7771b
+:END:
+#+title: Henadzi Tsaryk
+#+filetags: People CRM
+
+* Contacts
+
+Relationship: Engineer at [[id:1f635cde-c9ce-4d3d-ae02-d2bbc8c4c591][Haven]]
+Phone:
+Address:
+Birthday:
+
+* Notes

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       3ebfefd0-58ec-4564-ad87-ab6417febc87
+:END:
+#+TITLE: 2021-11-22
+#+filetags: Daily
+
+** 02:17:49
+
+My NixOS setup on both my Mac and Desktop are in great shape. I just need to get Emacs up and running on both, and by extension basic dotfiles, and I'll be ready to move into HTML/Tailwind full time.
+
+** 03:16:44
+
+We need to figure out the capacity of our days, what we want to allocate to what -- realistically, and go after it. And be international with that time -- not fuck around.
+
+Previous schedules:
+...
+
+** 11:08:41
+
+*** [[id:1f635cde-c9ce-4d3d-ae02-d2bbc8c4c591][Haven]] Meeting with [[id:8870f143-7158-403b-a757-8cb8b0f7771b][Henadzi Tsaryk]]
+- Number of offer impressions. Offer applications. Difference between Heap and Google Analytics.
+
+- Sign in attempts is off.

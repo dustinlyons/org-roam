@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       79ab2e67-d7be-4526-80ad-d4baf1f86ac6
+:END:
+#+title: LG
+#+filetags: Institution CRM
+
+* Contacts
+
+Relationship: Own their TVs, monitors, and refridgerators
+Phone:
+Address:
+
+* Notes

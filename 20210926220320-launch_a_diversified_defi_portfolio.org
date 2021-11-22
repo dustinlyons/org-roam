@@ -10,4 +10,5 @@ Own a set of defi tokens that generate income
 
 * Tasks
 
-** NEXT Decide on amount of capital and DCA for one week
+** DONE Decide on amount of capital and DCA for one week
+** DONE Build cryptocurency positions

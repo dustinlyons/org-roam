@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       2E154EDA-B357-461B-981E-7D6C2A959382
 :END:
-#+title: Create a Daily Schedule
+#+title: Live a Daily Schedule
 #+filetags: Project Productivity
 
 * Goals

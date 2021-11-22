@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       6fda173e-cb94-47d8-86ed-f8bdb4085761
+:END:
+#+title: Hugo
+
+Static site generator.

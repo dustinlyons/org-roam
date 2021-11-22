@@ -10,4 +10,4 @@ Create a diagram showing all services and their dependencies
 
 * Tasks
 
-** NEXT Build diagram of "environments" and "dependencies"         :@Office:
+** TODO Build diagram of "environments" and "dependencies"          :@Office:

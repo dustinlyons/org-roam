@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       1b8eb49e-cf10-4300-967f-e452a4909c9d
+:END:
+#+title: Create reading habit
+#+filetags: Area
+
+* Goals
+
+Read 5 days a week for 90 days
+
+* Tasks
+
+** TODO

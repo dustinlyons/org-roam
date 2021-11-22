@@ -13,6 +13,8 @@ Organize expenses and ensure taxes are good for 2021.
 ** DONE Confirm amount of occupational tax owed currently         :#Computer:
 ** TODO Start basic spreadsheet of income and expenses    :@Office:#Computer:
 ** DONE [#A] Submit tax registration to KY Revenue dept   :@Office:#Computer:
+** DONE Finish business registration with KY Revenue Dept :@Office:#Computer:
+** NEXT Seup meeting with Amanda to review expenses
 
 * Notes
 
@@ -66,4 +68,3 @@ https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-emplo
 
 - Have legal disclaimers on your crypto site; update the language as needed.
 - Consider personal umbrella insurance and business insurance for the LLC
-* DONE Finish business registration with KY Revenue Dept  :@Office:#Computer:

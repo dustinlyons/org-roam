@@ -33,12 +33,11 @@
 
 
 * Minimum Viable House
-
 ** Greg's spreadsheet
 ** Garage unpacked, clean/organized, parking + Tesla charger
 ** Child proof electric outlets
 ** Child proof corners and rough edges
-** Install child gates at basement, top of stairs 
+** Install child gates at basement, top of stairs
 ** Install window hardware everywhere
 ** Install nightstands in Primary Bedroom
 ** TVs are hung
@@ -53,6 +52,9 @@
 ** Pressure wash and seal decks
 ** Pressure wash fence
 ** Clean and seal tile
-* DONE [#A] Prepare for handy man with measurements                   :@Home:
-* DONE [#A] Test and/or fix the wiring behind Primary Bedroom TV      :@Home:
 
+* Tasks
+
+** DONE [#A] Prepare for handy man with measurements                 :@Home:
+** DONE [#A] Test and/or fix the wiring behind Primary Bedroom TV    :@Home:
+** TODO Clean washing machine once tablets arrive                    :Inbox:

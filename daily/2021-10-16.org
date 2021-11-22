@@ -8,7 +8,7 @@
 
 Brain Dump of Drafts.
 
-* TODO Process these into TODOs                                       :Inbox:
+* DONE Process these into TODOs                                       :Inbox:
 
 - Ray Dalia Go Principles Book
   Ask RD if donating rub will be tax writeoff

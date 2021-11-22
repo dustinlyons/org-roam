@@ -7,3 +7,36 @@
 
 ** Good resources on how to use NixOS + ZFS on install, creating datasets and mounting them, and installing the OS...
 - https://nixos.wiki/wiki/ZFS#Single-disk
+
+
+** ZFS Notes from "ZFS for Newbies"
+- Link: https://www.youtube.com/watch?v=3oG-1U5AI9A
+
+What is a vdev?
+    Create a vdev from a zpool
+    Can we be a single disk, mirror, or raidz
+What is a dataset?
+    dataset can be a filesystem, volume, or snapshot (read only version of filesystem)
+How to replace a failed drive?
+    First add new drive, run zpool replace, remove old drive from zpool, then remove
+Data Integrity is important!
+    ZFS checksums everything.
+daily scrub
+    run health checks
+    daily_scrub_zfs_enable = "Yes", default_threshold = "7"
+Snapshots
+    They are read only, you can send them easily. They represent all files at a point in time. Back these up.
+RAID10
+    Mirroring + striping
+
+** ZFS For Dummies
+Source: https://blog.victormendonca.com/2020/11/03/zfs-for-dummies/
+
+zpool create - Create a pool (and vdevs)
+zpool status - Displays pool status
+zpool list - List pool and it’s details
+zpool history - Shows history of commands for zpool
+zpool import- Imports and mounts pool
+zpool export - Exports and unmounts pool
+zpool destroy - Destroy pool and all filesystems
+zpool scrub - Starts scrub of pool

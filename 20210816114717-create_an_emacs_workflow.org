@@ -2,7 +2,7 @@
 :ID:       2593B695-336F-4485-87CE-8480C320D066
 :END:
 #+title: Create an Emacs Workflow
-#+filetags: Project Productivity
+#+filetags: Area Productivity
 
 * Goals
 
@@ -14,17 +14,22 @@ Create a full fledged environment for writing and coding in Emacs. I need:
 
 * Tasks
 
-** TODO Review emacs bookmarks and integrate into workflow  [[https://www.emacswiki.org/emacs/BookMarks#h5o-2][Link]]  :#Computer:
-** TODO Review org-agenda capture templates                      :#Computer:
+** NEXT [#A] Create agenda commands for the views you want, and change org-super-agenda to be simpler
+** TODO use org-ql to create Project and Context views           :#Computer:
+- org-super-agenda priority: Priority, Inbox, Next Action, Waiting, Todo
+** TODO Sync Google Calendar and Outlook with org-agenda
+** TODO Sync Trello to Braeview Project (and others) for quick tasks to Amanda
+
+** CANCELED Review emacs bookmarks and integrate into workflow  [[https://www.emacswiki.org/emacs/BookMarks#h5o-2][Link]] :#Computer:
+** DONE Review org-agenda capture templates                       :#Computer:
 ** TODO Add [[https://github.com/nobiot/org-transclusion][org-transclusion]] mode and hotkeys to Emacs           :#Computer:
 ** TODO Study org-roam windows to make them work like Roam       :#Computer:
-** TODO Be able to use date functions the same as Roam           :#Computer:
-** TODO Create Roam "2nd window" and adding ref doc hotkeys easily :#Computer:
+** DONE Be able to use date functions the same as Roam            :#Computer:
+** DONE Create Roam "2nd window" and adding ref doc hotkeys easily :#Computer:
 ** TODO Create hotkey for Inbox tag and refile                    :#Computer:
 ** TODO Figure out Emacs windows and how to create Roam 2nd window experience :#Computer:
-** TODO Create Project for dl-resource-importer                  :#Computer:
-** TODO Setup free dropbox client + git cron job                 :#Computer:
-** TODO use org-ql to create Project and Context views           :#Computer:
+** DONE Create Project for dl-resource-importer                   :#Computer:
+** DONE Setup free dropbox client + git cron job                  :#Computer:
 ** TODO Review this [[https://www.reddit.com/r/emacs/comments/445w6s/whats_some_small_thing_in_your_dotemacs_that_you/][thread]] and pull out some goodies              :#Computer:
 ** TODO Create easy popup for camera / photo on computer insert :#Computer:
 ** SOMEDAY Follow up on org-roam community to identify features you want
@@ -34,12 +39,9 @@ Create a full fledged environment for writing and coding in Emacs. I need:
 - I'd love to visit links in the buffer easily. So I see the context and go there immediately (or open a window to see it, immediately).
 
 ** SOMEDAY Write a runbook to create and seed CRM file database
-** TODO Sync Google Calendar and Outlook with org-agenda
 https://orgmode.org/worg/org-tutorials/org-google-sync.html
 ** SOMEDAY Create a workflow for innovating new ideas (seedling, evergeen, etc.) :#Computer:
 
-* NEXT [#A] Create agenda commands for the views you want, and change org-super-agenda to be simpler
-- org-super-agenda priority: Priority, Inbox, Next Action, Waiting, Todo
 - agenda commands: Inbox, Office (+ @Justin) Next, Office Backlog, Home (+ @Amanda) Next, Home Backlog, Errands Next, Errands Backlog, Waiting, Someday
 
 * TODO Fix up spell checking in Emacs                             :#Computer:
@@ -51,3 +53,10 @@ I've also hacked some things in the org-roam buffer in my Arch setup, to view mo
 Turn off a header in org-mode, no need to see file hierarchy.
 JLJSzEA5OtMq_NmsRVmy98AS5VgkVj2RqArf_5D_XM4
 
+* Resources
+
+These dotfiles have relevant [[id:d8777f9f-b2f4-4aca-b3ac-5500a5a0932a][org-roam]] functions I can use:
+    - https://github.com/rasendubi/dotfiles#org-roam-dailies
+
+ Exporting org-roam to [[id:6fda173e-cb94-47d8-86ed-f8bdb4085761][Hugo]]:
+    - https://sidhartharya.me/exporting-org-roam-notes-to-hugo/

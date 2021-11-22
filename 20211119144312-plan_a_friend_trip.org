@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       495381e3-8266-420c-98fc-086a2295852d
+:END:
+#+title: Plan a friend trip
+#+filetags: Project
+
+* Goals
+
+Plan, document, and purchase tickets for trip
+
+* Tasks
+
+** TODO
