@@ -31,7 +31,7 @@ General Public License for more details.
 @finalout
 @titlepage
 @title Org-roam User Manual
-@subtitle for version 2.1.0
+@subtitle for version 2.2.0
 @author Jethro Kuan
 @page
 @vskip 0pt plus 1filll
@@ -44,7 +44,7 @@ General Public License for more details.
 
 @noindent
 
-This manual is for Org-roam version 2.1.0.
+This manual is for Org-roam version 2.2.0.
 
 @quotation
 Copyright (C) 2020-2021 Jethro Kuan <jethrokuan95@@gmail.com>
@@ -86,7 +86,6 @@ General Public License for more details.
 * Command Index::
 * Function Index::
 * Variable Index::
-* Bibliography: Bibliography (1). 
 
 @detailmenu
 --- The Detailed Node Listing ---
@@ -100,6 +99,10 @@ Installation
 Installation Troubleshooting
 
 * C Compiler::
+
+C Compiler
+
+* C Compiler for Windows::
 
 Getting Started
 
@@ -190,6 +193,13 @@ FAQ
 * How can I stop Org-roam from creating IDs everywhere?::
 * How do I migrate from Roam Research?::
 * How to migrate from Org-roam v1?::
+* How do I publish my notes with an Internet-friendly graph?::
+
+How do I publish my notes with an Internet-friendly graph?
+
+* Configure org-mode for publishing::
+* Overriding the default link creation function::
+* Copying the generated file to the export directory::
 
 Developer's Guide to Org-roam
 
@@ -529,42 +539,39 @@ in your Emacs environment as a prerequisite for Org-roam when you install it.
 @code{emacsql-sqlite} requires a C compiler (e.g. @code{gcc} or @code{clang}) to be present in
 your computer. How to install a C compiler depends on the OS that you use.
 
-@itemize
-@item
-For Windows:
-@end itemize
+@menu
+* C Compiler for Windows::
+@end menu
 
-There are various ways to install one, depending on how you have installed
-Emacs. If you use Emacs within a Cygwin or MinGW environment, then you should
-install a compiler using their respective package manager.
+@node C Compiler for Windows
+@unnumberedsubsubsec C Compiler for Windows
 
-If you have installed your Emacs from the @uref{https://www.gnu.org/software/emacs/, GNU Emacs website}, then the easiest way
-is to use @uref{https://www.msys2.org/, MSYS2} as at the time of this writing:
+One of the easiest ways to install a C compiler in Windows is to use @uref{https://www.msys2.org/, MSYS2} as at the time of this writing:
 
 @itemize
 @item
-Use the installer in the official website and install MSYS2
+Download and use the installer in the official MSYS2 website
 
 @item
-Run MSYS2
-
-@item
-In the command-line tool, type the following and answer ``Y'' to proceed:
+Run MSYS2 and in its terminal, type the following and answer ``Y'' to
+proceed -- this will install @code{gcc} in your PC:
 
 @example
 pacman -S gcc
 @end example
 
-Note that you do not need to manually set the PATH for MSYS2; the
-@end itemize
-installer automatically takes care of it for you.
 
-@itemize
 @item
-Open Emacs and call @code{M-x org-roam-db-autosync-mode}
+On Windows, add @code{C:\msys64\usr\bin} (command @samp{where gcc} in MSYS2 terminal
+can tell you the correct path) to @code{PATH} in your environmental variables
+
+
+@item
+Launch Emacs and call @code{M-x org-roam-db-autosync-mode} (launch Emacs after
+defining the path, so that Emacs can recognize it)
+@end itemize
 
 This will automatically start compiling @code{emacsql-sqlite}; you should see a
-@end itemize
 message in minibuffer. It may take a while until compilation completes. Once
 complete, you should see a new file @code{emacsql-sqlite.exe} created in a subfolder
 named @code{sqlite} under @code{emacsql-sqlite} installation folder. It's typically in
@@ -1059,7 +1066,7 @@ Remove a ref from the node at point.
 
 Since version 9.5, Org has first-class support for citations. Org-roam supports
 the caching of both these in-built citations (of form @code{[cite:@@key]}) and @uref{https://github.com/jkitchin/org-ref, org-ref}
-citations (of form (NO@math{_ITEM}@math{_DATA}:key)).
+citations (of form cite:key).
 
 Org-roam attempts to load both the @code{org-ref} and @code{org-cite} package when
 indexing files, so no further setup from the user is required for citation
@@ -1081,6 +1088,16 @@ citation key:
 :PROPERTIES:
 :ID:       51b7b82c-bbb4-4822-875a-ed548cffda10
 :ROAM_REFS: @@thrun2005probabilistic
+:END:
+@end example
+
+or
+
+@example
+* Probabilistic Robotics
+:PROPERTIES:
+:ID:       51b7b82c-bbb4-4822-875a-ed548cffda10
+:ROAM_REFS: [cite:@@thrun2005probabilistic]
 :END:
 @end example
 
@@ -1889,6 +1906,9 @@ documents (PDF, EPUB etc.) within Org-mode.
 @node Bibliography
 @section Bibliography
 
+Org 9.5 added native citation and bibliography functionality, called ``org-cite'',
+which org-roam supports.
+
 @uref{https://github.com/org-roam/org-roam-bibtex, org-roam-bibtex} offers tight integration between @uref{https://github.com/jkitchin/org-ref, org-ref}, @uref{https://github.com/tmalsburg/helm-bibtex, helm-bibtex} and
 @code{org-roam}. This helps you manage your bibliographic notes under @code{org-roam}.
 
@@ -1914,6 +1934,7 @@ Org-mode, and sync your cards to Anki via @uref{https://github.com/FooSoft/anki-
 * How can I stop Org-roam from creating IDs everywhere?::
 * How do I migrate from Roam Research?::
 * How to migrate from Org-roam v1?::
+* How do I publish my notes with an Internet-friendly graph?::
 @end menu
 
 @node How do I have more than one Org-roam directory?
@@ -1928,8 +1949,21 @@ variable using directory-local variables. This is what @code{.dir-locals.el} may
 contain:
 
 @lisp
-((nil . ((org-roam-directory . (expand-file-name "."))
-         (org-roam-db-location . (expand-file-name "./org-roam.db")))))
+((nil . ((org-roam-directory . "/path/to/alt/org-roam-dir")
+         (org-roam-db-location . "/path/to/alt/org-roam-dir/org-roam.db"))))
+@end lisp
+
+Note @code{org-roam-directory} and @code{org-roam-db-location} should be an absolute path, not relative.
+
+Alternatively, use @code{eval} if you wish to call functions:
+
+@lisp
+((nil . ((eval . (setq-local
+                  org-roam-directory (expand-file-name (locate-dominating-file
+                                                        default-directory ".dir-locals.el"))))
+         (eval . (setq-local
+                  org-roam-db-location (expand-file-name "org-roam.db"
+                                                         org-roam-directory))))))
 @end lisp
 
 All files within that directory will be treated as their own separate set of
@@ -2007,6 +2041,109 @@ and the @code{ROAM_TAGS} property for headline nodes
 @item
 Replace existing file links with ID links.
 @end itemize
+
+@node How do I publish my notes with an Internet-friendly graph?
+@section How do I publish my notes with an Internet-friendly graph?
+
+The default graph builder creates a graph with an @uref{https://orgmode.org/worg/org-contrib/org-protocol.html, org-protocol}
+handler which is convenient when you're working locally but
+inconvenient when you want to publish your notes for remote access.
+Likewise, it defaults to displaying the graph in Emacs which has the
+exact same caveats.  This problem is solvable in the following way
+using org-mode's native @uref{https://orgmode.org/manual/Publishing.html, publishing} capability:
+
+@itemize
+@item
+configure org-mode to publish your org-roam notes as a project.
+
+@item
+create a function that overrides the default org-protocol link
+creation function(@samp{org-roam-default-link-builder}).
+
+@item
+create a hook that's called at the end of graph creation to copy
+the generated graph to the appropriate place.
+@end itemize
+
+The example code below is used to publish to a local directory where a
+separate shell script copies the files to the remote site.
+
+@menu
+* Configure org-mode for publishing::
+* Overriding the default link creation function::
+* Copying the generated file to the export directory::
+@end menu
+
+@node Configure org-mode for publishing
+@subsection Configure org-mode for publishing
+
+This has two steps:
+@itemize
+@item
+Setting of a @emph{roam} project that publishes your notes.
+
+@item
+Configuring the @emph{sitemap.html} generation.
+
+@item
+Setting up @samp{org-publish} to generate the graph.
+@end itemize
+
+This will require code like the following:
+@lisp
+(defun roam-sitemap (title list)
+  (concat "#+OPTIONS: ^:nil author:nil html-postamble:nil\n"
+          "#+SETUPFILE: ./simple_inline.theme\n"
+          "#+TITLE: " title "\n\n"
+          (org-list-to-org list) "\nfile:sitemap.svg"))
+
+(setq my-publish-time 0)   ; see the next section for context
+(defun roam-publication-wrapper (plist filename pubdir)
+  (org-roam-graph)
+  (org-html-publish-to-html plist filename pubdir)
+  (setq my-publish-time (cadr (current-time))))
+
+(setq org-publish-project-alist
+  '(("roam"
+     :base-directory "~/roam"
+     :auto-sitemap t
+     :sitemap-function roam-sitemap
+     :sitemap-title "Roam notes"
+     :publishing-function roam-publication-wrapper
+     :publishing-directory "~/roam-export"
+     :section-number nil
+     :table-of-contents nil
+     :style "<link rel=\"stylesheet\" href=\"../other/mystyle.cs\" type=\"text/css\">")))
+@end lisp
+
+@node Overriding the default link creation function
+@subsection Overriding the default link creation function
+
+The code below will generate a link to the generated html file instead
+of the default org-protocol link.
+@lisp
+(defun org-roam-custom-link-builder (node)
+  (let ((file (org-roam-node-file node)))
+    (concat (file-name-base file) ".html")))
+
+(setq org-roam-graph-link-builder 'org-roam-custom-link-builder)
+@end lisp
+
+@node Copying the generated file to the export directory
+@subsection Copying the generated file to the export directory
+
+The default behavior of @samp{org-roam-graph} is to generate the graph and
+display it in Emacs.  There is an @samp{org-roam-graph-generation-hook}
+available that provides access to the file names so they can be copied
+to the publishing directory.  Example code follows:
+
+@lisp
+(add-hook 'org-roam-graph-generation-hook
+          (lambda (dot svg) (if (< (- (cadr (current-time)) my-publish-time) 5)
+                                (progn (copy-file svg "~/roam-export/sitemap.svg" 't)
+                                       (kill-buffer (file-name-nondirectory svg))
+                                       (setq my-publish-time 0)))))
+@end lisp
 
 @node Developer's Guide to Org-roam
 @chapter Developer's Guide to Org-roam
@@ -2260,10 +2397,5 @@ When GOTO is non-nil, go the note without creating an entry."
 
 @printindex vr
 
-@node Bibliography (1)
-@chapter Bibliography
-
-NO@math{_ITEM}@math{_DATA}:key
-
-Emacs 28.0.50 (Org mode N/A)
+Emacs 29.0.50 (Org mode 9.6)
 @bye

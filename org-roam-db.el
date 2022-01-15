@@ -5,7 +5,7 @@
 ;; Author: Jethro Kuan <jethrokuan95@gmail.com>
 ;; URL: https://github.com/org-roam/org-roam
 ;; Keywords: org-mode, roam, convenience
-;; Version: 2.1.0
+;; Version: 2.2.0
 ;; Package-Requires: ((emacs "26.1") (dash "2.13") (f "0.17.2") (org "9.4") (emacsql "3.0.0") (emacsql-sqlite "1.0.0") (magit-section "3.0.0"))
 
 ;; This file is NOT part of GNU Emacs.
@@ -48,13 +48,13 @@ tool, which is not recommended because it is not suitable to be
 used like this, but has the advantage that you likely don't need
 a compiler. See https://nullprogram.com/blog/2014/02/06/."
   :package-version '(org-roam . "2.2.0")
-  :group 'forge
+  :group 'org-roam
   :type '(choice (const sqlite)
                  (const libsqlite3)
                  (const sqlite3)
                  (symbol :tag "other")))
 
-(defcustom org-roam-db-location (expand-file-name "org-roam.db" user-emacs-directory)
+(defcustom org-roam-db-location (locate-user-emacs-file "org-roam.db")
   "The path to file where the Org-roam database is stored.
 
 It is the user's responsibility to set this correctly, especially
@@ -99,13 +99,7 @@ slow."
   :group 'org-roam)
 
 ;;; Variables
-(defconst org-roam-db-version 17)
-
-;; TODO Rename this
-(defconst org-roam--sqlite-available-p
-  (with-demoted-errors "Org-roam initialization: %S"
-    (emacsql-sqlite-ensure-binary)
-    t))
+(defconst org-roam-db-version 18)
 
 (defvar org-roam-db--connection (make-hash-table :test #'equal)
   "Database connection to Org-roam database.")
@@ -115,6 +109,10 @@ slow."
   "Return the database connection, if any."
   (gethash (expand-file-name (file-name-as-directory org-roam-directory))
            org-roam-db--connection))
+
+(declare-function emacsql-sqlite "ext:emacsql-sqlite")
+(declare-function emacsql-libsqlite3 "ext:emacsql-libsqlite3")
+(declare-function emacsql-sqlite3 "ext:emacsql-sqlite3")
 
 (defun org-roam-db--conn-fn ()
   "Return the function for creating the database connection."
@@ -141,6 +139,7 @@ Performs a database upgrade when required."
     (let ((init-db (not (file-exists-p org-roam-db-location))))
       (make-directory (file-name-directory org-roam-db-location) t)
       (let ((conn (funcall (org-roam-db--conn-fn) org-roam-db-location)))
+        (emacsql conn [:pragma (= foreign_keys ON)])
         (when-let ((process (emacsql-process conn)))
           (set-process-query-on-exit-flag process nil))
         (puthash (expand-file-name (file-name-as-directory org-roam-directory))
@@ -184,6 +183,7 @@ The query is expected to be able to fail, in this situation, run HANDLER."
 (defconst org-roam-db--table-schemata
   '((files
      [(file :unique :primary-key)
+      title
       (hash :not-null)
       (atime :not-null)
       (mtime :not-null)])
@@ -241,7 +241,6 @@ The query is expected to be able to fail, in this situation, run HANDLER."
 (defun org-roam-db--init (db)
   "Initialize database DB with the correct schema and user version."
   (emacsql-with-transaction db
-    (emacsql db "PRAGMA foreign_keys = ON")
     (pcase-dolist (`(,table ,schema) org-roam-db--table-schemata)
       (emacsql db [:create-table $i1 $S2] table schema))
     (pcase-dolist (`(,index-name ,table ,columns) org-roam-db--table-indices)
@@ -292,10 +291,22 @@ If FILE is nil, clear the current buffer."
                      file))
 
 ;;;; Updating tables
+
+(defun org-roam-db--file-title ()
+  "In current Org buffer, get the title.
+If there is no title, return the file name relative to
+`org-roam-directory'."
+  (org-link-display-format
+   (or (cadr (assoc "TITLE" (org-collect-keywords '("title"))))
+       (file-name-sans-extension (file-relative-name
+                                  (buffer-file-name (buffer-base-buffer))
+                                  org-roam-directory)))))
+
 (defun org-roam-db-insert-file ()
   "Update the files table for the current buffer.
 If UPDATE-P is non-nil, first remove the file in the database."
   (let* ((file (buffer-file-name))
+         (file-title (org-roam-db--file-title))
          (attr (file-attributes file))
          (atime (file-attribute-access-time attr))
          (mtime (file-attribute-modification-time attr))
@@ -303,7 +314,7 @@ If UPDATE-P is non-nil, first remove the file in the database."
     (org-roam-db-query
      [:insert :into files
       :values $v1]
-     (list (vector file hash atime mtime)))))
+     (list (vector file file-title hash atime mtime)))))
 
 (defun org-roam-db-get-scheduled-time ()
   "Return the scheduled time at point in ISO8601 format."
@@ -323,12 +334,12 @@ If UPDATE-P is non-nil, first remove the file in the database."
 
 (defun org-roam-db-map-nodes (fns)
   "Run FNS over all nodes in the current buffer."
-  (org-with-point-at 1
-    (org-map-entries
-     (lambda ()
-       (when (org-roam-db-node-p)
-         (dolist (fn fns)
-           (funcall fn)))))))
+  (org-map-region
+   (lambda ()
+     (when (org-roam-db-node-p)
+       (dolist (fn fns)
+         (funcall fn))))
+   (point-min) (point-max)))
 
 (defun org-roam-db-map-links (fns)
   "Run FNS over all links in the current buffer."
@@ -360,7 +371,6 @@ If UPDATE-P is non-nil, first remove the file in the database."
           (with-temp-buffer
             (delay-mode-hooks (org-mode))
             (insert link)
-            (point-min)
             (setq link (org-element-context)))))
         (when link
           (dolist (fn fns)
@@ -381,10 +391,7 @@ INFO is the org-element parsed buffer."
                (org-roam-db-node-p))
       (when-let ((id (org-id-get)))
         (let* ((file (buffer-file-name (buffer-base-buffer)))
-               (title (org-link-display-format
-                       (or (cadr (assoc "TITLE" (org-collect-keywords '("title"))
-                                        #'string-equal))
-                           (file-relative-name file org-roam-directory))))
+               (title (org-roam-db--file-title))
                (pos (point))
                (todo nil)
                (priority nil)
@@ -471,10 +478,32 @@ INFO is the org-element parsed buffer."
     (let (rows)
       (dolist (ref refs)
         (save-match-data
-          (cond ((string-equal (substring ref 0 1) "@")
+          (cond (;; @citeKey
+                 (string-prefix-p "@" ref)
                  (push (vector node-id (substring ref 1) "cite") rows))
-                ((string-match org-link-plain-re ref)
-                 (push (vector node-id (match-string 2 ref) (match-string 1 ref)) rows))
+                (;; [cite:@citeKey]
+                 (string-prefix-p "[cite:" ref)
+                 (condition-case nil
+                     (let ((cite-obj (org-cite-parse-objects ref)))
+                       (org-element-map cite-obj 'citation-reference
+                         (lambda (cite)
+                           (let ((key (org-element-property :key cite)))
+                             (push (vector node-id key "cite") rows)))))
+                   (error
+                    (lwarn '(org-roam) :warning
+                           "%s:%s\tInvalid cite %s, skipping..." (buffer-file-name) (point) ref))))
+                (;; https://google.com, cite:citeKey
+                 ;; Note: we use string-match here because it matches any link: e.g. [[cite:abc][abc]]
+                 ;; But this form of matching is loose, and can accept invalid links e.g. [[cite:abc]
+                 (string-match org-link-plain-re ref)
+                 (let ((link-type (match-string 1 ref))
+                       (path (match-string 2 ref)))
+                   (if (and (boundp 'org-ref-cite-types)
+                            (or (assoc link-type org-ref-cite-types)
+                                (member link-type org-ref-cite-types)))
+                       (dolist (key (org-roam-org-ref-path-to-keys path))
+                         (push (vector node-id key link-type) rows))
+                     (push (vector node-id path link-type) rows))))
                 (t
                  (lwarn '(org-roam) :warning
                         "%s:%s\tInvalid ref %s, skipping..." (buffer-file-name) (point) ref)))))
@@ -496,14 +525,13 @@ INFO is the org-element parsed buffer."
       ;; For Org-ref links, we need to split the path into the cite keys
       (when (and source path)
         (if (and (boundp 'org-ref-cite-types)
-                 (fboundp 'org-ref-split-and-strip-string)
-                 (member type org-ref-cite-types))
-            (progn
-              (setq path (org-ref-split-and-strip-string path))
-              (org-roam-db-query
-               [:insert :into citations
-                :values $v1]
-               (mapcar (lambda (p) (vector source p (point) properties)) path)))
+                 (or (assoc type org-ref-cite-types)
+                     (member type org-ref-cite-types)))
+            (org-roam-db-query
+             [:insert :into citations
+              :values $v1]
+             (mapcar (lambda (k) (vector source k (point) properties))
+                     (org-roam-org-ref-path-to-keys path)))
           (org-roam-db-query
            [:insert :into links
             :values $v1]
@@ -570,6 +598,7 @@ in `org-roam-db-sync'."
         (emacsql-with-transaction (org-roam-db)
           (save-excursion
             (org-set-regexps-and-options 'tags-only)
+            (org-refresh-category-properties)
             (org-roam-db-clear-file)
             (org-roam-db-insert-file)
             (org-roam-db-insert-file-node)
@@ -610,18 +639,17 @@ If FORCE, force a rebuild of the cache from scratch."
           (push file modified-files)))
       (remhash file current-files))
     (emacsql-with-transaction (org-roam-db)
-      (if (fboundp 'dolist-with-progress-reporter)
-          (dolist-with-progress-reporter (file (hash-table-keys current-files))
-              "Clearing removed files..."
-            (org-roam-db-clear-file file))
-        (dolist (file (hash-table-keys current-files))
-          (org-roam-db-clear-file file)))
-      (if (fboundp 'dolist-with-progress-reporter)
-          (dolist-with-progress-reporter (file modified-files)
-              "Processing modified files..."
-            (org-roam-db-update-file file 'no-require))
-        (dolist (file modified-files)
-          (org-roam-db-update-file file))))))
+      (org-roam-dolist-with-progress (file (hash-table-keys current-files))
+          "Clearing removed files..."
+        (org-roam-db-clear-file file))
+      (org-roam-dolist-with-progress (file modified-files)
+          "Processing modified files..."
+        (condition-case err
+            (org-roam-db-update-file file 'no-require)
+          (error
+           (org-roam-db-clear-file file)
+           (lwarn 'org-roam :error "Failed to process %s with error %s, skipping..."
+                  file (error-message-string err))))))))
 
 ;;;###autoload
 (define-minor-mode org-roam-db-autosync-mode
