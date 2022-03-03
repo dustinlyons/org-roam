@@ -1,4 +1,33 @@
 # Changelog
+## TBD
+### Breaking
+- [#2054](https://github.com/org-roam/org-roam/pull/2054) node: simplify default `org-roam-node-display-template`.
+  This was done so completions work fine by default on all completion systems. To restore the tabular vertical completion interface, set this in your configuration:
+
+  ```emacs-lisp
+  (setq org-roam-node-display-template
+        (concat "${title:*} "
+                (propertize "${tags:10}" 'face 'org-tag)))
+  ```
+
+### Added
+- [#2042](https://github.com/org-roam/org-roam/pull/2042) db: add `org-roam-db-extra-links-elements` and `org-roam-db-extra-links-exclude-keys` for fine-grained control over additional link parsing
+- [#2049](https://github.com/org-roam/org-roam/pull/2049) capture: allow ID to be used as part of `org-roam-capture-templates`
+- [#2050](https://github.com/org-roam/org-roam/pull/2050) core: add `FILTER-FN` to `org-roam-node-random`
+- [#2065](https://github.com/org-roam/org-roam/pull/2065) dailies: add `keys` argument to the remaining dailies functions `org-roam-dailies-goto-yesterday`/`-today`/`-tomorrow`/`-date` and `org-roam-dailies-capture-yesterday`/`-tomorrow`/`-date` to give the abilty to get into a capture buffer bypassing the selection screen in all dailies commands. Extension of #2055
+- [#2079](https://github.com/org-roam/org-roam/pull/2079) capture: ensure that `:ref` info captured in all cases.
+
+### Removed
+### Fixed
+- [#2086](https://github.com/org-roam/org-roam/pull/2086) capture: correctly update org-id-locations on capture
+- [#2082](https://github.com/org-roam/org-roam/pull/2082) buffer: don't destroy window if `org-roam-node-toggle` reuses window
+- [#2080](https://github.com/org-roam/org-roam/pull/2080) dailies: prevent multiple "dailies/" subdir expansions
+- [#2055](https://github.com/org-roam/org-roam/pull/2055) dailies: removed stray f require, which was causing require and compilation errors
+### Changed
+- [#2060](https://github.com/org-roam/org-roam/pull/2060) node: added double acute accent normalization for Unicode characters in titles
+- [#2040](https://github.com/org-roam/org-roam/pull/2040) completions: fix completions display-width for Helm users
+- [#2025](https://github.com/org-roam/org-roam/pull/2025) chore: removed the dependencies on f.el and s.el
+- [#2109](https://github.com/org-roam/org-roam/pull/2109) capture: `org-roam-node-insert` places cursor after inserted link where appropriate
 
 ## 2.2.0
 ### Added
