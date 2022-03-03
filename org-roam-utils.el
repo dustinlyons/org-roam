@@ -1,11 +1,11 @@
 ;;; org-roam-utils.el --- Utilities for Org-roam -*- lexical-binding: t; -*-
 
-;; Copyright © 2020-2021 Jethro Kuan <jethrokuan95@gmail.com>
+;; Copyright © 2020-2022 Jethro Kuan <jethrokuan95@gmail.com>
 
 ;; Author: Jethro Kuan <jethrokuan95@gmail.com>
 ;; URL: https://github.com/org-roam/org-roam
 ;; Keywords: org-mode, roam, convenience
-;; Version: 2.1.0
+;; Version: 2.2.0
 ;; Package-Requires: ((emacs "26.1") (dash "2.13") (org "9.4"))
 
 ;; This file is NOT part of GNU Emacs.
@@ -49,8 +49,18 @@
 (defun org-roam-quote-string (s)
   "Quotes string S."
   (->> s
-    (org-roam-replace-string "\\" "\\\\")
-    (org-roam-replace-string "\"" "\\\"")))
+       (org-roam-replace-string "\\" "\\\\")
+       (org-roam-replace-string "\"" "\\\"")))
+
+(defun org-roam-word-wrap (len s)
+  "If S is longer than LEN, wrap the words with newlines."
+  (declare (side-effect-free t))
+  (save-match-data
+    (with-temp-buffer
+      (insert s)
+      (let ((fill-column len))
+        (fill-region (point-min) (point-max)))
+      (buffer-substring (point-min) (point-max)))))
 
 (defun org-roam-string-equal (s1 s2)
   "Return t if S1 and S2 are equal.
@@ -59,20 +69,45 @@ Like `string-equal', but case-insensitive."
        (or (string-equal s1 s2)
            (string-equal (downcase s1) (downcase s2)))))
 
-;;; List utilities
-(defmacro org-roam-plist-map! (fn plist)
-  "Map FN over PLIST, modifying it in-place."
-  (declare (indent 1))
-  (let ((plist-var (make-symbol "plist"))
-        (k (make-symbol "k"))
-        (v (make-symbol "v")))
-    `(let ((,plist-var (copy-sequence ,plist)))
-       (while ,plist-var
-         (setq ,k (pop ,plist-var))
-         (setq ,v (pop ,plist-var))
-         (setq ,plist (plist-put ,plist ,k (funcall ,fn ,k ,v)))))))
+(defun org-roam-strip-comments (s)
+  "Strip Org comments from string S."
+  (with-temp-buffer
+    (insert s)
+    (goto-char (point-min))
+    (while (not (eobp))
+      (if (org-at-comment-p)
+          (delete-region (point-at-bol) (progn (forward-line) (point)))
+        (forward-line)))
+    (buffer-string)))
 
-;;; File utilities
+;;; List utilities
+(defun org-roam-plist-map! (fn plist)
+  "Map FN over PLIST, modifying it in-place and returning it.
+FN must take two arguments: the key and the value."
+  (let ((plist-index plist))
+    (while plist-index
+      (let ((key (pop plist-index)))
+        (setf (car plist-index) (funcall fn key (car plist-index))
+              plist-index (cdr plist-index)))))
+  plist)
+
+(defmacro org-roam-dolist-with-progress (spec msg &rest body)
+  "Loop over a list and report progress in the echo area.
+Like `dolist-with-progress-reporter', but falls back to `dolist'
+if the function does not yet exist.
+
+Evaluate BODY with VAR bound to each car from LIST, in turn.
+Then evaluate RESULT to get return value, default nil.
+
+MSG is a progress reporter object or a string.  In the latter
+case, use this string to create a progress reporter.
+
+SPEC is a list, as per `dolist'."
+  (declare (indent 2))
+  (if (fboundp 'dolist-with-progress-reporter)
+      `(dolist-with-progress-reporter ,spec ,msg ,@body)
+    `(dolist ,spec ,@body)))
+
 (defmacro org-roam-with-file (file keep-buf-p &rest body)
   "Execute BODY within FILE.
 If FILE is nil, execute BODY in the current buffer.
@@ -89,11 +124,12 @@ Kills the buffer if KEEP-BUF-P is nil, and FILE is not yet visited."
                      (find-file-noselect ,file)))) ; Else, visit FILE and return buffer
           res)
      (with-current-buffer buf
-       (unless (equal major-mode 'org-mode)
+       (unless (derived-mode-p 'org-mode)
          (delay-mode-hooks
            (let ((org-inhibit-startup t)
                  (org-agenda-files nil))
-             (org-mode))))
+             (org-mode)
+             (hack-local-variables))))
        (setq res (progn ,@body))
        (unless (and new-buf (not ,keep-buf-p))
          (save-buffer)))
@@ -152,6 +188,8 @@ value (possibly nil). Adapted from `s-format'."
       (set-match-data saved-match-data))))
 
 ;;; Fontification
+(defvar org-ref-buffer-hacked)
+
 (defun org-roam-fontify-like-in-org-mode (s)
   "Fontify string S like in Org mode.
 Like `org-fontify-like-in-org-mode', but supports `org-ref'."
@@ -243,12 +281,13 @@ If BOUND, scan up to BOUND bytes of the buffer."
 (defun org-roam-end-of-meta-data (&optional full)
   "Like `org-end-of-meta-data', but supports file-level metadata.
 
-When optional argument FULL is t, also skip planning information,
-clocking lines and any kind of drawer.
-
 When FULL is non-nil but not t, skip planning information,
-properties, clocking lines and logbook drawers."
+properties, clocking lines and logbook drawers.
+
+When optional argument FULL is t, skip everything above, and also
+skip keywords."
   (org-back-to-heading-or-point-min t)
+  (when (org-at-heading-p) (forward-line))
   ;; Skip planning information.
   (when (looking-at-p org-planning-line-re) (forward-line))
   ;; Skip property drawer.
@@ -268,11 +307,14 @@ properties, clocking lines and logbook drawers."
             (if (re-search-forward "^[ \t]*:END:[ \t]*$" end t)
                 (forward-line)
               (throw 'exit t)))
-           ;; When FULL is t, skip regular drawer too.
-           ((and (eq full t) (looking-at-p org-drawer-regexp))
+           ((looking-at-p org-drawer-regexp)
             (if (re-search-forward "^[ \t]*:END:[ \t]*$" end t)
                 (forward-line)
               (throw 'exit t)))
+           ;; When FULL is t, skip keywords too.
+           ((and (eq full t)
+                 (looking-at-p org-keyword-regexp))
+            (forward-line))
            (t (throw 'exit t))))))))
 
 (defun org-roam-set-keyword (key value)
@@ -284,7 +326,7 @@ If the property is already set, it's value is replaced."
           (if (string-blank-p value)
               (kill-whole-line)
             (replace-match (concat " " value) 'fixedcase nil nil 1))
-        (org-roam-end-of-meta-data)
+        (org-roam-end-of-meta-data 'drawers)
         (if (save-excursion (end-of-line) (eobp))
             (progn
               (end-of-line)
@@ -350,6 +392,16 @@ If VAL is not specified, user is prompted to select a value."
         (org-set-property prop (combine-and-quote-strings lst))
       (org-delete-property prop))
     prop-to-remove))
+
+;;; Refs
+(defun org-roam-org-ref-path-to-keys (path)
+  "Return a list of keys given an org-ref cite: PATH.
+Accounts for both v2 and v3."
+  (cond ((fboundp 'org-ref-parse-cite-path)
+         (mapcar (lambda (cite) (plist-get cite :key))
+                 (plist-get (org-ref-parse-cite-path path) :references)))
+        ((fboundp 'org-ref-split-and-strip-string)
+         (org-ref-split-and-strip-string path))))
 
 ;;; Logs
 (defvar org-roam-verbose)
